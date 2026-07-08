@@ -7,8 +7,10 @@ import Services from "@/components/site/Services";
 import Technology from "@/components/site/Technology";
 import SmileGallery from "@/components/site/SmileGallery";
 import PatientJourney from "@/components/site/PatientJourney";
+import NewPatientWelcome from "@/components/site/NewPatientWelcome";
 import Insurance from "@/components/site/Insurance";
 import FAQ from "@/components/site/FAQ";
+import VisitUs from "@/components/site/VisitUs";
 import FinalCTA from "@/components/site/FinalCTA";
 import Footer from "@/components/site/Footer";
 import StickyActions from "@/components/site/StickyActions";
@@ -28,8 +30,10 @@ export default function Home() {
         <Technology />
         <SmileGallery />
         <PatientJourney />
+        <NewPatientWelcome />
         <Insurance />
         <FAQ />
+        <VisitUs />
         <FinalCTA />
       </main>
       <Footer />
