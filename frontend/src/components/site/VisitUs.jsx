@@ -30,11 +30,19 @@ const openWindows = {
 
 export default function VisitUs() {
   const ref = useReveal();
-  const now = new Date();
-  const today = now.toLocaleDateString("en-CA", { weekday: "long" });
+  // Evaluate day and hour in the clinic's timezone so the open/closed
+  // indicator is correct for visitors anywhere.
+  const clinicNow = new Date().toLocaleString("en-CA", {
+    timeZone: "America/Toronto",
+    weekday: "long",
+    hour: "numeric",
+    hour12: false,
+  });
+  const [today, hourStr] = clinicNow.split(", ");
+  const hour = parseInt(hourStr, 10);
   const todayHours = clinic.hours.find((h) => h.day === today);
   const win = openWindows[today];
-  const isOpen = !!win && now.getHours() >= win[0] && now.getHours() < win[1];
+  const isOpen = !!win && hour >= win[0] && hour < win[1];
 
   return (
     <section
