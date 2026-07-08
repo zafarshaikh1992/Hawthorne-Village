@@ -7,7 +7,7 @@ import { clinic, services } from "@/lib/site-data";
 const HOME = `${process.env.PUBLIC_URL}/`;
 
 const navLinks = [
-  { href: `${HOME}#dentist`, label: "Dr. Sarna" },
+  { href: `${HOME}dr-sarna`, label: "Dr. Sarna" },
   { href: `${HOME}#technology`, label: "Technology" },
   { href: `${HOME}#reviews`, label: "Reviews" },
   { href: `${HOME}#faq`, label: "FAQ" },
