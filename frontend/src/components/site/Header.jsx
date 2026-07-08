@@ -1,19 +1,21 @@
 import { useState, useEffect } from "react";
-import { Menu, Phone, X, Calendar, AlertTriangle } from "lucide-react";
-import { clinic } from "@/lib/site-data";
+import { Menu, Phone, X, Calendar, AlertTriangle, ChevronDown, ChevronRight } from "lucide-react";
+import { clinic, services } from "@/lib/site-data";
 
 // Anchors are prefixed with the app root so they also work from inner pages
 // (e.g. /services/root-canal-therapy), not just the homepage.
 const HOME = `${process.env.PUBLIC_URL}/`;
 
 const navLinks = [
-  { href: `${HOME}#services`, label: "Services" },
   { href: `${HOME}#dentist`, label: "Dr. Sarna" },
   { href: `${HOME}#technology`, label: "Technology" },
   { href: `${HOME}#reviews`, label: "Reviews" },
   { href: `${HOME}#faq`, label: "FAQ" },
   { href: `${HOME}#contact`, label: "Contact" },
 ];
+
+// Services with their own page link there; the rest point at the services rail.
+const serviceHref = (s) => (s.href ? `${process.env.PUBLIC_URL}${s.href}` : `${HOME}#services`);
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -65,6 +67,48 @@ export default function Header() {
 
           {/* Nav */}
           <nav className="hidden lg:flex items-center gap-8">
+            {/* Services dropdown */}
+            <div className="relative group">
+              <a
+                href={`${HOME}#services`}
+                data-testid="nav-services"
+                className="inline-flex items-center gap-1 text-sm font-medium text-[#334155] hover:text-[#0A192F] transition-colors py-2"
+              >
+                Services
+                <ChevronDown className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" />
+              </a>
+
+              {/* Hover panel (pt-3 bridges the hover gap between trigger and panel) */}
+              <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 z-50 invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-200">
+                <div
+                  data-testid="services-dropdown"
+                  className="w-[620px] rounded-[24px] bg-white border border-slate-100 shadow-[0_30px_80px_-20px_rgba(10,25,47,0.25)] p-5"
+                >
+                  <div className="px-3 pb-3 mb-2 border-b border-slate-100 flex items-baseline justify-between">
+                    <span className="text-[11px] uppercase tracking-[0.14em] text-[#94A3B8] font-medium">
+                      Our services
+                    </span>
+                    <a href={`${HOME}#services`} className="text-[12px] font-medium text-[#0284C7] hover:text-[#0A192F] transition-colors">
+                      View all
+                    </a>
+                  </div>
+                  <div className="grid grid-cols-2 gap-x-4 gap-y-0.5">
+                    {services.map((s) => (
+                      <a
+                        key={s.name}
+                        href={serviceHref(s)}
+                        data-testid={`dropdown-${s.name.replace(/[^a-z]+/gi, "-").toLowerCase()}`}
+                        className="group/item flex items-center gap-2 rounded-xl px-3 py-2 text-[13.5px] text-[#334155] hover:bg-[#F1F7FD] hover:text-[#0A192F] transition-colors"
+                      >
+                        <ChevronRight className="w-3.5 h-3.5 text-[#0284C7] shrink-0 group-hover/item:translate-x-0.5 transition-transform" />
+                        {s.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {navLinks.map((l) => (
               <a
                 key={l.href}
@@ -108,8 +152,32 @@ export default function Header() {
 
         {/* Mobile nav */}
         {open && (
-          <div data-testid="mobile-menu" className="lg:hidden border-t border-slate-100 bg-white">
+          <div data-testid="mobile-menu" className="lg:hidden border-t border-slate-100 bg-white max-h-[70vh] overflow-y-auto">
             <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-1">
+              {/* Services collapsible */}
+              <details className="border-b border-slate-100">
+                <summary
+                  data-testid="mobile-services-toggle"
+                  className="flex items-center justify-between text-[15px] font-medium text-[#334155] py-2.5 cursor-pointer list-none [&::-webkit-details-marker]:hidden"
+                >
+                  Services
+                  <ChevronDown className="w-4 h-4 text-[#64748B]" />
+                </summary>
+                <div className="grid grid-cols-2 gap-x-3 pb-3">
+                  {services.map((s) => (
+                    <a
+                      key={s.name}
+                      href={serviceHref(s)}
+                      onClick={() => setOpen(false)}
+                      className="flex items-center gap-1.5 py-1.5 text-[13.5px] text-[#475569]"
+                    >
+                      <ChevronRight className="w-3 h-3 text-[#0284C7] shrink-0" />
+                      {s.name}
+                    </a>
+                  ))}
+                </div>
+              </details>
+
               {navLinks.map((l) => (
                 <a
                   key={l.href}
