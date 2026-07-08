@@ -352,8 +352,8 @@ function WhatIsAnImplant() {
         <div className="relative">
           <div className="relative rounded-[32px] overflow-hidden aspect-[4/3] shadow-[0_30px_80px_-20px_rgba(10,25,47,0.3)] group">
             <img
-              src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=1200&q=80&auto=format&fit=crop"
-              alt="Full-arch dental implant restoration, the gold standard for tooth replacement"
+              src="https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=1200&q=80&auto=format&fit=crop"
+              alt="Model of a full-arch dental implant restoration, the gold standard for tooth replacement"
               loading="lazy"
               className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700"
             />
