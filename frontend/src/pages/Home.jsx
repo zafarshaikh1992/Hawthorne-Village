@@ -1,5 +1,6 @@
 import Header from "@/components/site/Header";
 import Hero from "@/components/site/Hero";
+import Awards from "@/components/site/Awards";
 import SocialProof from "@/components/site/SocialProof";
 import WhyChoose from "@/components/site/WhyChoose";
 import MeetDentist from "@/components/site/MeetDentist";
@@ -23,6 +24,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Awards />
         <SocialProof />
         <WhyChoose />
         <MeetDentist />
