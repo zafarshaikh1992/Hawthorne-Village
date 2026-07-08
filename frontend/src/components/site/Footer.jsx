@@ -6,13 +6,15 @@ const HOME = `${process.env.PUBLIC_URL}/`;
 
 const exploreLinks = [
   { label: "Services", href: `${HOME}#services` },
+  { label: "Our Team", href: `${HOME}our-team` },
   { label: "Dr. Sarna", href: `${HOME}dr-sarna` },
   { label: "Technology", href: `${HOME}technology` },
+  { label: "Patient Forms", href: `${HOME}patient-forms` },
   { label: "Reviews", href: `${HOME}#reviews` },
   { label: "Smile Gallery", href: `${HOME}#gallery` },
   { label: "FAQ", href: `${HOME}#faq` },
   { label: "New Patients", href: `${HOME}#new-patients` },
-  { label: "Visit Us", href: `${HOME}#visit` },
+  { label: "Contact", href: `${HOME}contact` },
 ];
 
 const serviceLinks = [

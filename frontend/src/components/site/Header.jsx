@@ -7,11 +7,16 @@ import { technologies } from "@/lib/technology-data";
 // (e.g. /services/root-canal-therapy), not just the homepage.
 const HOME = `${process.env.PUBLIC_URL}/`;
 
-const navLinks = [
+const aboutLinks = [
+  { href: `${HOME}our-team`, label: "Our Team" },
   { href: `${HOME}dr-sarna`, label: "Dr. Sarna" },
+  { href: `${HOME}patient-forms`, label: "Patient Forms" },
+];
+
+const navLinks = [
   { href: `${HOME}#reviews`, label: "Reviews" },
   { href: `${HOME}#faq`, label: "FAQ" },
-  { href: `${HOME}#contact`, label: "Contact" },
+  { href: `${HOME}contact`, label: "Contact" },
 ];
 
 // Services with their own page link there; the rest point at the services rail.
@@ -68,6 +73,39 @@ export default function Header() {
 
           {/* Nav */}
           <nav className="hidden lg:flex items-center gap-8">
+            {/* About dropdown */}
+            <div className="relative group">
+              <a
+                href={`${HOME}our-team`}
+                data-testid="nav-about"
+                className="inline-flex items-center gap-1 text-sm font-medium text-[#334155] hover:text-[#0A192F] transition-colors py-2"
+              >
+                About
+                <ChevronDown className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" />
+              </a>
+
+              <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 z-50 invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-200">
+                <div
+                  data-testid="about-dropdown"
+                  className="w-[240px] rounded-[24px] bg-white border border-slate-100 shadow-[0_30px_80px_-20px_rgba(10,25,47,0.25)] p-4"
+                >
+                  <div className="grid gap-0.5">
+                    {aboutLinks.map((l) => (
+                      <a
+                        key={l.label}
+                        href={l.href}
+                        data-testid={`dropdown-about-${l.label.replace(/[^a-z]+/gi, "-").toLowerCase()}`}
+                        className="group/item flex items-center gap-2 rounded-xl px-3 py-2 text-[13.5px] text-[#334155] hover:bg-[#F1F7FD] hover:text-[#0A192F] transition-colors"
+                      >
+                        <ChevronRight className="w-3.5 h-3.5 text-[#0284C7] shrink-0 group-hover/item:translate-x-0.5 transition-transform" />
+                        {l.label}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Services dropdown */}
             <div className="relative group">
               <a
@@ -196,6 +234,30 @@ export default function Header() {
         {open && (
           <div data-testid="mobile-menu" className="lg:hidden border-t border-slate-100 bg-white max-h-[70vh] overflow-y-auto">
             <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-1">
+              {/* About collapsible */}
+              <details className="border-b border-slate-100">
+                <summary
+                  data-testid="mobile-about-toggle"
+                  className="flex items-center justify-between text-[15px] font-medium text-[#334155] py-2.5 cursor-pointer list-none [&::-webkit-details-marker]:hidden"
+                >
+                  About
+                  <ChevronDown className="w-4 h-4 text-[#64748B]" />
+                </summary>
+                <div className="grid gap-x-3 pb-3">
+                  {aboutLinks.map((l) => (
+                    <a
+                      key={l.label}
+                      href={l.href}
+                      onClick={() => setOpen(false)}
+                      className="flex items-center gap-1.5 py-1.5 text-[13.5px] text-[#475569]"
+                    >
+                      <ChevronRight className="w-3 h-3 text-[#0284C7] shrink-0" />
+                      {l.label}
+                    </a>
+                  ))}
+                </div>
+              </details>
+
               {/* Services collapsible */}
               <details className="border-b border-slate-100">
                 <summary
