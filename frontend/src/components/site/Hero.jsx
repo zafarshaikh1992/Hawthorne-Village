@@ -1,12 +1,8 @@
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import { Star, Phone, Calendar, ShieldCheck, MapPin } from "lucide-react";
-import BookingDialog from "@/components/site/BookingDialog";
 import { clinic } from "@/lib/site-data";
 import { useReveal } from "@/hooks/useReveal";
 
 export default function Hero() {
-  const [bookOpen, setBookOpen] = useState(false);
   const leftRef = useReveal();
   const rightRef = useReveal();
 
@@ -46,13 +42,15 @@ export default function Hero() {
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-3">
-              <Button
+              <a
                 data-testid="hero-book-btn"
-                onClick={() => setBookOpen(true)}
-                className="h-12 md:h-14 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-7 md:px-8 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:shadow-[0_12px_28px_rgba(37,99,235,0.45)] hover:-translate-y-0.5 transition-all"
+                href={clinic.bookUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center h-12 md:h-14 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-7 md:px-8 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:shadow-[0_12px_28px_rgba(37,99,235,0.45)] hover:-translate-y-0.5 transition-all"
               >
                 <Calendar className="w-4 h-4 mr-2" /> Book Appointment
-              </Button>
+              </a>
               <a
                 data-testid="hero-call-btn"
                 href={clinic.phoneHref}
@@ -118,8 +116,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      <BookingDialog open={bookOpen} onOpenChange={setBookOpen} />
     </section>
   );
 }

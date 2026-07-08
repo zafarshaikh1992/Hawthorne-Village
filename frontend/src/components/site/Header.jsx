@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, Phone, X, Calendar, AlertTriangle } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { clinic } from "@/lib/site-data";
-import BookingDialog from "@/components/site/BookingDialog";
 
 const navLinks = [
   { href: "#services", label: "Services" },
@@ -16,7 +14,6 @@ const navLinks = [
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  const [bookOpen, setBookOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -89,13 +86,15 @@ export default function Header() {
             >
               <Phone className="w-4 h-4" /> {clinic.phone}
             </a>
-            <Button
+            <a
               data-testid="header-book-btn"
-              onClick={() => setBookOpen(true)}
-              className="rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white h-10 md:h-11 px-4 md:px-6 font-medium shadow-[0_4px_14px_rgba(37,99,235,0.35)] hover:shadow-[0_6px_20px_rgba(37,99,235,0.4)] hover:-translate-y-0.5 transition-all"
+              href={clinic.bookUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white h-10 md:h-11 px-4 md:px-6 font-medium text-sm shadow-[0_4px_14px_rgba(37,99,235,0.35)] hover:shadow-[0_6px_20px_rgba(37,99,235,0.4)] hover:-translate-y-0.5 transition-all"
             >
-              <Calendar className="w-4 h-4 mr-1.5" /> Book
-            </Button>
+              <Calendar className="w-4 h-4 mr-1.5" /> Book Appointment
+            </a>
             <button
               data-testid="mobile-menu-toggle"
               onClick={() => setOpen((v) => !v)}
@@ -131,8 +130,6 @@ export default function Header() {
           </div>
         )}
       </header>
-
-      <BookingDialog open={bookOpen} onOpenChange={setBookOpen} />
     </>
   );
 }

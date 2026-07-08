@@ -1,12 +1,10 @@
 import { useState, useEffect } from "react";
 import { Phone, Calendar } from "lucide-react";
-import BookingDialog from "@/components/site/BookingDialog";
 import { clinic } from "@/lib/site-data";
 
 // Mobile-only floating action bar for call + book.
 export default function StickyActions() {
   const [visible, setVisible] = useState(false);
-  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const on = () => setVisible(window.scrollY > 600);
@@ -32,15 +30,13 @@ export default function StickyActions() {
           </a>
           <button
             data-testid="sticky-book-btn"
-            onClick={() => setOpen(true)}
+            onClick={() => window.open(clinic.bookUrl, "_blank", "noopener,noreferrer")}
             className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-full py-3 text-[14px] font-medium text-white bg-[#2563EB]"
           >
-            <Calendar className="w-4 h-4" /> Book
+            <Calendar className="w-4 h-4" /> Book Appointment
           </button>
         </div>
       </div>
-
-      <BookingDialog open={open} onOpenChange={setOpen} />
     </>
   );
 }

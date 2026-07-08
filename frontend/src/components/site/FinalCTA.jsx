@@ -1,12 +1,9 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Calendar, Phone } from "lucide-react";
-import BookingDialog from "@/components/site/BookingDialog";
 import { clinic } from "@/lib/site-data";
 import { useReveal } from "@/hooks/useReveal";
 
 export default function FinalCTA() {
-  const [open, setOpen] = useState(false);
   const ref = useReveal();
   return (
     <section id="contact" ref={ref} className="reveal py-24 md:py-32 bg-[#0A192F] text-white relative overflow-hidden">
@@ -30,10 +27,12 @@ export default function FinalCTA() {
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
           <Button
             data-testid="final-book-btn"
-            onClick={() => setOpen(true)}
+            asChild
             className="h-14 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] px-8 text-[15px] font-medium shadow-[0_10px_40px_rgba(37,99,235,0.45)] hover:-translate-y-0.5 transition-all"
           >
-            <Calendar className="w-4 h-4 mr-2" /> Book Appointment
+            <a href={clinic.bookUrl} target="_blank" rel="noopener noreferrer">
+              <Calendar className="w-4 h-4 mr-2" /> Book Appointment
+            </a>
           </Button>
           <a
             data-testid="final-call-btn"
@@ -48,8 +47,6 @@ export default function FinalCTA() {
           10220 Derry Rd #206, Milton, ON L9T 7J3 · Open until 7 PM weekdays
         </div>
       </div>
-
-      <BookingDialog open={open} onOpenChange={setOpen} />
     </section>
   );
 }

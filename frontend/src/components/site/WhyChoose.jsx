@@ -1,7 +1,6 @@
 import { Check, ArrowUpRight, Sparkles } from "lucide-react";
 import { useReveal } from "@/hooks/useReveal";
-import { useState } from "react";
-import BookingDialog from "@/components/site/BookingDialog";
+import { clinic } from "@/lib/site-data";
 
 const features = [
   "Same-day emergency care",
@@ -61,7 +60,6 @@ function Sparkle({ className = "" }) {
 
 export default function WhyChoose() {
   const ref = useReveal();
-  const [open, setOpen] = useState(false);
 
   return (
     <section
@@ -155,22 +153,21 @@ export default function WhyChoose() {
 
           {/* CTA */}
           <div className="mt-10 flex flex-wrap items-center gap-3">
-            <button
-              type="button"
+            <a
+              href={clinic.bookUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               data-testid="why-book-btn"
-              onClick={() => setOpen(true)}
               className="inline-flex items-center gap-2 h-12 md:h-13 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-7 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:-translate-y-0.5 transition-all"
             >
-              Read More About Us
+              Book Appointment
               <span className="w-6 h-6 rounded-full bg-white/15 flex items-center justify-center">
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
-
-      <BookingDialog open={open} onOpenChange={setOpen} />
     </section>
   );
 }

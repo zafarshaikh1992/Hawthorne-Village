@@ -5,6 +5,7 @@ export const clinic = {
   name: "Hawthorne Village Dental Care",
   phone: "(905) 864-3368",
   phoneHref: "tel:+19058643368",
+  bookUrl: "https://online-booking.xcarepro.com/1512165329/Hawthorne-Village-Dental?source=seo",
   email: "hawthornedental1@gmail.com",
   address: {
     street: "10220 Derry Rd #206",

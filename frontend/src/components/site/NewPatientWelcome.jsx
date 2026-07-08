@@ -1,7 +1,6 @@
-import { useState } from "react";
 import { Check, ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import BookingDialog from "@/components/site/BookingDialog";
+import { clinic } from "@/lib/site-data";
 import { useReveal } from "@/hooks/useReveal";
 
 const perks = [
@@ -20,7 +19,6 @@ const stats = [
 
 export default function NewPatientWelcome() {
   const ref = useReveal();
-  const [open, setOpen] = useState(false);
 
   return (
     <section
@@ -70,11 +68,13 @@ export default function NewPatientWelcome() {
               <div className="mt-10 flex flex-wrap gap-3">
                 <Button
                   data-testid="welcome-book-btn"
-                  onClick={() => setOpen(true)}
+                  asChild
                   className="h-12 md:h-13 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-7 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:-translate-y-0.5 transition-all"
                 >
-                  Claim your welcome visit
-                  <ArrowRight className="w-4 h-4 ml-1.5" />
+                  <a href={clinic.bookUrl} target="_blank" rel="noopener noreferrer">
+                    Book Appointment
+                    <ArrowRight className="w-4 h-4 ml-1.5" />
+                  </a>
                 </Button>
                 <a
                   href="#services"
@@ -135,8 +135,6 @@ export default function NewPatientWelcome() {
           </div>
         </div>
       </div>
-
-      <BookingDialog open={open} onOpenChange={setOpen} />
     </section>
   );
 }

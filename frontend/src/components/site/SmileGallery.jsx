@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { gallery } from "@/lib/site-data";
+import { gallery, clinic } from "@/lib/site-data";
 import { useReveal } from "@/hooks/useReveal";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -165,11 +165,13 @@ export default function SmileGallery() {
 
         <div className="mt-14 text-center">
           <a
-            href="#contact"
+            href={clinic.bookUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             data-testid="gallery-cta"
             className="inline-flex items-center gap-2 h-12 rounded-full bg-[#0A192F] hover:bg-[#111c36] text-white px-7 text-[14.5px] font-medium hover:-translate-y-0.5 transition-all"
           >
-            Book a smile consultation
+            Book Appointment
             <span aria-hidden="true">→</span>
           </a>
         </div>
