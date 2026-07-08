@@ -191,12 +191,6 @@ export default function Services() {
       </div>
 
       <ScrollRail items={services} />
-
-      <div className="max-w-7xl mx-auto px-6 md:px-8 mt-8 text-center">
-        <p className="text-[13px] text-[#94A3B8]">
-          Auto-scrolling · Drag, scroll or hover to pause
-        </p>
-      </div>
     </section>
   );
 }
