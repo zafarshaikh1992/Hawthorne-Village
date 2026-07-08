@@ -12,7 +12,6 @@ import NewPatientWelcome from "@/components/site/NewPatientWelcome";
 import Insurance from "@/components/site/Insurance";
 import FAQ from "@/components/site/FAQ";
 import VisitUs from "@/components/site/VisitUs";
-import FinalCTA from "@/components/site/FinalCTA";
 import Footer from "@/components/site/Footer";
 import StickyActions from "@/components/site/StickyActions";
 import JsonLd from "@/components/site/JsonLd";
@@ -30,13 +29,12 @@ export default function Home() {
         <Services />
         <MeetDentist />
         <Technology />
+        <SocialProof />
         <SmileGallery />
         <NewPatientWelcome />
         <Insurance />
-        <SocialProof />
         <FAQ />
         <VisitUs />
-        <FinalCTA />
       </main>
       <Footer />
       <StickyActions />
