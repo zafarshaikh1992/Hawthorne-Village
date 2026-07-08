@@ -7,7 +7,6 @@ import MeetDentist from "@/components/site/MeetDentist";
 import Services from "@/components/site/Services";
 import Technology from "@/components/site/Technology";
 import SmileGallery from "@/components/site/SmileGallery";
-import PatientJourney from "@/components/site/PatientJourney";
 import NewPatientWelcome from "@/components/site/NewPatientWelcome";
 import Insurance from "@/components/site/Insurance";
 import FAQ from "@/components/site/FAQ";
@@ -31,7 +30,6 @@ export default function Home() {
         <Services />
         <Technology />
         <SmileGallery />
-        <PatientJourney />
         <NewPatientWelcome />
         <Insurance />
         <FAQ />
