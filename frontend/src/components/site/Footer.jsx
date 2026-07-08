@@ -1,109 +1,170 @@
-import { Phone, Mail, MapPin, Instagram, Facebook, ArrowUpRight } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Facebook, Star, ArrowUpRight, Navigation } from "lucide-react";
 import { clinic } from "@/lib/site-data";
 
-const links = [
+const directionsUrl =
+  "https://www.google.com/maps/place/10220+Derry+Rd+%23206,+Milton,+ON+L9T+7J3";
+
+const quickLinks = [
   { label: "Services", href: "#services" },
   { label: "Dr. Sarna", href: "#dentist" },
   { label: "Technology", href: "#technology" },
   { label: "Reviews", href: "#reviews" },
+  { label: "Smile Gallery", href: "#gallery" },
   { label: "FAQ", href: "#faq" },
+  { label: "New Patients", href: "#new-patients" },
   { label: "Visit Us", href: "#visit" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0A192F] text-slate-300">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20">
-        {/* Top row */}
-        <div className="grid md:grid-cols-[1fr_auto] gap-8 md:gap-10 items-center pb-12 border-b border-white/10">
-          {/* Brand */}
-          <div className="flex items-center gap-3.5">
-            <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-white to-[#7DD3FC] flex items-center justify-center">
-              <svg viewBox="0 0 24 24" className="w-5 h-5 text-[#0A192F]" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 5.5c-2-2-5-2-6.5 0-1.5 2-1 6 0 9s3 5 3 5c1 0 1.5-1.5 2-3 .5-1.5 1-2.5 1.5-2.5s1 1 1.5 2.5c.5 1.5 1 3 2 3 0 0 2-2 3-5s1.5-7 0-9c-1.5-2-4.5-2-6.5 0z" />
-              </svg>
+    <footer className="bg-[#F4F7FB]">
+      <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-24">
+        {/* Editorial statement row */}
+        <div className="grid lg:grid-cols-[1.35fr_1fr] gap-12 lg:gap-20 items-end pb-14 md:pb-16 border-b border-slate-200">
+          <div>
+            <div className="inline-flex items-center gap-2 rounded-full bg-white border border-slate-200 px-3 py-1.5 shadow-sm mb-6">
+              <span className="flex items-center gap-1 rounded-full bg-[#0A192F] text-white text-[11px] font-semibold px-2 py-0.5">
+                <Star className="w-3 h-3 fill-[#F59E0B] text-[#F59E0B]" /> 4.9
+              </span>
+              <span className="text-[13px] text-[#334155]">
+                Rated by <strong className="font-semibold text-[#0A192F]">480+</strong> Milton families
+              </span>
             </div>
-            <div>
-              <div className="font-display text-lg text-white leading-tight">Hawthorne Village Dental Care</div>
-              <div className="text-[13px] text-slate-400">Your family dentist in Milton, Ontario</div>
-            </div>
+
+            <h2 className="font-display text-4xl md:text-6xl leading-[1.02] tracking-tight text-[#0A192F]">
+              See you soon,{" "}
+              <span className="italic font-light text-[#0284C7]">Milton.</span>
+            </h2>
+
+            <p className="mt-5 text-[16px] text-[#475569] max-w-lg leading-relaxed">
+              Book online in 60 seconds, drop by our Derry Road clinic, or give us a call —
+              our team answers in under a minute.
+            </p>
           </div>
 
-          {/* CTA */}
-          <a
-            data-testid="footer-book-btn"
-            href={clinic.bookUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 h-12 rounded-full bg-white text-[#0A192F] hover:bg-[#E6F8F3] pl-6 pr-1.5 py-1.5 text-[14.5px] font-medium transition-colors"
-          >
-            Book Appointment
-            <span className="w-9 h-9 rounded-full bg-[#0284C7] text-white flex items-center justify-center group-hover:rotate-45 transition-transform duration-500">
-              <ArrowUpRight className="w-4 h-4" strokeWidth={2.25} />
-            </span>
-          </a>
-        </div>
-
-        {/* Contact + links */}
-        <div className="grid md:grid-cols-3 gap-10 md:gap-12 py-12 border-b border-white/10">
-          {/* Contact */}
-          <div className="space-y-3.5 text-[14.5px] text-slate-300">
-            <a href={clinic.phoneHref} className="flex items-center gap-3 hover:text-white transition-colors">
-              <Phone className="w-4 h-4 text-[#7DD3FC]" /> {clinic.phone}
-            </a>
-            <a href={`mailto:${clinic.email}`} className="flex items-center gap-3 hover:text-white transition-colors break-all">
-              <Mail className="w-4 h-4 text-[#7DD3FC] shrink-0" /> {clinic.email}
-            </a>
-            <div className="flex items-start gap-3">
-              <MapPin className="w-4 h-4 mt-0.5 text-[#7DD3FC] shrink-0" />
-              <span>10220 Derry Rd #206, Milton, ON L9T 7J3</span>
-            </div>
-          </div>
-
-          {/* Quick links */}
-          <nav aria-label="Footer" className="flex flex-wrap gap-x-6 gap-y-3 md:col-span-1">
-            {links.map((l) => (
-              <a
-                key={l.label}
-                href={l.href}
-                className="text-[14.5px] text-slate-300 hover:text-white transition-colors"
-              >
-                {l.label}
-              </a>
-            ))}
-          </nav>
-
-          {/* Social */}
-          <div className="flex md:justify-end items-start gap-2">
-            {[Instagram, Facebook].map((Icon, i) => (
-              <a
-                key={i}
-                href="#"
-                aria-label={["Instagram", "Facebook"][i]}
-                data-testid={`footer-social-${i}`}
-                className="w-10 h-10 rounded-full bg-white/8 hover:bg-white/15 text-slate-300 hover:text-white flex items-center justify-center transition-colors"
-              >
-                <Icon className="w-4 h-4" strokeWidth={1.75} />
-              </a>
-            ))}
+          {/* Action column */}
+          <div className="grid gap-3 md:justify-self-end w-full md:w-auto">
             <a
-              href="https://g.page/r/hawthorne-village-dental-care"
+              data-testid="footer-book-btn"
+              href={clinic.bookUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-1 inline-flex items-center gap-1.5 h-10 rounded-full bg-white/8 hover:bg-white/15 text-slate-300 hover:text-white px-4 text-[13px] transition-colors"
+              className="group inline-flex items-center justify-between gap-4 rounded-2xl bg-[#0A192F] text-white pl-6 pr-2 py-3 min-w-[280px] hover:bg-[#111c36] hover:-translate-y-0.5 transition-all"
             >
-              Google Reviews →
+              <span className="font-display text-[17px]">Book Appointment</span>
+              <span className="w-11 h-11 rounded-xl bg-[#2563EB] group-hover:rotate-45 transition-transform duration-500 flex items-center justify-center">
+                <ArrowUpRight className="w-5 h-5" strokeWidth={2.25} />
+              </span>
             </a>
+            <a
+              data-testid="footer-call-btn"
+              href={clinic.phoneHref}
+              className="group inline-flex items-center justify-between gap-4 rounded-2xl bg-white border border-slate-200 text-[#0A192F] pl-6 pr-2 py-3 min-w-[280px] hover:border-slate-300 hover:-translate-y-0.5 transition-all"
+            >
+              <span className="font-display text-[17px]">{clinic.phone}</span>
+              <span className="w-11 h-11 rounded-xl bg-[#E6F8F3] text-[#0284C7] flex items-center justify-center">
+                <Phone className="w-4 h-4" strokeWidth={2} />
+              </span>
+            </a>
+            <a
+              data-testid="footer-directions-btn"
+              href={directionsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center justify-between gap-4 rounded-2xl bg-white border border-slate-200 text-[#0A192F] pl-6 pr-2 py-3 min-w-[280px] hover:border-slate-300 hover:-translate-y-0.5 transition-all"
+            >
+              <span className="font-display text-[17px]">Get directions</span>
+              <span className="w-11 h-11 rounded-xl bg-[#E6F8F3] text-[#0284C7] flex items-center justify-center">
+                <Navigation className="w-4 h-4" strokeWidth={2} />
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* Info grid */}
+        <div className="grid md:grid-cols-3 gap-10 md:gap-12 py-12 md:py-14">
+          {/* Contact */}
+          <div>
+            <div className="text-[11px] uppercase tracking-[0.14em] text-[#94A3B8] font-medium mb-4">
+              Contact
+            </div>
+            <ul className="space-y-3 text-[14.5px] text-[#334155]">
+              <li className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 mt-0.5 text-[#0284C7] shrink-0" />
+                <span>10220 Derry Rd #206<br />Milton, ON L9T 7J3</span>
+              </li>
+              <li>
+                <a href={`mailto:${clinic.email}`} className="flex items-center gap-3 hover:text-[#0A192F] transition-colors break-all">
+                  <Mail className="w-4 h-4 text-[#0284C7] shrink-0" /> {clinic.email}
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Hours */}
+          <div>
+            <div className="text-[11px] uppercase tracking-[0.14em] text-[#94A3B8] font-medium mb-4">
+              Open this week
+            </div>
+            <ul className="text-[14.5px] text-[#334155] space-y-2">
+              <li className="flex justify-between gap-4"><span>Mon – Thu</span><span className="text-[#64748B]">10 AM – 7 PM</span></li>
+              <li className="flex justify-between gap-4"><span>Friday</span><span className="text-[#64748B]">9 AM – 6 PM</span></li>
+              <li className="flex justify-between gap-4"><span>Saturday</span><span className="text-[#64748B]">9 AM – 2 PM</span></li>
+              <li className="flex justify-between gap-4"><span>Sunday</span><span className="text-[#94A3B8]">Closed</span></li>
+            </ul>
+          </div>
+
+          {/* Explore */}
+          <div>
+            <div className="text-[11px] uppercase tracking-[0.14em] text-[#94A3B8] font-medium mb-4">
+              Explore
+            </div>
+            <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-[14.5px]">
+              {quickLinks.map((l) => (
+                <li key={l.label}>
+                  <a href={l.href} className="text-[#334155] hover:text-[#0A192F] transition-colors">
+                    {l.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-[13px] text-slate-500">
-          <div>© {new Date().getFullYear()} Hawthorne Village Dental Care</div>
-          <div className="flex items-center gap-5">
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Accessibility</a>
-            <a href="/sitemap.xml" className="hover:text-white transition-colors">Sitemap</a>
+        <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#0A192F] to-[#0284C7] flex items-center justify-center">
+              <svg viewBox="0 0 24 24" className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 5.5c-2-2-5-2-6.5 0-1.5 2-1 6 0 9s3 5 3 5c1 0 1.5-1.5 2-3 .5-1.5 1-2.5 1.5-2.5s1 1 1.5 2.5c.5 1.5 1 3 2 3 0 0 2-2 3-5s1.5-7 0-9c-1.5-2-4.5-2-6.5 0z" />
+              </svg>
+            </div>
+            <div className="text-[13px] text-[#64748B]">
+              © {new Date().getFullYear()} Hawthorne Village Dental Care · Milton, ON
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            {[
+              { Icon: Instagram, label: "Instagram" },
+              { Icon: Facebook, label: "Facebook" },
+            ].map(({ Icon, label }) => (
+              <a
+                key={label}
+                href="#"
+                aria-label={label}
+                data-testid={`footer-social-${label.toLowerCase()}`}
+                className="w-9 h-9 rounded-full bg-white border border-slate-200 text-[#334155] hover:text-[#0A192F] hover:border-slate-300 flex items-center justify-center transition-colors"
+              >
+                <Icon className="w-4 h-4" strokeWidth={1.75} />
+              </a>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-5 text-[13px] text-[#64748B]">
+            <a href="#" className="hover:text-[#0A192F] transition-colors">Privacy</a>
+            <a href="#" className="hover:text-[#0A192F] transition-colors">Accessibility</a>
+            <a href="/sitemap.xml" className="hover:text-[#0A192F] transition-colors">Sitemap</a>
           </div>
         </div>
       </div>
