@@ -131,9 +131,6 @@ export const services = [
   { name: "Children's Dentistry", blurb: "Warm, unhurried visits that build lifelong healthy habits from age one.", image: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=75&auto=format&fit=crop" },
   { name: "Sports Mouthguards", blurb: "Custom-fitted protection for hockey, football and every sport in between.", image: "https://images.unsplash.com/photo-1770009534034-85be3c774f60?w=800&q=75&auto=format&fit=crop" },
   { name: "Wisdom Teeth", blurb: "Same-day surgical extraction with modern comfort protocols.", image: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=75&auto=format&fit=crop" },
-  { name: "Emergency Dentistry", blurb: "Same-day appointments for pain, swelling, broken teeth and lost fillings.", image: "https://images.unsplash.com/photo-1602932213623-cc17e9541bb4?w=800&q=75&auto=format&fit=crop" },
-  { name: "Teeth Whitening", blurb: "Professional-grade whitening, safe, effective and dentist-supervised.", image: "https://images.unsplash.com/photo-1677026010083-78ec7f1b84ed?w=800&q=75&auto=format&fit=crop" },
-  { name: "Preventive Care", blurb: "Cleanings, exams and early cavity detection with laser accuracy.", image: "https://images.unsplash.com/photo-1681939282781-341ac4f61996?w=800&q=75&auto=format&fit=crop" },
 ];
 
 export const technology = [
