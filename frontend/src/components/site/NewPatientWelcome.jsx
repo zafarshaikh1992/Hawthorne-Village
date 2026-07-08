@@ -41,7 +41,7 @@ export default function NewPatientWelcome() {
 
               <h2 className="mt-6 font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
                 Your first visit,{" "}
-                <span className="italic font-light text-[#64748B]">completely free.</span>
+                <span className="font-light text-[#64748B]">completely free.</span>
               </h2>
 
               <p className="mt-5 text-[17px] text-[#475569] leading-relaxed max-w-lg">

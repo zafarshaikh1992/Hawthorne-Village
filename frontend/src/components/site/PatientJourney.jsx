@@ -9,7 +9,7 @@ export default function PatientJourney() {
         <div className="text-center max-w-2xl mx-auto mb-14 md:mb-20">
           <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">How it works</div>
           <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-            From booking to smiling <span className="italic font-light text-[#64748B]">— four simple steps.</span>
+            From booking to smiling <span className="font-light text-[#64748B]">— four simple steps.</span>
           </h2>
         </div>
 

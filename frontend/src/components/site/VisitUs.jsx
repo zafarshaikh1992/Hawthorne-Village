@@ -26,7 +26,7 @@ export default function VisitUs() {
               Visit our Milton dental clinic
             </div>
             <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-              We&apos;re right here, <span className="italic font-light text-[#64748B]">on Derry Road.</span>
+              We&apos;re right here, <span className="font-light text-[#64748B]">on Derry Road.</span>
             </h2>
           </div>
           <p className="text-[16px] text-[#64748B] max-w-md">

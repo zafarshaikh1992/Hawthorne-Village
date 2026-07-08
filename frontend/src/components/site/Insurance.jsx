@@ -13,7 +13,7 @@ export default function Insurance() {
           <div className="relative">
             <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">Insurance & payment</div>
             <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-              Direct billing, CDCP <span className="italic font-light text-[#0A192F]/70">and flexible payment plans.</span>
+              Direct billing, CDCP <span className="font-light text-[#0A192F]/70">and flexible payment plans.</span>
             </h2>
             <p className="mt-6 text-[17px] leading-relaxed text-[#334155]">
               We handle the paperwork so you don't have to. As a direct billing dentist in Milton, we bill

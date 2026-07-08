@@ -37,7 +37,7 @@ export default function Footer() {
 
             <h2 className="font-display text-4xl md:text-6xl leading-[1.02] tracking-tight text-[#0A192F]">
               See you soon,{" "}
-              <span className="italic font-light text-[#0284C7]">Milton.</span>
+              <span className="font-light text-[#0284C7]">Milton.</span>
             </h2>
 
             <p className="mt-5 text-[16px] text-[#475569] max-w-lg leading-relaxed">
@@ -100,7 +100,7 @@ export default function Footer() {
               One of Milton's trusted dental clinics since 2010, offering gentle, modern care
               for children, adults and seniors on Derry Road.
             </p>
-            <p className="mt-3 text-[13px] italic text-[#94A3B8]">
+            <p className="mt-3 text-[13px] text-[#94A3B8]">
               Our passion is dentistry, our focus is you.
             </p>
           </div>

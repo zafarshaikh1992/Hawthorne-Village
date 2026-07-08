@@ -26,7 +26,7 @@ export default function MeetDentist() {
           {/* Signature-style badge */}
           <div className="absolute -bottom-5 -right-4 md:-right-8 bg-white rounded-2xl px-5 py-4 shadow-[0_20px_50px_-15px_rgba(10,25,47,0.25)] border border-slate-100">
             <div className="text-[11px] uppercase tracking-wider text-[#64748B] mb-0.5">Award-winning dentist</div>
-            <div className="font-display italic text-[#0A192F] text-lg">Dr. Raju Sarna</div>
+            <div className="font-display text-[#0A192F] text-lg">Dr. Raju Sarna</div>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ export default function MeetDentist() {
         <div>
           <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">Meet Dr. Sarna</div>
           <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-            Skilled hands, <span className="italic font-light text-[#64748B]">an even kinder chairside manner.</span>
+            Skilled hands, <span className="font-light text-[#64748B]">an even kinder chairside manner.</span>
           </h2>
           <p className="mt-6 text-[17px] leading-relaxed text-[#475569]">
             Dr. Sarna holds an ICOI Fellowship in Implantology, Orthodontics and General Dentistry, and is

@@ -33,7 +33,7 @@ export default function Hero() {
 
             <h1 className="font-display font-medium text-[42px] leading-[1.05] md:text-6xl md:leading-[1.02] text-[#0A192F] tracking-tight">
               The dental clinic in Milton{" "}
-              <span className="italic font-light text-[#0284C7]">your whole family</span> can count on.
+              <span className="font-light text-[#0284C7]">your whole family</span> can count on.
             </h1>
 
             <p className="mt-6 text-[17px] md:text-lg leading-relaxed text-[#475569] max-w-xl">

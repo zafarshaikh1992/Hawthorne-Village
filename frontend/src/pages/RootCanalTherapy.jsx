@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Header from "@/components/site/Header";
+import SocialProof from "@/components/site/SocialProof";
 import FinalCTA from "@/components/site/FinalCTA";
 import Footer from "@/components/site/Footer";
 import StickyActions from "@/components/site/StickyActions";
@@ -249,7 +250,7 @@ function PageHero() {
             </div>
 
             <h1 className="font-display font-medium text-[38px] leading-[1.06] md:text-[56px] md:leading-[1.03] text-[#0A192F] tracking-tight">
-              Save the tooth. <span className="italic font-light text-[#0284C7]">Lose the pain.</span>
+              Save the tooth. <span className="font-light text-[#0284C7]">Lose the pain.</span>
             </h1>
 
             <p className="mt-6 text-[17px] md:text-lg leading-relaxed text-[#475569] max-w-xl">
@@ -338,7 +339,7 @@ function Symptoms() {
             When a tooth needs help
           </div>
           <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-            Is your tooth trying to <span className="italic font-light text-[#64748B]">tell you something?</span>
+            Is your tooth trying to <span className="font-light text-[#64748B]">tell you something?</span>
           </h2>
           <p className="mt-5 text-[16.5px] leading-relaxed text-[#475569]">
             These are the signs we hear about most from patients who end up needing root canal therapy.
@@ -392,7 +393,7 @@ function Process() {
             What actually happens
           </div>
           <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-            Four calm steps, <span className="italic font-light text-[#64748B]">usually one visit.</span>
+            Four calm steps, <span className="font-light text-[#64748B]">usually one visit.</span>
           </h2>
         </div>
 
@@ -428,7 +429,7 @@ function WhyHere() {
             Why have it done here
           </div>
           <h2 className="font-display text-3xl md:text-5xl tracking-tight leading-[1.05]">
-            Root canals succeed <span className="italic font-light text-[#94A3B8]">on the details.</span>
+            Root canals succeed <span className="font-light text-[#94A3B8]">on the details.</span>
           </h2>
           <p className="mt-6 text-[17px] leading-relaxed text-[#CBD5E1]">
             A root canal is only as good as the canals it finds and cleans. That's why Dr. Sarna performs
@@ -470,7 +471,7 @@ function CostStrip() {
               Cost and coverage
             </div>
             <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-              A clear price <span className="italic font-light text-[#0A192F]/70">before we begin.</span>
+              A clear price <span className="font-light text-[#0A192F]/70">before we begin.</span>
             </h2>
             <p className="mt-6 text-[17px] leading-relaxed text-[#334155]">
               A root canal at our Milton clinic typically runs from $900 to $1,600 depending on the tooth,
@@ -515,7 +516,7 @@ function ServiceFAQ() {
             Root canal questions
           </div>
           <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-            Asked in this chair, <span className="italic font-light text-[#64748B]">every week.</span>
+            Asked in this chair, <span className="font-light text-[#64748B]">every week.</span>
           </h2>
         </div>
 
@@ -556,6 +557,7 @@ export default function RootCanalTherapy() {
         <Process />
         <WhyHere />
         <CostStrip />
+        <SocialProof />
         <ServiceFAQ />
         <FinalCTA />
       </main>

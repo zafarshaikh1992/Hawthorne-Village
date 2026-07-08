@@ -126,7 +126,7 @@ export default function SmileGallery() {
             </div>
             <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
               Real Milton patients,{" "}
-              <span className="italic font-light text-[#64748B]">real transformations.</span>
+              <span className="font-light text-[#64748B]">real transformations.</span>
             </h2>
           </div>
           <p className="text-[14px] text-[#94A3B8] max-w-sm">

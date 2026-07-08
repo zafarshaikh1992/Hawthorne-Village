@@ -15,7 +15,7 @@ export default function Technology() {
         <div>
           <div className="text-[13px] uppercase tracking-[0.14em] text-[#7DD3FC] font-medium mb-3">Advanced dental technology</div>
           <h2 className="font-display text-3xl md:text-5xl tracking-tight leading-[1.05]">
-            The technology behind <span className="italic font-light text-[#94A3B8]">a gentler visit.</span>
+            The technology behind <span className="font-light text-[#94A3B8]">a gentler visit.</span>
           </h2>
           <p className="mt-6 text-[17px] leading-relaxed text-[#CBD5E1]">
             Hawthorne Village Dental Care invests in state-of-the-art equipment so every visit is more precise

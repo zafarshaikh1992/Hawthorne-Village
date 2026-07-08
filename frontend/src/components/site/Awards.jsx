@@ -83,7 +83,7 @@ function AwardCard({ item }) {
         </div>
 
         {item.note && (
-          <div className="mt-4 pt-3 border-t border-slate-100 text-[12px] text-[#64748B] italic">
+          <div className="mt-4 pt-3 border-t border-slate-100 text-[12px] text-[#64748B]">
             {item.note}
           </div>
         )}
@@ -108,7 +108,7 @@ export default function Awards() {
             Award-winning dentists in Milton
           </div>
           <h2 className="font-display text-2xl md:text-3xl text-[#0A192F] tracking-tight leading-tight">
-            A decade of awards from the community <span className="italic font-light text-[#64748B]">we serve.</span>
+            A decade of awards from the community <span className="font-light text-[#64748B]">we serve.</span>
           </h2>
         </div>
         <div className="text-[13px] text-[#64748B] max-w-sm">

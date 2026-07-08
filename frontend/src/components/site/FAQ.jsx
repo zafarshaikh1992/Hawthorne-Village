@@ -10,7 +10,7 @@ export default function FAQ() {
         <div className="mb-12 md:mb-16">
           <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">FAQ</div>
           <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-            Common questions, <span className="italic font-light text-[#64748B]">honestly answered.</span>
+            Common questions, <span className="font-light text-[#64748B]">honestly answered.</span>
           </h2>
         </div>
 

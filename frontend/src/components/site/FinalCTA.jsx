@@ -17,7 +17,7 @@ export default function FinalCTA() {
           Ready when you are
         </div>
         <h2 className="font-display text-4xl md:text-6xl tracking-tight leading-[1.03]">
-          Your next smile <span className="italic font-light text-[#94A3B8]">starts with a hello.</span>
+          Your next smile <span className="font-light text-[#94A3B8]">starts with a hello.</span>
         </h2>
         <p className="mt-6 text-lg text-[#CBD5E1] max-w-2xl mx-auto leading-relaxed">
           Whether it&apos;s your first cleaning in years, your child&apos;s very first visit, or a complete
