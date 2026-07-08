@@ -1,5 +1,6 @@
 import Header from "@/components/site/Header";
 import Hero from "@/components/site/Hero";
+import CallBar from "@/components/site/CallBar";
 import Awards from "@/components/site/Awards";
 import SocialProof from "@/components/site/SocialProof";
 import WhyChoose from "@/components/site/WhyChoose";
@@ -23,8 +24,8 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <CallBar />
         <Awards />
-        <SocialProof />
         <WhyChoose />
         <MeetDentist />
         <Services />
@@ -32,6 +33,7 @@ export default function Home() {
         <SmileGallery />
         <NewPatientWelcome />
         <Insurance />
+        <SocialProof />
         <FAQ />
         <VisitUs />
         <FinalCTA />
