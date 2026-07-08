@@ -16,6 +16,7 @@ import {
   Frown,
   Bone,
   Smile,
+  Sparkles,
   Timer,
   HeartPulse,
   Layers,
@@ -552,24 +553,19 @@ function Benefits() {
             </div>
           ))}
 
-          {/* Image tile */}
           <div
-            data-testid="implants-benefit-image"
-            className="relative rounded-[24px] overflow-hidden min-h-[220px] group"
+            data-testid="implants-benefit-confidence"
+            className="rounded-[24px] bg-[#F8FAFC] border border-slate-100 p-7 hover:shadow-[0_20px_50px_-20px_rgba(10,25,47,0.2)] hover:-translate-y-1 transition-all duration-300"
           >
-            <img
-              src="https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=1000&q=80&auto=format&fit=crop"
-              alt="Patient smiling confidently after dental implant treatment"
-              loading="lazy"
-              className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F]/85 via-[#0A192F]/20 to-transparent" />
-            <div className="absolute inset-x-0 bottom-0 p-7 text-white">
-              <div className="font-display text-[21px] leading-snug">Confidence in every laugh</div>
-              <p className="mt-1.5 text-[13.5px] text-white/75 leading-relaxed">
-                Speak clearly, laugh comfortably and smile without thinking about it.
-              </p>
-            </div>
+            <span className="w-11 h-11 rounded-2xl bg-[#E6F8F3] text-[#0284C7] flex items-center justify-center">
+              <Sparkles className="w-5 h-5" strokeWidth={1.75} />
+            </span>
+            <h3 className="mt-5 font-display text-[19px] font-semibold text-[#0A192F] leading-snug">
+              Confidence in every laugh
+            </h3>
+            <p className="mt-2 text-[14.5px] leading-relaxed text-[#64748B]">
+              Speak clearly, laugh comfortably and smile without thinking about it. That&apos;s the point of it all.
+            </p>
           </div>
         </div>
 
