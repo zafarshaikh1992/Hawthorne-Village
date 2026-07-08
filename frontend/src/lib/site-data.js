@@ -40,14 +40,59 @@ export const trustBadges = [
 ];
 
 export const whyChoose = [
-  { title: "Same-Day Emergency Care", desc: "Toothache or chipped tooth? We keep slots open every day for urgent issues — most patients are seen within hours.", icon: "Ambulance", span: "md:col-span-2", bg: "bg-white" },
-  { title: "Evening & Saturday Hours", desc: "Open until 7 PM weekdays and 2 PM Saturdays so busy families never have to skip work or school.", icon: "Clock", bg: "bg-[#E6F8F3]" },
-  { title: "Direct Insurance Billing", desc: "We bill your provider directly — no paperwork, no reimbursement wait.", icon: "ShieldCheck", bg: "bg-white" },
-  { title: "CDCP Accepted", desc: "Proudly participating in the Canadian Dental Care Plan.", icon: "Landmark", bg: "bg-white" },
-  { title: "Comfort-First Sedation", desc: "Oral sedation, The Wand painless anaesthesia and quiet music — dentistry without the anxiety.", icon: "HeartPulse", span: "md:col-span-2", bg: "bg-white" },
-  { title: "Digital Everything", desc: "3D CBCT scans, digital impressions, same-day crowns. Faster, quieter, more precise.", icon: "Cpu", bg: "bg-white" },
-  { title: "Kids Feel Safe Here", desc: "Gentle first-visit routine designed for children ages 1 and up.", icon: "Baby", bg: "bg-white" },
-  { title: "Award-Winning Team", desc: "Led by Dr. Raju Sarna, ICOI Fellow with training from UCSF & UCLA.", icon: "Award", bg: "bg-white" },
+  {
+    title: "Same-Day Emergency Care",
+    desc: "Toothache, chipped tooth or lost filling? We keep slots open every day for urgent issues — most patients are seen within hours, not days.",
+    icon: "Ambulance",
+    variant: "feature",
+    image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1200&q=80&auto=format&fit=crop",
+  },
+  {
+    title: "Evenings & Saturdays",
+    desc: "Open until 7 PM weekdays and 2 PM Saturdays — so busy families never skip work or school.",
+    icon: "Clock",
+    variant: "mint",
+    stat: "7 PM",
+    statLabel: "Latest weeknight slot",
+  },
+  {
+    title: "Direct Insurance Billing",
+    desc: "We bill your provider directly — no paperwork, no reimbursement wait.",
+    icon: "ShieldCheck",
+    variant: "icon",
+  },
+  {
+    title: "CDCP Accepted",
+    desc: "Proudly participating in the Canadian Dental Care Plan.",
+    icon: "Landmark",
+    variant: "icon",
+  },
+  {
+    title: "Comfort-First Sedation",
+    desc: "Oral sedation, The Wand painless anaesthesia and calming playlists — dentistry without the anxiety.",
+    icon: "HeartPulse",
+    variant: "image",
+    image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1000&q=80&auto=format&fit=crop",
+  },
+  {
+    title: "Digital Everything",
+    desc: "3D CBCT, digital impressions, same-day CEREC crowns. Faster, quieter, more precise.",
+    icon: "Cpu",
+    variant: "image",
+    image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1000&q=80&auto=format&fit=crop",
+  },
+  {
+    title: "Kids Feel Safe Here",
+    desc: "Gentle first-visit routine designed for children from age one.",
+    icon: "Baby",
+    variant: "icon",
+  },
+  {
+    title: "Award-Winning Team",
+    desc: "Led by Dr. Raju Sarna — ICOI Fellow, trained at UCSF & UCLA.",
+    icon: "Award",
+    variant: "quote",
+  },
 ];
 
 export const services = [
