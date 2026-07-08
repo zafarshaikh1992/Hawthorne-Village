@@ -139,6 +139,10 @@ export const technology = [
   { name: "VELscope Screening", benefit: "Early oral-cancer detection that takes less than two minutes." },
   { name: "The Wand (Painless Anaesthesia)", benefit: "Computer-controlled freezing you can barely feel." },
   { name: "Medical-Grade Air Purification", benefit: "Every operatory is filtered continuously for your safety." },
+  { name: "Isolite Dental Isolation System", benefit: "Individualized suction and lighting keep your mouth dry and comfortable, so restorations last longer." },
+  { name: "Early Laser Cavity Detection", benefit: "A DIAGNOdent laser finds cavities at their earliest stage, meaning less tooth structure needs repair." },
+  { name: "Water Purification System", benefit: "Every treatment unit runs on high-quality, distilled, bacteria-free water for safer care." },
+  { name: "iTero Digital Scanner", benefit: "See a simulated preview of your smile before starting Invisalign or orthodontic treatment." },
 ];
 
 export const testimonials = [
