@@ -1,65 +1,109 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { gallery } from "@/lib/site-data";
 import { useReveal } from "@/hooks/useReveal";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-function Tile({ item, index }) {
-  const [showAfter, setShowAfter] = useState(false);
+function HorizontalSlider({ item }) {
+  const [pos, setPos] = useState(50); // % of the "before" visible from the left
+  const wrapRef = useRef(null);
+  const dragging = useRef(false);
+
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el) return;
+
+    const setFromClient = (clientX) => {
+      const rect = el.getBoundingClientRect();
+      const rel = ((clientX - rect.left) / rect.width) * 100;
+      setPos(Math.max(2, Math.min(98, rel)));
+    };
+
+    const move = (e) => {
+      if (!dragging.current) return;
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      setFromClient(clientX);
+    };
+    const up = () => { dragging.current = false; };
+
+    window.addEventListener("mousemove", move);
+    window.addEventListener("mouseup", up);
+    window.addEventListener("touchmove", move, { passive: false });
+    window.addEventListener("touchend", up);
+    return () => {
+      window.removeEventListener("mousemove", move);
+      window.removeEventListener("mouseup", up);
+      window.removeEventListener("touchmove", move);
+      window.removeEventListener("touchend", up);
+    };
+  }, []);
+
+  const start = (e) => {
+    dragging.current = true;
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const rect = wrapRef.current.getBoundingClientRect();
+    const rel = ((clientX - rect.left) / rect.width) * 100;
+    setPos(Math.max(2, Math.min(98, rel)));
+  };
 
   return (
-    <a
-      href="#contact"
-      data-testid={`gallery-tile-${item.id}`}
-      onMouseEnter={() => setShowAfter(true)}
-      onMouseLeave={() => setShowAfter(false)}
-      onFocus={() => setShowAfter(true)}
-      onBlur={() => setShowAfter(false)}
-      className="group block"
+    <div
+      ref={wrapRef}
+      onMouseDown={start}
+      onTouchStart={start}
+      data-testid={`ba-h-slider-${item.id}`}
+      className="group relative w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-100 shadow-[0_20px_60px_-25px_rgba(10,25,47,0.35)] cursor-ew-resize select-none"
     >
-      {/* Image with crossfade */}
-      <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-slate-100 shadow-[0_10px_30px_-15px_rgba(10,25,47,0.2)] group-hover:shadow-[0_20px_45px_-15px_rgba(10,25,47,0.3)] transition-shadow duration-500">
+      {/* AFTER (full base layer) */}
+      <img
+        src={item.after}
+        alt={`After ${item.label}`}
+        loading="lazy"
+        draggable={false}
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+
+      {/* BEFORE (clipped from the left) — uses clip-path so image never distorts */}
+      <div
+        className="absolute inset-0"
+        style={{ clipPath: `polygon(0 0, ${pos}% 0, ${pos}% 100%, 0 100%)` }}
+      >
         <img
           src={item.before}
           alt={`Before ${item.label}`}
           loading="lazy"
+          draggable={false}
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <img
-          src={item.after}
-          alt={`After ${item.label}`}
-          loading="lazy"
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-out ${
-            showAfter ? "opacity-100" : "opacity-0"
-          }`}
-        />
-
-        {/* Tiny status pill */}
-        <div className="absolute top-3 left-3 flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#0A192F]">
-          <span
-            className={`w-1.5 h-1.5 rounded-full transition-colors ${
-              showAfter ? "bg-[#10B981]" : "bg-slate-400"
-            }`}
-          />
-          {showAfter ? "After" : "Before"}
-        </div>
-
-        {/* Case index */}
-        <div className="absolute top-3 right-3 font-mono text-[11px] tabular-nums text-white/90 bg-[#0A192F]/60 backdrop-blur rounded-full px-2 py-0.5">
-          {String(index + 1).padStart(2, "0")}
-        </div>
       </div>
 
-      {/* Text below */}
-      <div className="pt-4 pb-1">
-        <h3 className="font-display text-[16px] font-semibold text-[#0A192F] leading-tight group-hover:text-[#0284C7] transition-colors">
-          {item.label}
-        </h3>
-        <div className="mt-1 flex items-center gap-2 text-[12.5px] text-[#94A3B8]">
-          <span>{item.treatment}</span>
-          <span className="w-1 h-1 rounded-full bg-slate-300" />
-          <span>{item.duration}</span>
+      {/* Labels */}
+      <span
+        className="absolute top-4 left-4 rounded-full bg-white/95 backdrop-blur px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#0A192F] transition-opacity"
+        style={{ opacity: pos > 12 ? 1 : 0 }}
+      >
+        Before
+      </span>
+      <span
+        className="absolute top-4 right-4 rounded-full bg-[#0A192F] text-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] transition-opacity"
+        style={{ opacity: pos < 88 ? 1 : 0 }}
+      >
+        After
+      </span>
+
+      {/* Divider line */}
+      <div
+        className="absolute inset-y-0 z-10 pointer-events-none"
+        style={{ left: `${pos}%`, transform: "translateX(-1px)" }}
+      >
+        <div className="absolute inset-y-0 w-[2px] bg-white shadow-[0_0_20px_rgba(0,0,0,0.35)]" />
+
+        {/* Drag handle */}
+        <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-11 h-11 rounded-full bg-white shadow-[0_10px_30px_-5px_rgba(10,25,47,0.4)] border border-slate-200 flex items-center justify-center gap-0.5">
+          <ChevronLeft className="w-3.5 h-3.5 text-[#0A192F]" strokeWidth={2.5} />
+          <ChevronRight className="w-3.5 h-3.5 text-[#0A192F]" strokeWidth={2.5} />
         </div>
       </div>
-    </a>
+    </div>
   );
 }
 
@@ -71,7 +115,7 @@ export default function SmileGallery() {
       id="gallery"
       ref={ref}
       data-testid="smile-gallery"
-      className="reveal py-24 md:py-32 bg-white"
+      className="reveal py-24 md:py-32 bg-[#F8FAFC]"
     >
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         {/* Header */}
@@ -86,14 +130,36 @@ export default function SmileGallery() {
             </h2>
           </div>
           <p className="text-[14px] text-[#94A3B8] max-w-xs">
-            Hover any case to reveal the after. Every result from our Derry Road clinic.
+            Drag the slider on each card to compare before &amp; after.
           </p>
         </div>
 
-        {/* Compact 4-up grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6">
+        {/* 2-up grid of horizontal sliders */}
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
           {gallery.map((g, i) => (
-            <Tile key={g.id} item={g} index={i} />
+            <div
+              key={g.id}
+              data-testid={`gallery-card-${g.id}`}
+              className="flex flex-col"
+            >
+              <HorizontalSlider item={g} />
+              <div className="mt-5 flex items-baseline justify-between gap-4">
+                <div>
+                  <div className="flex items-baseline gap-3">
+                    <span className="font-mono text-[12px] tabular-nums text-[#94A3B8]">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <h3 className="font-display text-lg md:text-xl font-semibold text-[#0A192F] leading-tight">
+                      {g.label}
+                    </h3>
+                  </div>
+                  <div className="mt-1 text-[13px] text-[#64748B]">{g.treatment}</div>
+                </div>
+                <div className="text-[12px] uppercase tracking-wider text-[#94A3B8] whitespace-nowrap">
+                  {g.duration}
+                </div>
+              </div>
+            </div>
           ))}
         </div>
 
@@ -101,7 +167,7 @@ export default function SmileGallery() {
           <a
             href="#contact"
             data-testid="gallery-cta"
-            className="inline-flex items-center gap-1.5 text-[14px] font-medium text-[#2563EB] hover:gap-2.5 transition-all"
+            className="inline-flex items-center gap-2 h-12 rounded-full bg-[#0A192F] hover:bg-[#111c36] text-white px-7 text-[14.5px] font-medium hover:-translate-y-0.5 transition-all"
           >
             Book a smile consultation
             <span aria-hidden="true">→</span>
