@@ -112,18 +112,18 @@ export const whyChoose = [
 ];
 
 export const services = [
-  { name: "Dental Implants", blurb: "Permanent replacement teeth that look, feel and function like your own.", image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=75&auto=format&fit=crop" },
-  { name: "Invisalign", blurb: "Clear, removable aligners for adults and teens, straighter teeth in months, not years.", image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&q=75&auto=format&fit=crop" },
-  { name: "Emergency Dentistry", blurb: "Same-day appointments for pain, swelling, broken teeth and lost fillings.", image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=75&auto=format&fit=crop" },
-  { name: "Children's Dentistry", blurb: "Warm, unhurried visits that build lifelong healthy habits from age one.", image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=75&auto=format&fit=crop" },
-  { name: "Cosmetic Dentistry", blurb: "Whitening, veneers and full smile makeovers designed around your face.", image: "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?w=800&q=75&auto=format&fit=crop" },
-  { name: "Root Canal Therapy", blurb: "Gentle, microscope-guided treatment that saves the tooth and stops the pain.", image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=75&auto=format&fit=crop" },
-  { name: "Same-Day Crowns", blurb: "In-office CEREC crowns milled and fitted in a single visit.", image: "https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&q=75&auto=format&fit=crop" },
-  { name: "Bridges & Dentures", blurb: "Custom, comfortable and natural-looking replacements for missing teeth.", image: "https://images.unsplash.com/photo-1606811842497-25b3ad9c9bef?w=800&q=75&auto=format&fit=crop" },
-  { name: "Teeth Whitening", blurb: "Professional-grade whitening, safe, effective and dentist-supervised.", image: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=800&q=75&auto=format&fit=crop" },
-  { name: "Sedation Dentistry", blurb: "Oral sedation options for patients who feel nervous about the chair.", image: "https://images.unsplash.com/photo-1666214277657-e2be8ec2087b?w=800&q=75&auto=format&fit=crop" },
-  { name: "Wisdom Teeth", blurb: "Same-day surgical extraction with modern comfort protocols.", image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=75&auto=format&fit=crop" },
-  { name: "Preventive Care", blurb: "Cleanings, exams and early cavity detection with laser accuracy.", image: "https://images.unsplash.com/photo-1588776813755-9f74a97eea62?w=800&q=75&auto=format&fit=crop" },
+  { name: "Dental Implants", blurb: "Permanent replacement teeth that look, feel and function like your own.", image: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=800&q=75&auto=format&fit=crop" },
+  { name: "Invisalign", blurb: "Clear, removable aligners for adults and teens, straighter teeth in months, not years.", image: "https://images.unsplash.com/photo-1777793636393-a0fec488f3fb?w=800&q=75&auto=format&fit=crop" },
+  { name: "Emergency Dentistry", blurb: "Same-day appointments for pain, swelling, broken teeth and lost fillings.", image: "https://images.unsplash.com/photo-1602932213623-cc17e9541bb4?w=800&q=75&auto=format&fit=crop" },
+  { name: "Children's Dentistry", blurb: "Warm, unhurried visits that build lifelong healthy habits from age one.", image: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=75&auto=format&fit=crop" },
+  { name: "Cosmetic Dentistry", blurb: "Whitening, veneers and full smile makeovers designed around your face.", image: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=800&q=75&auto=format&fit=crop" },
+  { name: "Root Canal Therapy", blurb: "Gentle, microscope-guided treatment that saves the tooth and stops the pain.", image: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?w=800&q=75&auto=format&fit=crop" },
+  { name: "Same-Day Crowns", blurb: "In-office CEREC crowns milled and fitted in a single visit.", image: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=800&q=75&auto=format&fit=crop" },
+  { name: "Bridges & Dentures", blurb: "Custom, comfortable and natural-looking replacements for missing teeth.", image: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=800&q=75&auto=format&fit=crop" },
+  { name: "Teeth Whitening", blurb: "Professional-grade whitening, safe, effective and dentist-supervised.", image: "https://images.unsplash.com/photo-1677026010083-78ec7f1b84ed?w=800&q=75&auto=format&fit=crop" },
+  { name: "Sedation Dentistry", blurb: "Oral sedation options for patients who feel nervous about the chair.", image: "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?w=800&q=75&auto=format&fit=crop" },
+  { name: "Wisdom Teeth", blurb: "Same-day surgical extraction with modern comfort protocols.", image: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=75&auto=format&fit=crop" },
+  { name: "Preventive Care", blurb: "Cleanings, exams and early cavity detection with laser accuracy.", image: "https://images.unsplash.com/photo-1681939282781-341ac4f61996?w=800&q=75&auto=format&fit=crop" },
 ];
 
 export const technology = [
@@ -199,8 +199,8 @@ export const gallery = [
     patient: "Myrna",
     problem: "Missing teeth on the upper left side with worn, discoloured teeth and an old bridge on the upper right. She wanted a new smile without a partial denture.",
     solution: "Recreated using implants on the upper left, new fixed bridges on the upper left and right, and veneers on her four front teeth.",
-    before: "https://images.unsplash.com/photo-1595003500447-88e6c9c19bd4?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=900&q=80&auto=format&fit=crop",
+    before: "https://images.unsplash.com/photo-1679911522750-aeedd9c88550?w=900&q=80&auto=format&fit=crop",
+    after: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900&q=80&auto=format&fit=crop",
   },
   {
     id: "all-porcelain-crown",
@@ -208,8 +208,8 @@ export const gallery = [
     patient: "Brenda",
     problem: "Brenda didn't like the appearance of the crown on her upper right incisor. It looked too opaque and had a dark shadow at the gum line.",
     solution: "The old crown was removed and replaced with a new all-porcelain crown that lets light pass through, eliminating the shadow.",
-    before: "https://images.unsplash.com/photo-1581585504151-3d3e9cb32f65?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?w=900&q=80&auto=format&fit=crop",
+    before: "https://images.unsplash.com/photo-1663182245833-7dd667277043?w=900&q=80&auto=format&fit=crop",
+    after: "https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?w=900&q=80&auto=format&fit=crop",
   },
   {
     id: "porcelain-veneers",
@@ -217,8 +217,8 @@ export const gallery = [
     patient: "Leslie",
     problem: "Leslie neglected her teeth while wearing braces, which left her with stained enamel. She wanted to improve her smile without returning to braces.",
     solution: "Direct bonding on six upper teeth in a single visit masked the discolouration and reshaped teeth, a big boost to Leslie's smile and confidence.",
-    before: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80&auto=format&fit=crop",
+    before: "https://images.unsplash.com/photo-1679741919483-acf704e00495?w=900&q=80&auto=format&fit=crop",
+    after: "https://images.unsplash.com/photo-1567516364473-233c4b6fcfbe?w=900&q=80&auto=format&fit=crop",
   },
   {
     id: "tooth-whitening",
@@ -226,7 +226,7 @@ export const gallery = [
     patient: "Monique",
     problem: "Unhappy with the way her teeth had darkened over time, Monique wanted to bring back the whiteness of her smile.",
     solution: "Upper and lower teeth were whitened using a take-home whitening system, with dramatic results achieved in just two weeks.",
-    before: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=900&q=80&auto=format&fit=crop",
+    before: "https://images.unsplash.com/photo-1664529845843-b4192b8246fa?w=900&q=80&auto=format&fit=crop",
+    after: "https://images.unsplash.com/photo-1654373535457-383a0a4d00f9?w=900&q=80&auto=format&fit=crop",
   },
 ];
