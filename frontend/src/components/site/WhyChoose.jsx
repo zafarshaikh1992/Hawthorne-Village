@@ -14,10 +14,10 @@ function FeatureCard({ item, index }) {
   return (
     <article
       data-testid={`why-card-${index}`}
-      className="group md:col-span-4 md:row-span-2 relative overflow-hidden rounded-[28px] bg-white border border-slate-100 shadow-[0_10px_40px_-15px_rgba(10,25,47,0.15)] hover:shadow-[0_20px_60px_-20px_rgba(10,25,47,0.25)] transition-all duration-500 hover:-translate-y-0.5"
+      className="group md:col-span-8 relative overflow-hidden rounded-[28px] bg-white border border-slate-100 shadow-[0_10px_40px_-15px_rgba(10,25,47,0.15)] hover:shadow-[0_20px_60px_-20px_rgba(10,25,47,0.25)] transition-all duration-500 hover:-translate-y-0.5"
     >
-      <div className="grid md:grid-rows-[1fr_auto] h-full">
-        <div className="relative overflow-hidden aspect-[16/10] md:aspect-auto md:min-h-[280px]">
+      <div className="grid md:grid-cols-[1.05fr_1fr] h-full">
+        <div className="relative overflow-hidden aspect-[16/10] md:aspect-auto md:min-h-[320px]">
           <img
             src={item.image}
             alt={item.title}
@@ -30,20 +30,20 @@ function FeatureCard({ item, index }) {
             Available today
           </div>
         </div>
-        <div className="p-7 md:p-9">
+        <div className="p-7 md:p-9 flex flex-col justify-center">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-10 h-10 rounded-2xl bg-[#0A192F] text-white flex items-center justify-center">
               {Icon && <Icon className="w-5 h-5" strokeWidth={1.75} />}
             </span>
             <div className="text-[12px] uppercase tracking-[0.14em] text-[#0284C7] font-medium">Featured</div>
           </div>
-          <h3 className="font-display text-2xl md:text-[28px] font-semibold text-[#0A192F] leading-[1.15]">
+          <h3 className="font-display text-2xl md:text-[26px] font-semibold text-[#0A192F] leading-[1.15]">
             {item.title}
           </h3>
           <p className="mt-3 text-[15px] leading-relaxed text-[#64748B]">{item.desc}</p>
           <a
             href="#contact"
-            className="mt-6 inline-flex items-center gap-1.5 text-[14px] font-medium text-[#2563EB] hover:gap-2.5 transition-all"
+            className="mt-6 inline-flex items-center gap-1.5 text-[14px] font-medium text-[#2563EB] hover:gap-2.5 transition-all self-start"
           >
             Book urgent care <ArrowRight className="w-4 h-4" />
           </a>
@@ -59,7 +59,7 @@ function MintStatCard({ item, index }) {
   return (
     <article
       data-testid={`why-card-${index}`}
-      className="md:col-span-2 rounded-[28px] bg-[#E6F8F3] p-7 md:p-8 border border-[#D1F1E7] flex flex-col justify-between overflow-hidden relative hover:-translate-y-0.5 transition-transform duration-300"
+      className="md:col-span-4 rounded-[28px] bg-[#E6F8F3] p-7 md:p-8 border border-[#D1F1E7] flex flex-col justify-between overflow-hidden relative hover:-translate-y-0.5 transition-transform duration-300 min-h-[320px]"
     >
       <div className="absolute -bottom-10 -right-10 w-48 h-48 rounded-full bg-white/40 blur-2xl pointer-events-none" />
       <div className="relative">
@@ -85,7 +85,7 @@ function IconCard({ item, index }) {
   return (
     <article
       data-testid={`why-card-${index}`}
-      className="md:col-span-2 group rounded-[28px] bg-white p-7 md:p-8 border border-slate-100 hover:border-slate-200 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-15px_rgba(10,25,47,0.15)] transition-all duration-300"
+      className="md:col-span-4 group rounded-[28px] bg-white p-7 md:p-8 border border-slate-100 hover:border-slate-200 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_-15px_rgba(10,25,47,0.15)] transition-all duration-300 min-h-[240px] flex flex-col"
     >
       <span className="w-11 h-11 rounded-2xl bg-slate-50 text-[#0A192F] flex items-center justify-center group-hover:bg-[#0284C7] group-hover:text-white transition-colors">
         {Icon && <Icon className="w-5 h-5" strokeWidth={1.75} />}
@@ -102,7 +102,7 @@ function ImageCard({ item, index }) {
   return (
     <article
       data-testid={`why-card-${index}`}
-      className="md:col-span-3 group relative overflow-hidden rounded-[28px] border border-slate-100 hover:-translate-y-0.5 transition-all duration-500 shadow-[0_10px_40px_-20px_rgba(10,25,47,0.15)] hover:shadow-[0_20px_50px_-20px_rgba(10,25,47,0.25)]"
+      className="md:col-span-4 group relative overflow-hidden rounded-[28px] border border-slate-100 hover:-translate-y-0.5 transition-all duration-500 shadow-[0_10px_40px_-20px_rgba(10,25,47,0.15)] hover:shadow-[0_20px_50px_-20px_rgba(10,25,47,0.25)]"
     >
       <div className="absolute inset-0">
         <img
@@ -113,7 +113,7 @@ function ImageCard({ item, index }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F]/85 via-[#0A192F]/40 to-transparent" />
       </div>
-      <div className="relative p-7 md:p-8 min-h-[300px] flex flex-col justify-end text-white">
+      <div className="relative p-7 md:p-8 min-h-[320px] flex flex-col justify-end text-white">
         <span className="w-10 h-10 rounded-2xl bg-white/15 backdrop-blur border border-white/20 flex items-center justify-center mb-4">
           {Icon && <Icon className="w-5 h-5" strokeWidth={1.75} />}
         </span>
@@ -130,7 +130,7 @@ function QuoteCard({ item, index }) {
   return (
     <article
       data-testid={`why-card-${index}`}
-      className="md:col-span-3 relative overflow-hidden rounded-[28px] bg-[#0A192F] text-white p-7 md:p-9 flex flex-col justify-between hover:-translate-y-0.5 transition-transform duration-300"
+      className="md:col-span-4 relative overflow-hidden rounded-[28px] bg-[#0A192F] text-white p-7 md:p-9 flex flex-col justify-between hover:-translate-y-0.5 transition-transform duration-300 min-h-[320px]"
     >
       <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-[#0284C7]/25 blur-3xl pointer-events-none" />
       <div className="relative">
@@ -190,8 +190,8 @@ export default function WhyChoose() {
           </p>
         </div>
 
-        {/* Editorial bento grid: 6 cols on md+ */}
-        <div className="grid grid-cols-1 md:grid-cols-6 auto-rows-auto gap-5 md:gap-6">
+        {/* Editorial bento grid: 12 cols on md+ */}
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-6">
           {whyChoose.map((item, i) => {
             const Component = variantMap[item.variant] || IconCard;
             return <Component key={item.title} item={item} index={i} />;
