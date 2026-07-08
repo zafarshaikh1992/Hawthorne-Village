@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Facebook, Star, ArrowUpRight, Navigation } from "lucide-react";
+import { Phone, Instagram, Facebook, Star, ArrowUpRight, Navigation } from "lucide-react";
 import { clinic } from "@/lib/site-data";
 
 const directionsUrl =
@@ -83,22 +83,27 @@ export default function Footer() {
 
         {/* Info grid */}
         <div className="grid md:grid-cols-3 gap-10 md:gap-12 py-12 md:py-14">
-          {/* Contact */}
+          {/* Brand */}
           <div>
-            <div className="text-[11px] uppercase tracking-[0.14em] text-[#94A3B8] font-medium mb-4">
-              Contact
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#0A192F] to-[#0284C7] flex items-center justify-center shadow-sm">
+                <svg viewBox="0 0 24 24" className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 5.5c-2-2-5-2-6.5 0-1.5 2-1 6 0 9s3 5 3 5c1 0 1.5-1.5 2-3 .5-1.5 1-2.5 1.5-2.5s1 1 1.5 2.5c.5 1.5 1 3 2 3 0 0 2-2 3-5s1.5-7 0-9c-1.5-2-4.5-2-6.5 0z" />
+                </svg>
+              </div>
+              <div>
+                <div className="font-display font-semibold text-[#0A192F] text-[17px] leading-tight">
+                  Hawthorne Village
+                </div>
+                <div className="text-[11px] uppercase tracking-[0.14em] text-[#64748B]">
+                  Dental Care · Milton
+                </div>
+              </div>
             </div>
-            <ul className="space-y-3 text-[14.5px] text-[#334155]">
-              <li className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 mt-0.5 text-[#0284C7] shrink-0" />
-                <span>10220 Derry Rd #206<br />Milton, ON L9T 7J3</span>
-              </li>
-              <li>
-                <a href={`mailto:${clinic.email}`} className="flex items-center gap-3 hover:text-[#0A192F] transition-colors break-all">
-                  <Mail className="w-4 h-4 text-[#0284C7] shrink-0" /> {clinic.email}
-                </a>
-              </li>
-            </ul>
+            <p className="text-[14.5px] text-[#475569] leading-relaxed max-w-[280px]">
+              Milton&apos;s trusted family dentist since 2010 — gentle, modern care
+              for children, adults and seniors on Derry Road.
+            </p>
           </div>
 
           {/* Hours */}
