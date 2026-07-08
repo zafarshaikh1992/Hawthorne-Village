@@ -78,13 +78,13 @@ export default function NewPatientWelcome() {
 
               <h2 className="mt-6 font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
                 Your first visit,{" "}
-                <span className="font-light text-[#64748B]">completely free.</span>
+                <span className="font-light text-[#64748B]">without the guesswork.</span>
               </h2>
 
               <p className="mt-5 text-[17px] text-[#475569] leading-relaxed max-w-lg">
-                Choosing a new dentist in Milton is a big decision. Come in for a free consultation,
-                no pressure and no surprise bills, just an honest conversation about your smile and
-                what it actually needs.
+                Choosing a new dentist in Milton is a big decision. Book a new-patient visit and
+                get an honest conversation about your smile and what it actually needs, with no
+                pressure and no surprise bills.
               </p>
 
               <ul className="mt-8 space-y-3">
@@ -123,7 +123,7 @@ export default function NewPatientWelcome() {
               </div>
 
               <div className="mt-6 text-[13px] text-[#94A3B8]">
-                No credit card required · Cancel anytime · Kids under 12 always free with a parent visit
+                Direct billing to most insurers · Evening &amp; Saturday appointments · New patients always welcome
               </div>
             </div>
 
