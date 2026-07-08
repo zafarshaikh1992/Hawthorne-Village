@@ -17,10 +17,10 @@ const exploreLinks = [
 
 const serviceLinks = [
   { label: "Dental Implants", href: `${HOME}services/dental-implants` },
-  { label: "Invisalign", href: `${HOME}#services` },
+  { label: "Invisalign", href: `${HOME}services/invisalign` },
   { label: "Root Canal Therapy", href: `${HOME}services/root-canal-therapy` },
-  { label: "Cosmetic Dentistry", href: `${HOME}#services` },
-  { label: "Children's Dentistry", href: `${HOME}#services` },
+  { label: "Cosmetic Dentistry", href: `${HOME}services/cosmetic-dentistry` },
+  { label: "Children's Dentistry", href: `${HOME}services/childrens-dentistry` },
   { label: "Emergency Care", href: `${HOME}#services` },
 ];
 
