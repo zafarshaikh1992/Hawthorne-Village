@@ -17,7 +17,7 @@ export default function MeetDentist() {
         <div className="relative">
           <div className="relative rounded-[32px] overflow-hidden shadow-[0_30px_80px_-20px_rgba(10,25,47,0.3)] aspect-[4/5] max-w-[520px]">
             <img
-              src="https://images.pexels.com/photos/6812464/pexels-photo-6812464.jpeg"
+              src={`${process.env.PUBLIC_URL}/images/dentist-square.jpg`}
               alt="Dr. Raju Sarna, lead dentist at Hawthorne Village Dental Care in Milton"
               className="w-full h-full object-cover"
               loading="lazy"

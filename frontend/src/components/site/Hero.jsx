@@ -80,9 +80,9 @@ export default function Hero() {
           <div ref={rightRef} className="reveal relative">
             <div className="relative rounded-[32px] overflow-hidden shadow-[0_30px_80px_-20px_rgba(10,25,47,0.35)] aspect-[4/5] max-h-[620px]">
               <img
-                src="https://images.pexels.com/photos/3845808/pexels-photo-3845808.jpeg"
-                alt="A friendly Milton dentist chatting with a smiling family patient at Hawthorne Village Dental Care"
-                className="w-full h-full object-cover"
+                src={`${process.env.PUBLIC_URL}/images/hero-dentist.png`}
+                alt="Dr. Raju Sarna at Hawthorne Village Dental Care in Milton"
+                className="w-full h-full object-cover object-left"
                 loading="eager"
                 fetchPriority="high"
               />

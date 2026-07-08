@@ -8,7 +8,7 @@ export default function JsonLd() {
       "@context": "https://schema.org",
       "@type": ["Dentist", "LocalBusiness", "MedicalBusiness"],
       name: clinic.name,
-      image: "https://images.pexels.com/photos/3845808/pexels-photo-3845808.jpeg",
+      image: "https://hawthornevillagedental.ca/wp-content/uploads/2019/04/drsarna-small-squareDo7-600x600-e1554354790202.jpg",
       url: "https://hawthornevillagedental.ca/",
       telephone: clinic.phone,
       email: clinic.email,
