@@ -1,4 +1,4 @@
-// Content config for /air-purification-system — Surgically Clean Air technology page.
+// Content config for /air-purification-system, Surgically Clean Air technology page.
 const config = {
   slug: "air-purification-system",
   name: "Air Purification System",
@@ -16,7 +16,7 @@ const config = {
       description:
         "A medical-grade air purification system that removes the micro-bacterial germs found in most dental offices, so every operatory at our Milton clinic is filtered continuously for your safety.",
       howPerformed:
-        "The Surgically Clean Air System draws in room air, removes micro-bacterial germs, and disperses clean air back through the office — running continuously in every operatory throughout the day.",
+        "The Surgically Clean Air System draws in room air, removes micro-bacterial germs, and disperses clean air back through the office, running continuously in every operatory throughout the day.",
     },
   },
 
@@ -25,7 +25,7 @@ const config = {
     titleA: "The cleanest air",
     titleB: "you'll never notice.",
     intro:
-      "Clean air quality matters to Dr. Sarna and our team. That's why we installed the Surgically Clean Air System — the best air purification system he could find — so every operatory is filtered continuously and every visit happens in a clean, fresh environment.",
+      "Clean air quality matters to Dr. Sarna and our team. That's why we installed the Surgically Clean Air System, the best air purification system he could find, so every operatory is filtered continuously and every visit happens in a clean, fresh environment.",
     bookLabel: "Book a Visit",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "A cleaner clinic from an",
     titleB: "award-winning team.",
     subtitle:
-      "The same team that earned 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated also invests in what you can't see — like the air you breathe during your visit.",
+      "The same team that earned 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated also invests in what you can't see, like the air you breathe during your visit.",
   },
 
   intro: {
@@ -65,25 +65,28 @@ const config = {
     parts: [
       {
         icon: "Wind",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         kicker: "Step 1",
         title: "Air is drawn in",
         desc: "The system continuously pulls in the air circulating through each operatory during treatment.",
       },
       {
         icon: "Shield",
+        image: { src: "https://images.unsplash.com/photo-1445527815219-ecbfec67492e?w=800&q=80&auto=format&fit=crop", alt: "A bright dental operatory with modern equipment" },
         kicker: "Step 2",
         title: "Germs are removed",
         desc: "It removes the micro-bacterial germs found in most dental offices, cleaning the air as it passes through.",
       },
       {
         icon: "Sparkles",
+        image: { src: "https://images.unsplash.com/photo-1629909615957-be38d48fbbe6?w=800&q=80&auto=format&fit=crop", alt: "A calm, welcoming dental treatment room" },
         kicker: "Step 3",
         title: "Clean air is dispersed",
         desc: "Purified air is dispersed back into the room, keeping the environment clean and fresh all day long.",
       },
     ],
     closingNote:
-      "You won't see it working, and that's the point — a clean, fresh environment for every patient and every team member, on every visit.",
+      "You won't see it working, and that's the point, a clean, fresh environment for every patient and every team member, on every visit.",
   },
 
   context: {
@@ -102,21 +105,25 @@ const config = {
     cards: [
       {
         icon: "Activity",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         title: "Micro-bacterial germs",
         desc: "The system removes the micro-bacterial germs found in most dental offices before the air reaches you.",
       },
       {
         icon: "RefreshCw",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Stale, recirculated air",
         desc: "Instead of the same air cycling around all day, each operatory is filtered continuously and refreshed.",
       },
       {
         icon: "Hourglass",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Worry during longer visits",
         desc: "Whether you're in for a quick checkup or a longer procedure, the air around you is being cleaned the entire time.",
       },
       {
         icon: "Baby",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "Shared-space concerns",
         desc: "Families, kids and anxious patients all breathe easier knowing the whole office keeps a clean, fresh environment.",
       },
@@ -131,7 +138,7 @@ const config = {
       icon: "Wind",
       value: "Every",
       label: "operatory filtered continuously",
-      note: "The Surgically Clean Air System runs in every treatment room — not just one — for your safety.",
+      note: "The Surgically Clean Air System runs in every treatment room, not just one, for your safety.",
     },
     cards: [
       {
@@ -142,7 +149,7 @@ const config = {
       {
         icon: "Leaf",
         title: "Genuinely fresh air",
-        desc: "A clean and fresh environment you can feel the moment you settle into the chair — no clinical staleness.",
+        desc: "A clean and fresh environment you can feel the moment you settle into the chair, no clinical staleness.",
       },
       {
         icon: "Heart",
@@ -157,7 +164,7 @@ const config = {
       {
         icon: "SmilePlus",
         title: "Comfort for the whole team too",
-        desc: "Clean air protects our team as well as our patients — and a healthy team gives you better, more focused care.",
+        desc: "Clean air protects our team as well as our patients, and a healthy team gives you better, more focused care.",
       },
     ],
     cta: {
@@ -173,7 +180,7 @@ const config = {
     cards: [
       {
         title: "Water purification system",
-        desc: "Every treatment unit runs on high-quality, distilled, bacteria-free water — clean water to match the clean air.",
+        desc: "Every treatment unit runs on high-quality, distilled, bacteria-free water, clean water to match the clean air.",
       },
       {
         title: "Isolite dental isolation",
@@ -181,7 +188,7 @@ const config = {
       },
       {
         title: "Digital radiography",
-        desc: "Up to 90% less radiation than traditional X-rays, with instant results — safety built into imaging too.",
+        desc: "Up to 90% less radiation than traditional X-rays, with instant results, safety built into imaging too.",
       },
       {
         title: "VELscope oral screening",
@@ -196,7 +203,7 @@ const config = {
     titleA: "Why we invested in",
     titleB: "the air itself.",
     paragraph:
-      "Dr. Sarna is a recognized leader in cosmetic, restorative and implant dentistry — and he applies the same standard to the environment his patients sit in. When he decided to purify the office air, he didn't look for an adequate system. He looked for the best one he could find.",
+      "Dr. Sarna is a recognized leader in cosmetic, restorative and implant dentistry, and he applies the same standard to the environment his patients sit in. When he decided to purify the office air, he didn't look for an adequate system. He looked for the best one he could find.",
     items: [
       {
         icon: "Award",
@@ -214,7 +221,7 @@ const config = {
         icon: "Stethoscope",
         name: "Patients and team alike",
         benefit:
-          "The system maintains a clean and fresh environment for all of our patients and team members — everyone in the building benefits.",
+          "The system maintains a clean and fresh environment for all of our patients and team members, everyone in the building benefits.",
       },
       {
         icon: "Cpu",
@@ -237,7 +244,7 @@ const config = {
     },
     {
       q: "Is the air filtered in every treatment room?",
-      a: "Yes. Every operatory at our Milton clinic is filtered continuously for your safety — it's not limited to a single room or switched on only for certain procedures.",
+      a: "Yes. Every operatory at our Milton clinic is filtered continuously for your safety, it's not limited to a single room or switched on only for certain procedures.",
     },
     {
       q: "Why does air quality matter at a dental office?",
@@ -249,7 +256,7 @@ const config = {
     },
     {
       q: "Does the air purification system protect children and anxious patients too?",
-      a: "Yes. Because it runs continuously in every operatory, everyone who visits benefits — from one-year-olds at their first checkup to patients using our comfort-first sedation options. If you have questions, our team members are happy to walk you through it.",
+      a: "Yes. Because it runs continuously in every operatory, everyone who visits benefits, from one-year-olds at their first checkup to patients using our comfort-first sedation options. If you have questions, our team members are happy to walk you through it.",
     },
   ],
 };

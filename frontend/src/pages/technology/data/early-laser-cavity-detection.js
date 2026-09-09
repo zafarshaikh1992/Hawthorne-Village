@@ -14,9 +14,9 @@ const config = {
     procedure: {
       alternateName: "DIAGNOdent Laser Cavity Detection System",
       description:
-        "An accurate, reliable laser system that finds tooth decay in its earliest stages — even very small cavities — so teeth can be protected and preserved with less tooth structure repaired.",
+        "An accurate, reliable laser system that finds tooth decay in its earliest stages, even very small cavities, so teeth can be protected and preserved with less tooth structure repaired.",
       howPerformed:
-        "A painless laser is passed over the tooth surfaces; the readings reveal decay at its earliest, smallest stage — long before it's visible on the surface or felt by the patient.",
+        "A painless laser is passed over the tooth surfaces; the readings reveal decay at its earliest, smallest stage, long before it's visible on the surface or felt by the patient.",
     },
   },
 
@@ -25,7 +25,7 @@ const config = {
     titleA: "Cavities, caught",
     titleB: "before they count.",
     intro:
-      "The DIAGNOdent is a revolutionary dental laser that finds cavities in their earliest stages — even very small ones. Catching decay that early lets Dr. Sarna protect and preserve your teeth, repairing far less tooth structure than a cavity found the old way.",
+      "The DIAGNOdent is a revolutionary dental laser that finds cavities in their earliest stages, even very small ones. Catching decay that early lets Dr. Sarna protect and preserve your teeth, repairing far less tooth structure than a cavity found the old way.",
     bookLabel: "Book a Checkup",
     image: {
       src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Early detection from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards hunts for decay with a laser — because the earliest possible care is what keeps healthy teeth healthy.",
+      "The Milton clinic recognized with 12 consecutive community awards hunts for decay with a laser, because the earliest possible care is what keeps healthy teeth healthy.",
   },
 
   intro: {
@@ -53,7 +53,7 @@ const config = {
     titleA: "A laser that reads",
     titleB: "your enamel.",
     paragraph:
-      "More and more patients place real value on healthy, attractive teeth — and maintaining them means the earliest possible care. The DIAGNOdent is an accurate, reliable detection system that finds decay while it's still barely begun:",
+      "More and more patients place real value on healthy, attractive teeth, and maintaining them means the earliest possible care. The DIAGNOdent is an accurate, reliable detection system that finds decay while it's still barely begun:",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
       alt: "Modern diagnostic equipment in a Milton dental operatory",
@@ -65,18 +65,21 @@ const config = {
     parts: [
       {
         icon: "Scan",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "Step 1",
         title: "The laser scans the tooth",
         desc: "A painless laser passes over the biting surfaces and grooves where decay likes to hide.",
       },
       {
         icon: "Gauge",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         kicker: "Step 2",
         title: "Readings reveal decay",
-        desc: "Even very small cavities register — decay is detected at the earliest stage, before X-rays or the eye would catch it.",
+        desc: "Even very small cavities register, decay is detected at the earliest stage, before X-rays or the eye would catch it.",
       },
       {
         icon: "Gem",
+        image: { src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=80&auto=format&fit=crop", alt: "A dentist making a young patient comfortable" },
         kicker: "Step 3",
         title: "Repair small, preserve more",
         desc: "Early detection lets Dr. Sarna protect and preserve your teeth, with far less tooth structure needing repair.",
@@ -97,26 +100,30 @@ const config = {
       },
       headline: "The difference between a dot and a drill.",
       caption:
-        "Decay found at its earliest stage means a tiny repair. Decay found late means crowns, root canals — or worse.",
+        "Decay found at its earliest stage means a tiny repair. Decay found late means crowns, root canals, or worse.",
     },
     cards: [
       {
         icon: "Eye",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         title: "Hides from sight",
         desc: "Early decay in grooves and fissures is invisible to the naked eye during a normal exam.",
       },
       {
         icon: "Scan",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         title: "Hides from X-rays",
         desc: "Very small cavities often don't register on X-rays until they've already grown.",
       },
       {
         icon: "Hourglass",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Grows quietly",
         desc: "By the time a cavity hurts, it has usually reached the nerve's neighbourhood.",
       },
       {
         icon: "Gem",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Costs escalate",
         desc: "A tiny early filling costs a fraction of the crown or root canal a late cavity demands.",
       },
@@ -137,7 +144,7 @@ const config = {
       {
         icon: "Gem",
         title: "More natural tooth kept",
-        desc: "Early repairs are tiny repairs — the healthy majority of your tooth stays untouched.",
+        desc: "Early repairs are tiny repairs, the healthy majority of your tooth stays untouched.",
       },
       {
         icon: "Feather",
@@ -157,7 +164,7 @@ const config = {
       {
         icon: "CalendarCheck",
         title: "Built into checkups",
-        desc: "Scanning happens during regular visits — no extra appointments needed.",
+        desc: "Scanning happens during regular visits, no extra appointments needed.",
       },
     ],
     cta: {
@@ -185,7 +192,7 @@ const config = {
       },
       {
         title: "Children's dentistry",
-        desc: "Kids' new molars are prime DIAGNOdent territory — catch grooves decay early, keep baby teeth healthy.",
+        desc: "Kids' new molars are prime DIAGNOdent territory, catch grooves decay early, keep baby teeth healthy.",
       },
     ],
   },
@@ -196,7 +203,7 @@ const config = {
     titleA: "Finding it early is",
     titleB: "the whole strategy.",
     paragraph:
-      "The team at Hawthorne Village Dental Care is genuinely excited to offer the quality of care technology like DIAGNOdent makes possible. Combined with the microscope, digital X-rays and VELscope, it means problems here get found at their smallest — and treated that way.",
+      "The team at Hawthorne Village Dental Care is genuinely excited to offer the quality of care technology like DIAGNOdent makes possible. Combined with the microscope, digital X-rays and VELscope, it means problems here get found at their smallest, and treated that way.",
     items: [
       {
         icon: "Target",
@@ -214,7 +221,7 @@ const config = {
         icon: "Gem",
         name: "Minimally invasive philosophy",
         benefit:
-          "The goal is always to protect and preserve teeth — repairing as little structure as possible.",
+          "The goal is always to protect and preserve teeth, repairing as little structure as possible.",
       },
       {
         icon: "Heart",
@@ -229,7 +236,7 @@ const config = {
   faqs: [
     {
       q: "What is DIAGNOdent?",
-      a: "A revolutionary dental laser that finds cavities in their earliest stages. It's an accurate, reliable tooth decay detection system — even very small cavities are detected at the earliest stage.",
+      a: "A revolutionary dental laser that finds cavities in their earliest stages. It's an accurate, reliable tooth decay detection system, even very small cavities are detected at the earliest stage.",
     },
     {
       q: "Why not just wait for X-rays to show a cavity?",
@@ -237,15 +244,15 @@ const config = {
     },
     {
       q: "Does the scan hurt?",
-      a: "Not at all — the DIAGNOdent simply passes laser light over your teeth and reads the result. There's nothing sharp and nothing to feel.",
+      a: "Not at all, the DIAGNOdent simply passes laser light over your teeth and reads the result. There's nothing sharp and nothing to feel.",
     },
     {
       q: "What happens if it finds something?",
-      a: "Dr. Sarna evaluates the reading — some early spots are monitored and remineralized, others get a small repair. Either way, catching it early lets him protect and preserve the tooth.",
+      a: "Dr. Sarna evaluates the reading, some early spots are monitored and remineralized, others get a small repair. Either way, catching it early lets him protect and preserve the tooth.",
     },
     {
       q: "Is laser detection part of a normal checkup?",
-      a: "Yes. It's one of the technologies we're excited to offer as standard care, alongside your exam and cleaning — no separate appointment or request needed.",
+      a: "Yes. It's one of the technologies we're excited to offer as standard care, alongside your exam and cleaning, no separate appointment or request needed.",
     },
   ],
 };

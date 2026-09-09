@@ -1,4 +1,4 @@
-// Content config for /services/root-canal-therapy.
+// Content config for /services/root-canal-therapy-in-milton.
 // Copy carried over from the previously approved standalone Root Canal Therapy page.
 const config = {
   slug: "root-canal-therapy",
@@ -43,7 +43,7 @@ const config = {
     titleA: "Endodontics from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic voted into 12 consecutive community awards performs root canals under a surgical microscope — precision most patients never knew was an option.",
+      "The Milton clinic voted into 12 consecutive community awards performs root canals under a surgical microscope, precision most patients never knew was an option.",
   },
 
   intro: {
@@ -51,7 +51,7 @@ const config = {
     titleA: "Calm steps,",
     titleB: "usually one visit.",
     paragraph:
-      "A root canal removes the inflamed nerve tissue inside a tooth, disinfects the canals, and seals them so bacteria can't return — saving the natural tooth and stopping the pain. At our clinic it goes like this:",
+      "A root canal removes the inflamed nerve tissue inside a tooth, disinfects the canals, and seals them so bacteria can't return, saving the natural tooth and stopping the pain. At our clinic it goes like this:",
     image: {
       src: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=1200&q=80&auto=format&fit=crop",
       alt: "A CEREC crown that restores a tooth after root canal therapy",
@@ -63,21 +63,24 @@ const config = {
     parts: [
       {
         icon: "Wand2",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "Step 1",
         title: "Get numb, comfortably",
         desc: "The Wand delivers freezing so gradually that most patients never feel the needle. If dental visits make you anxious, oral sedation is available too.",
       },
       {
         icon: "Microscope",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "Step 2",
         title: "Clean out the infection",
         desc: "Working under the Seiler microscope at up to 40 times magnification, Dr. Sarna removes the inflamed nerve tissue and disinfects every canal.",
       },
       {
         icon: "Crown",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         kicker: "Step 3",
         title: "Seal and restore",
-        desc: "Each canal is filled and sealed so bacteria cannot get back in, then a crown — often milled the same day with CEREC — restores full strength.",
+        desc: "Each canal is filled and sealed so bacteria cannot get back in, then a crown, often milled the same day with CEREC, restores full strength.",
       },
     ],
     closingNote:
@@ -95,26 +98,30 @@ const config = {
       },
       headline: "In pain right now? Don't wait it out.",
       caption:
-        "We hold same-day emergency slots every weekday — infection does not resolve on its own, and sooner is genuinely easier.",
+        "We hold same-day emergency slots every weekday, infection does not resolve on its own, and sooner is genuinely easier.",
     },
     cards: [
       {
         icon: "Activity",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "A toothache that won't quit",
         desc: "Pain that throbs on its own, without biting or chewing, often means the nerve inside the tooth is inflamed.",
       },
       {
         icon: "Thermometer",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Hot and cold sensitivity",
         desc: "A sip of coffee or ice water that keeps stinging long after you swallow is a classic warning sign.",
       },
       {
         icon: "CircleDot",
+        image: { src: "https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dentist working carefully with a patient" },
         title: "Pain when you bite down",
         desc: "Pressure that hurts on one specific tooth can point to infection forming at the root.",
       },
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Swollen or tender gums",
         desc: "A small pimple-like bump on the gum near a sore tooth is often an abscess trying to drain.",
       },
@@ -129,13 +136,13 @@ const config = {
       icon: "Microscope",
       value: "40×",
       label: "microscope magnification",
-      note: "Magnification finds tiny canals a naked eye would miss — a big part of why treatment succeeds long term.",
+      note: "Magnification finds tiny canals a naked eye would miss, a big part of why treatment succeeds long term.",
     },
     cards: [
       {
         icon: "Feather",
         title: "Easier than its reputation",
-        desc: "With the tooth fully numb, most patients say the treatment felt like getting a filling — the pain they remember was the infection.",
+        desc: "With the tooth fully numb, most patients say the treatment felt like getting a filling, the pain they remember was the infection.",
       },
       {
         icon: "Smile",
@@ -150,7 +157,7 @@ const config = {
       {
         icon: "ShieldCheck",
         title: "Stops the spread",
-        desc: "Untreated infection spreads into the bone and can form a painful abscess — treatment ends it.",
+        desc: "Untreated infection spreads into the bone and can form a painful abscess, treatment ends it.",
       },
       {
         icon: "Crown",
@@ -171,7 +178,7 @@ const config = {
     cards: [
       {
         title: "Single-visit root canal",
-        desc: "Most treatments finish in one visit of about 90 minutes — molars with extra canals are flagged upfront.",
+        desc: "Most treatments finish in one visit of about 90 minutes, molars with extra canals are flagged upfront.",
       },
       {
         title: "Same-day CEREC crown",
@@ -183,7 +190,7 @@ const config = {
       },
       {
         title: "Same-day emergency slots",
-        desc: "Severe tooth pain rarely waits for a convenient time — we hold appointments every weekday.",
+        desc: "Severe tooth pain rarely waits for a convenient time, we hold appointments every weekday.",
       },
     ],
   },

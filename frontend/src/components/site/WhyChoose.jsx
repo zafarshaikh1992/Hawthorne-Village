@@ -20,11 +20,11 @@ function ExperienceBadge() {
       data-testid="experience-badge"
       className="absolute -top-4 right-6 md:right-10 w-28 h-28 md:w-36 md:h-36 z-20 pointer-events-none"
     >
-      <div className="absolute inset-0 rounded-full bg-[#0284C7] shadow-[0_20px_50px_-15px_rgba(2,132,199,0.6)]" />
+      <div className="absolute inset-0 rounded-full bg-[#4285F4] shadow-[0_20px_50px_-15px_rgba(66,133,244,0.6)]" />
       <div className="absolute inset-[10px] rounded-full border-2 border-dashed border-white/40" />
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/95 flex items-center justify-center">
-          <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-[#0284C7]" />
+          <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-[#4285F4]" />
         </div>
       </div>
       <svg viewBox="0 0 200 200" className="absolute inset-0 w-full h-full [animation:spin_18s_linear_infinite]">
@@ -66,31 +66,31 @@ export default function WhyChoose() {
       id="why"
       ref={ref}
       data-testid="why-section"
-      className="reveal relative py-24 md:py-32 bg-[#EEF4FB] overflow-hidden"
+      className="reveal relative py-14 md:py-20 bg-[#E8F0FE] overflow-hidden"
     >
       {/* Ambient decorations */}
-      <Sparkle className="absolute top-24 right-[10%] w-6 h-6 text-[#0284C7]/25 hidden md:block" />
-      <Sparkle className="absolute bottom-32 left-[45%] w-4 h-4 text-[#0284C7]/30 hidden md:block" />
-      <Sparkle className="absolute bottom-16 left-8 w-5 h-5 text-[#0284C7]/25" />
+      <Sparkle className="absolute top-24 right-[10%] w-6 h-6 text-[#4285F4]/25 hidden md:block" />
+      <Sparkle className="absolute bottom-32 left-[45%] w-4 h-4 text-[#4285F4]/30 hidden md:block" />
+      <Sparkle className="absolute bottom-16 left-8 w-5 h-5 text-[#4285F4]/25" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-8 grid lg:grid-cols-[1fr_1.05fr] gap-12 lg:gap-20 items-center">
         {/* LEFT: photo composition + rotating badge */}
         <div className="relative order-2 lg:order-1 min-h-[420px] md:min-h-[560px]">
-          {/* Big top photo */}
+          {/* Big top photo (sits behind the front card). Premium stock placeholder — same shoot as the front card for a consistent look */}
           <div className="absolute top-0 left-0 w-[70%] aspect-[4/5] rounded-[28px] overflow-hidden shadow-[0_25px_60px_-20px_rgba(10,25,47,0.35)] ring-8 ring-white">
             <img
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80&auto=format&fit=crop"
-              alt="Modern dental clinic interior at Hawthorne Village Dental Care Milton"
+              src={`${process.env.PUBLIC_URL}/images/stock/clinic-lounge.jpg`}
+              alt="A bright, welcoming dental treatment room"
               loading="lazy"
               className="w-full h-full object-cover"
             />
           </div>
 
-          {/* Bottom-right smaller photo */}
+          {/* Bottom-right front photo. Premium stock placeholder — replace with clinic photography (see public/images/stock/PLACEHOLDERS.md) */}
           <div className="absolute bottom-0 right-0 w-[58%] aspect-[4/5] rounded-[24px] overflow-hidden shadow-[0_25px_60px_-20px_rgba(10,25,47,0.35)] ring-8 ring-white">
             <img
-              src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=700&q=80&auto=format&fit=crop"
-              alt="Dental treatment chair in a Milton clinic operatory"
+              src={`${process.env.PUBLIC_URL}/images/stock/clinic-modern.jpg`}
+              alt="A bright, modern dental operatory"
               loading="lazy"
               className="w-full h-full object-cover"
             />
@@ -100,37 +100,37 @@ export default function WhyChoose() {
           <ExperienceBadge />
 
           {/* Little sparkle accents on photo composition */}
-          <Sparkle className="absolute top-1/3 -right-2 w-5 h-5 text-[#0284C7]/60 hidden md:block" />
-          <Sparkle className="absolute bottom-8 left-4 w-6 h-6 text-[#0284C7]/50" />
+          <Sparkle className="absolute top-1/3 -right-2 w-5 h-5 text-[#4285F4]/60 hidden md:block" />
+          <Sparkle className="absolute bottom-8 left-4 w-6 h-6 text-[#4285F4]/50" />
         </div>
 
         {/* RIGHT: copy */}
         <div className="order-1 lg:order-2">
-          <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-4">
+          <div className="text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-medium mb-4">
             Why Milton chooses us
           </div>
 
-          <h2 className="font-display text-3xl md:text-5xl tracking-tight leading-[1.05]">
+          <h2 className="text-[30px] md:text-[42px] font-semibold tracking-tight leading-[1.08]">
             <span className="text-[#0A192F]">One dental clinic in Milton, </span>
-            <span className="text-[#0284C7]">every stage of your smile.</span>
+            <span className="text-[#4285F4]">every stage of your smile.</span>
           </h2>
 
-          <p className="mt-6 text-[16.5px] md:text-[17px] leading-relaxed text-[#475569] max-w-xl">
+          <p className="mt-6 text-[15.5px] md:text-[16.5px] leading-relaxed text-[#475569] max-w-xl">
             Hawthorne Village Dental Care is one of the top-rated dental clinics in Milton, Ontario,
             bringing together{" "}
-            <a href="#services" className="text-[#0284C7] font-medium underline decoration-[#0284C7]/30 underline-offset-4 hover:decoration-[#0284C7]">
+            <a href={`${process.env.PUBLIC_URL}/services/childrens-dentistry-in-milton`} className="text-[#4285F4] font-medium underline decoration-[#4285F4]/30 underline-offset-4 hover:decoration-[#4285F4]">
               children&apos;s dentistry
             </a>
             ,{" "}
-            <a href="#services" className="text-[#0284C7] font-medium underline decoration-[#0284C7]/30 underline-offset-4 hover:decoration-[#0284C7]">
+            <a href={`${process.env.PUBLIC_URL}/services/dental-implants-in-milton`} className="text-[#4285F4] font-medium underline decoration-[#4285F4]/30 underline-offset-4 hover:decoration-[#4285F4]">
               dental implants
             </a>
             ,{" "}
-            <a href="#services" className="text-[#0284C7] font-medium underline decoration-[#0284C7]/30 underline-offset-4 hover:decoration-[#0284C7]">
+            <a href={`${process.env.PUBLIC_URL}/services/cosmetic-dentistry-in-milton`} className="text-[#4285F4] font-medium underline decoration-[#4285F4]/30 underline-offset-4 hover:decoration-[#4285F4]">
               cosmetic dentistry
             </a>{" "}
             and{" "}
-            <a href="#services" className="text-[#0284C7] font-medium underline decoration-[#0284C7]/30 underline-offset-4 hover:decoration-[#0284C7]">
+            <a href={`${process.env.PUBLIC_URL}/contact`} className="text-[#4285F4] font-medium underline decoration-[#4285F4]/30 underline-offset-4 hover:decoration-[#4285F4]">
               emergency care
             </a>
             . Led by Dr. Raju Sarna, ICOI Fellow, our team is built around:
@@ -144,7 +144,7 @@ export default function WhyChoose() {
                 data-testid={`why-feature-${i}`}
                 className="flex items-start gap-3 text-[15px] text-[#0A192F]"
               >
-                <span className="mt-0.5 w-6 h-6 rounded-full bg-[#0284C7] text-white flex items-center justify-center shrink-0">
+                <span className="mt-0.5 w-6 h-6 rounded-full bg-[#0F9D58] text-white flex items-center justify-center shrink-0">
                   <Check className="w-3.5 h-3.5" strokeWidth={3} />
                 </span>
                 <span className="pt-0.5 leading-snug">{f}</span>
@@ -153,13 +153,13 @@ export default function WhyChoose() {
           </ul>
 
           {/* CTA */}
-          <div className="mt-10 flex flex-wrap items-center gap-3">
+          <div className="mt-10 flex flex-wrap items-center justify-center sm:justify-start gap-3">
             <a
               href={clinic.bookUrl}
               target="_blank"
               rel="noopener noreferrer"
               data-testid="why-book-btn"
-              className="inline-flex items-center gap-2 h-12 md:h-13 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-7 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-2 h-12 md:h-13 rounded-full bg-[#1A73E8] hover:bg-[#185ABC] text-white px-7 text-[15px] font-medium shadow-[0_8px_24px_rgba(26,115,232,0.35)] hover:-translate-y-0.5 transition-all"
             >
               Book Appointment
               <span className="w-6 h-6 rounded-full bg-white/15 flex items-center justify-center">

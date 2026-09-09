@@ -1,4 +1,4 @@
-// Content config for /services/botox-tmj-treatment.
+// Content config for /services/botox-tmj-treatment-in-milton.
 const config = {
   slug: "botox-tmj-treatment",
   name: "Botox & TMJ Treatment",
@@ -11,7 +11,7 @@ const config = {
     procedure: {
       alternateName: "Temporomandibular Joint Disorder Treatment with BOTOX®",
       description:
-        "Treatment for TMJ dysfunction — jaw pain, clicking, locking, headaches and migraines — including BOTOX® therapy injected into the muscles to prevent chronic migraine headaches.",
+        "Treatment for TMJ dysfunction, jaw pain, clicking, locking, headaches and migraines, including BOTOX® therapy injected into the muscles to prevent chronic migraine headaches.",
       howPerformed:
         "The bite, jaw joints and muscle system are assessed to find the source of dysfunction. Treatment may include bite correction and BOTOX® injections into the affected muscles, typically in a set of 2–3 treatments spaced at 12-week intervals.",
     },
@@ -22,7 +22,7 @@ const config = {
     titleA: "Jaw pain and headaches,",
     titleB: "finally traced to the source.",
     intro:
-      "Your temporomandibular joint lets you speak, swallow and chew — and when it's not working, the fallout spreads: clicking and popping, migraines, neck and facial pain, a jaw that locks, even ringing in the ears. Dr. Sarna can help relieve the symptoms and restore proper function.",
+      "Your temporomandibular joint lets you speak, swallow and chew, and when it's not working, the fallout spreads: clicking and popping, migraines, neck and facial pain, a jaw that locks, even ringing in the ears. Dr. Sarna can help relieve the symptoms and restore proper function.",
     bookLabel: "Book an Assessment",
     image: {
       src: "https://images.unsplash.com/photo-1746708810803-722593e53772?w=1200&q=80&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "TMJ relief from an",
     titleB: "award-winning team.",
     subtitle:
-      "Milton families have voted for our clinic in 12 consecutive community awards — the same team now helping patients trace headaches, jaw pain and tension back to the joint that causes them.",
+      "Milton families have voted for our clinic in 12 consecutive community awards, the same team now helping patients trace headaches, jaw pain and tension back to the joint that causes them.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "One joint,",
     titleB: "many symptoms.",
     paragraph:
-      "The TM joints are part of a large system of muscles, ligaments and bones working together — so a problem in one area causes symptoms elsewhere. Triggers include facial trauma, whiplash, poor posture, or an uneven bite from missing, misaligned or worn-down teeth. Getting relief works like this:",
+      "The TM joints are part of a large system of muscles, ligaments and bones working together, so a problem in one area causes symptoms elsewhere. Triggers include facial trauma, whiplash, poor posture, or an uneven bite from missing, misaligned or worn-down teeth. Getting relief works like this:",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
       alt: "Modern diagnostic equipment used to assess TMJ dysfunction in Milton",
@@ -62,18 +62,21 @@ const config = {
     parts: [
       {
         icon: "Stethoscope",
+        image: { src: "https://images.unsplash.com/photo-1746708810803-722593e53772?w=800&q=80&auto=format&fit=crop", alt: "A careful therapeutic facial injection" },
         kicker: "Step 1",
         title: "Find the real cause",
-        desc: "Dr. Sarna assesses your bite, joints and muscles — because prolonged TMJ trouble recruits the neck, throat, shoulders and back into the problem.",
+        desc: "Dr. Sarna assesses your bite, joints and muscles, because prolonged TMJ trouble recruits the neck, throat, shoulders and back into the problem.",
       },
       {
         icon: "Wrench",
+        image: { src: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=80&auto=format&fit=crop", alt: "A man holding his jaw in discomfort" },
         kicker: "Step 2",
         title: "Treat the dysfunction",
         desc: "Treatment targets the source: correcting how the teeth support the jaw and calming the overworked muscles around the joint.",
       },
       {
         icon: "Syringe",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         kicker: "Step 3",
         title: "BOTOX® where it helps",
         desc: "Injected into the affected muscles, BOTOX® is a prescription medicine used to prevent headaches in adults with chronic migraines.",
@@ -94,26 +97,30 @@ const config = {
       },
       headline: "When the bite is off, the whole body compensates.",
       caption:
-        "Neck, throat, shoulders and back muscles all get recruited — which is why TMJ trouble so often masquerades as something else.",
+        "Neck, throat, shoulders and back muscles all get recruited, which is why TMJ trouble so often masquerades as something else.",
     },
     cards: [
       {
         icon: "Zap",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Clicking and popping",
         desc: "Sounds when you open or close your mouth are a classic sign the joint isn't tracking properly.",
       },
       {
         icon: "Brain",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Headaches and migraines",
         desc: "Chronic headaches, including migraines, are among the most common symptoms of TMJ dysfunction.",
       },
       {
         icon: "Ear",
+        image: { src: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=800&q=80&auto=format&fit=crop", alt: "A 3D dental scan reviewed on a tablet" },
         title: "Ringing in the ears",
         desc: "Tinnitus, ear pressure and even dizziness can trace back to the jaw joint next door.",
       },
       {
         icon: "Frown",
+        image: { src: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=800&q=80&auto=format&fit=crop", alt: "A confident, healthy smile" },
         title: "Neck and facial pain",
         desc: "Stiffness through the neck and shoulders, facial pain, or a jaw that locks open or closed.",
       },
@@ -134,7 +141,7 @@ const config = {
       {
         icon: "Brain",
         title: "Fewer migraines",
-        desc: "BOTOX® is used to prevent headaches in adults with chronic migraines — relief many patients first discovered by accident.",
+        desc: "BOTOX® is used to prevent headaches in adults with chronic migraines, relief many patients first discovered by accident.",
       },
       {
         icon: "ShieldCheck",
@@ -178,7 +185,7 @@ const config = {
       },
       {
         title: "Bite correction",
-        desc: "Fixing an uneven bite — from missing, misaligned or worn teeth — so the jaw is properly supported.",
+        desc: "Fixing an uneven bite, from missing, misaligned or worn teeth, so the jaw is properly supported.",
       },
       {
         title: "Night guards",
@@ -193,7 +200,7 @@ const config = {
     titleA: "TMJ care that looks",
     titleB: "at the whole system.",
     paragraph:
-      "The TM joints work as part of a complex system of muscles, ligaments and bones — so effective treatment starts with understanding the whole picture. Dr. Sarna combines decades of restorative experience with modern imaging to find the cause, then treats it.",
+      "The TM joints work as part of a complex system of muscles, ligaments and bones, so effective treatment starts with understanding the whole picture. Dr. Sarna combines decades of restorative experience with modern imaging to find the cause, then treats it.",
     items: [
       {
         icon: "Award",
@@ -217,21 +224,21 @@ const config = {
         icon: "Clock",
         name: "Evenings and Saturdays",
         benefit:
-          "Open until 7 PM weekdays and 2 PM Saturdays — easier to schedule a treatment series that fits your life.",
+          "Open until 7 PM weekdays and 2 PM Saturdays, easier to schedule a treatment series that fits your life.",
       },
     ],
   },
 
   cost: {
     paragraph:
-      "TMJ treatment is planned as a series, so you'll know the full picture up front — a written estimate covering assessments and any BOTOX® treatments before we begin. We bill your insurance directly, accept the CDCP, and offer 0% financing over 6 to 24 months.",
+      "TMJ treatment is planned as a series, so you'll know the full picture up front, a written estimate covering assessments and any BOTOX® treatments before we begin. We bill your insurance directly, accept the CDCP, and offer 0% financing over 6 to 24 months.",
   },
 
   faqEyebrow: "Botox and TMJ questions",
   faqs: [
     {
       q: "What is the TMJ, exactly?",
-      a: "The temporomandibular joint connects your jaw to your skull and lets you open and close your mouth, speak, swallow and chew. It works within a large system of muscles, ligaments and bones — which is why a problem in the joint can cause symptoms well beyond it.",
+      a: "The temporomandibular joint connects your jaw to your skull and lets you open and close your mouth, speak, swallow and chew. It works within a large system of muscles, ligaments and bones, which is why a problem in the joint can cause symptoms well beyond it.",
     },
     {
       q: "What are the symptoms of TMJ disorder?",
@@ -239,7 +246,7 @@ const config = {
     },
     {
       q: "What causes TMJ problems?",
-      a: "Common triggers include trauma to the face, whiplash, bad posture, and an uneven bite (malocclusion) where the teeth can't properly support the jaw — often from missing teeth, misaligned teeth, or back teeth that are too short.",
+      a: "Common triggers include trauma to the face, whiplash, bad posture, and an uneven bite (malocclusion) where the teeth can't properly support the jaw, often from missing teeth, misaligned teeth, or back teeth that are too short.",
     },
     {
       q: "How does Botox help with migraines?",
@@ -255,7 +262,7 @@ const config = {
     },
     {
       q: "Could my headaches really be dental?",
-      a: "Quite possibly. If you have chronic headaches, neck and shoulder stiffness, ringing in the ears or dizziness alongside jaw symptoms, the TMJ is a prime suspect — and an assessment is the way to find out.",
+      a: "Quite possibly. If you have chronic headaches, neck and shoulder stiffness, ringing in the ears or dizziness alongside jaw symptoms, the TMJ is a prime suspect, and an assessment is the way to find out.",
     },
   ],
 };

@@ -1,4 +1,4 @@
-// Content config for /services/teeth-in-a-day.
+// Content config for /services/teeth-in-a-day-in-milton.
 const config = {
   slug: "teeth-in-a-day",
   name: "Teeth In a Day",
@@ -13,7 +13,7 @@ const config = {
       description:
         "The All-on-Implants procedure uses four dental implants per jaw to support a fully customized set of replacement teeth, delivered within 24 hours while the patient rests under sedation.",
       howPerformed:
-        "Four dental implants are placed per jaw under oral sedation, and a fully customized prosthesis is secured to the implants — completing a full upper and/or lower restoration in a single day.",
+        "Four dental implants are placed per jaw under oral sedation, and a fully customized prosthesis is secured to the implants, completing a full upper and/or lower restoration in a single day.",
     },
   },
 
@@ -22,7 +22,7 @@ const config = {
     titleA: "Permanent teeth,",
     titleB: "in a single day.",
     intro:
-      "All-on-Implants is the solution for patients who want to be rid of their dentures — and for failing teeth that need a full upper or lower restoration. Four implants per jaw support a fully customized set of replacement teeth, placed while you're comfortably asleep, with your new smile in place in just 24 hours.",
+      "All-on-Implants is the solution for patients who want to be rid of their dentures, and for failing teeth that need a full upper or lower restoration. Four implants per jaw support a fully customized set of replacement teeth, placed while you're comfortably asleep, with your new smile in place in just 24 hours.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=1200&q=80&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Signature dentistry from an",
     titleB: "award-winning team.",
     subtitle:
-      "All-on-Implants is one of our signature services — performed by an ICOI Implantology Fellow at a Milton clinic recognized with 12 consecutive community awards.",
+      "All-on-Implants is one of our signature services, performed by an ICOI Implantology Fellow at a Milton clinic recognized with 12 consecutive community awards.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "The most sophisticated answer",
     titleB: "to tooth loss.",
     paragraph:
-      "All-on-Implants gives the 'toothless' patient what traditional dentures never could: immediate functionality and a substantially increased quality of life. A full prosthesis is held solidly in place by four dental implants — comfort, security and bone preservation in one procedure. Here's how it unfolds:",
+      "All-on-Implants gives the 'toothless' patient what traditional dentures never could: immediate functionality and a substantially increased quality of life. A full prosthesis is held solidly in place by four dental implants, comfort, security and bone preservation in one procedure. Here's how it unfolds:",
     image: {
       src: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=1200&q=80&auto=format&fit=crop",
       alt: "Dental implants that anchor a full-arch Teeth In a Day prosthesis",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "ScanLine",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         kicker: "Stage 1",
         title: "Plan your new smile",
-        desc: "3D imaging maps your jaw so four implant positions per arch can be planned precisely — and bone grafting can almost always be bypassed.",
+        desc: "3D imaging maps your jaw so four implant positions per arch can be planned precisely, and bone grafting can almost always be bypassed.",
       },
       {
         icon: "Moon",
+        image: { src: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=800&q=80&auto=format&fit=crop", alt: "A dental implant model" },
         kicker: "Stage 2",
         title: "Sleep through placement",
         desc: "The entire All-on-Implants treatment is completed while you're comfortably asleep with sedation dentistry, and the procedure is painless.",
       },
       {
         icon: "SmilePlus",
+        image: { src: "https://images.unsplash.com/photo-1445527815219-ecbfec67492e?w=800&q=80&auto=format&fit=crop", alt: "A bright dental operatory with modern equipment" },
         kicker: "Stage 3",
         title: "Leave with teeth",
-        desc: "Your fully customized set of replacement teeth is secured to the implants — you receive your new smile in just 24 hours.",
+        desc: "Your fully customized set of replacement teeth is secured to the implants, you receive your new smile in just 24 hours.",
       },
     ],
     closingNote:
-      "Because the prosthesis is fixed in place, you skip the day-to-day frustrations of dentures entirely — and regain the dietary freedom of natural teeth.",
+      "Because the prosthesis is fixed in place, you skip the day-to-day frustrations of dentures entirely, and regain the dietary freedom of natural teeth.",
   },
 
   context: {
@@ -94,28 +97,32 @@ const config = {
       },
       headline: "Immediate function that dentures have never been able to deliver.",
       caption:
-        "Dr. Sarna offers implant-based dentistry that turns a failing or toothless smile into a fixed, functional one — in a day.",
+        "Dr. Sarna offers implant-based dentistry that turns a failing or toothless smile into a fixed, functional one, in a day.",
     },
     cards: [
       {
         icon: "Frown",
+        image: { src: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=800&q=80&auto=format&fit=crop", alt: "A dentist finishing a custom restoration" },
         title: "Denture wearers, done waiting",
-        desc: "Slipping, sore spots, adhesives and restrictions — All-on-Implants ends the daily frustrations of removable dentures.",
+        desc: "Slipping, sore spots, adhesives and restrictions, All-on-Implants ends the daily frustrations of removable dentures.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=800&q=80&auto=format&fit=crop", alt: "A 3D dental scan reviewed on a tablet" },
         title: "Failing teeth",
         desc: "When a full upper or lower arch is beyond saving, one procedure replaces it with a fixed, customized set of teeth.",
       },
       {
         icon: "Bone",
+        image: { src: "https://images.unsplash.com/photo-1639772823849-6efbd173043c?w=800&q=80&auto=format&fit=crop", alt: "Blood vials prepared for plasma rich fibrin treatment" },
         title: "Bone loss patients",
         desc: "All-on-Implants almost always bypasses the bone grafting that traditional treatment requires after substantial bone loss.",
       },
       {
         icon: "Utensils",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Anyone missing real meals",
-        desc: "A fixed prosthesis restores the dietary freedom of natural teeth — bite into what you've been avoiding.",
+        desc: "A fixed prosthesis restores the dietary freedom of natural teeth, bite into what you've been avoiding.",
       },
     ],
   },
@@ -134,7 +141,7 @@ const config = {
       {
         icon: "Anchor",
         title: "Fixed, not removable",
-        desc: "The prosthesis is held solidly in place by four implants — the comfort and security dentures can't offer.",
+        desc: "The prosthesis is held solidly in place by four implants, the comfort and security dentures can't offer.",
       },
       {
         icon: "Bone",
@@ -154,7 +161,7 @@ const config = {
       {
         icon: "Utensils",
         title: "Eat like yourself again",
-        desc: "Immediate functionality means dietary freedom — and a substantially increased quality of life.",
+        desc: "Immediate functionality means dietary freedom, and a substantially increased quality of life.",
       },
     ],
     cta: {
@@ -170,7 +177,7 @@ const config = {
     cards: [
       {
         title: "All-on-Implants",
-        desc: "Four implants per jaw supporting a fixed, fully customized arch of replacement teeth — in one day.",
+        desc: "Four implants per jaw supporting a fixed, fully customized arch of replacement teeth, in one day.",
       },
       {
         title: "Single dental implants",
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Sedation dentistry",
-        desc: "Oral sedation keeps you comfortably asleep through the procedure — it's part of how Teeth In a Day works.",
+        desc: "Oral sedation keeps you comfortably asleep through the procedure, it's part of how Teeth In a Day works.",
       },
     ],
   },
@@ -211,7 +218,7 @@ const config = {
         icon: "Moon",
         name: "Sedation dentistry in-house",
         benefit:
-          "The procedure is completed while you're comfortably asleep — DOCS-certified oral sedation, no hospital visit.",
+          "The procedure is completed while you're comfortably asleep, DOCS-certified oral sedation, no hospital visit.",
       },
       {
         icon: "HeartPulse",
@@ -235,7 +242,7 @@ const config = {
     },
     {
       q: "Am I a candidate if I wear dentures?",
-      a: "Denture wearers are exactly who All-on-Implants was designed for. It replaces the removable denture with a prosthesis held solidly in place by implants — ending slipping, sore spots and adhesives while preserving your jawbone.",
+      a: "Denture wearers are exactly who All-on-Implants was designed for. It replaces the removable denture with a prosthesis held solidly in place by implants, ending slipping, sore spots and adhesives while preserving your jawbone.",
     },
     {
       q: "What if I've lost a lot of jawbone?",
@@ -243,7 +250,7 @@ const config = {
     },
     {
       q: "Is the procedure painful?",
-      a: "No — the procedure is painless. It's completed while you rest comfortably under oral sedation, and Dr. Sarna is DOCS-certified in conscious sedation.",
+      a: "No, the procedure is painless. It's completed while you rest comfortably under oral sedation, and Dr. Sarna is DOCS-certified in conscious sedation.",
     },
     {
       q: "Will I really walk out with teeth the same day?",

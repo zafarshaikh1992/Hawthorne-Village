@@ -1,4 +1,4 @@
-// Content config for /services/oral-sedation.
+// Content config for /services/oral-sedation-in-milton.
 const config = {
   slug: "oral-sedation",
   name: "Oral Sedation",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Nervous about the dentist?",
     titleB: "Relax. Really.",
     intro:
-      "If fear has kept you away from dental care, oral sedation changes the equation. One small pill taken before your visit lets you relax through treatment — safe, effective, and without judgment — so you finally get the dentistry you need or have always wanted.",
+      "If fear has kept you away from dental care, oral sedation changes the equation. One small pill taken before your visit lets you relax through treatment, safe, effective, and without judgment, so you finally get the dentistry you need or have always wanted.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?w=1200&q=80&auto=format&fit=crop",
@@ -50,7 +50,7 @@ const config = {
     titleA: "A calmer visit,",
     titleB: "in three easy steps.",
     paragraph:
-      "Oral sedation is conscious sedation: you stay awake and responsive, but deeply relaxed. It is safe, effective, and simple — no needles to get started, no hospital, just a small pill and a team that takes your comfort seriously.",
+      "Oral sedation is conscious sedation: you stay awake and responsive, but deeply relaxed. It is safe, effective, and simple, no needles to get started, no hospital, just a small pill and a team that takes your comfort seriously.",
     image: {
       src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80&auto=format&fit=crop",
       alt: "Comfort-first sedation dentistry in a calm operatory at Hawthorne Village Dental Care",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Clock",
+        image: { src: "https://images.unsplash.com/photo-1520206183501-b80df61043c2?w=800&q=80&auto=format&fit=crop", alt: "A woman sleeping peacefully" },
         kicker: "Step 1",
         title: "Take a small pill",
         desc: "You take the sedative about an hour before your appointment, with a friend or family member driving you in.",
       },
       {
         icon: "Feather",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "Step 2",
         title: "Relax while we work",
         desc: "The stress of past appointments melts away. Many patients drift off while Dr. Sarna completes the treatment they've been putting off.",
       },
       {
         icon: "SmilePlus",
+        image: { src: "https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dentist working carefully with a patient" },
         kicker: "Step 3",
         title: "Wake up done",
         desc: "Several treatments can be completed in just one appointment, so you leave feeling better than when you arrived.",
       },
     ],
     closingNote:
-      "You'll need a ride to and from your visit — the only planning oral sedation asks of you.",
+      "You'll need a ride to and from your visit, the only planning oral sedation asks of you.",
   },
 
   context: {
@@ -99,21 +102,25 @@ const config = {
     cards: [
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Small problems grow",
         desc: "A cavity that would take one easy visit becomes a root canal or extraction when fear keeps it waiting.",
       },
       {
         icon: "Frown",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Pain gets normalized",
-        desc: "Living with sensitivity and aches starts to feel normal. It isn't — and it's fixable in comfort.",
+        desc: "Living with sensitivity and aches starts to feel normal. It isn't, and it's fixable in comfort.",
       },
       {
         icon: "CalendarCheck",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "Checkups get skipped",
         desc: "Missed cleanings let gum disease and decay progress quietly until they're harder to treat.",
       },
       {
         icon: "Brain",
+        image: { src: "https://images.unsplash.com/photo-1629909615957-be38d48fbbe6?w=800&q=80&auto=format&fit=crop", alt: "A calm, welcoming dental treatment room" },
         title: "The anxiety compounds",
         desc: "Every postponed visit makes the next one feel bigger. One calm, sedated appointment breaks the cycle.",
       },
@@ -159,7 +166,7 @@ const config = {
     ],
     cta: {
       title: "Wondering if sedation is right for you?",
-      sub: "Arrange a consultation with Dr. Sarna and talk through your options — no pressure.",
+      sub: "Arrange a consultation with Dr. Sarna and talk through your options, no pressure.",
     },
   },
 
@@ -174,7 +181,7 @@ const config = {
       },
       {
         title: "Nitrous oxide",
-        desc: "Light, fast-acting relaxation that wears off quickly — a gentle option for milder nerves.",
+        desc: "Light, fast-acting relaxation that wears off quickly, a gentle option for milder nerves.",
       },
       {
         title: "The Wand anaesthesia",
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Comfort extras",
-        desc: "Calming playlists and a patient, unhurried team — small things that make a real difference.",
+        desc: "Calming playlists and a patient, unhurried team, small things that make a real difference.",
       },
     ],
   },
@@ -224,7 +231,7 @@ const config = {
 
   cost: {
     paragraph:
-      "Sedation is quoted alongside your treatment plan, so there are no surprises — you get a written estimate covering everything before we begin. We bill your insurance directly, accept the CDCP, and 0% financing can spread the cost of larger treatment plans.",
+      "Sedation is quoted alongside your treatment plan, so there are no surprises, you get a written estimate covering everything before we begin. We bill your insurance directly, accept the CDCP, and 0% financing can spread the cost of larger treatment plans.",
   },
 
   faqEyebrow: "Oral sedation questions",
@@ -239,7 +246,7 @@ const config = {
     },
     {
       q: "Will I be asleep during treatment?",
-      a: "Not fully — oral sedation is conscious sedation, so you remain responsive. Most patients feel so relaxed that they drift off and remember very little of the appointment afterwards.",
+      a: "Not fully, oral sedation is conscious sedation, so you remain responsive. Most patients feel so relaxed that they drift off and remember very little of the appointment afterwards.",
     },
     {
       q: "Do I need someone to drive me?",
@@ -247,7 +254,7 @@ const config = {
     },
     {
       q: "Can I get all my dental work done at once?",
-      a: "Often, yes. Because you stay comfortable for longer, several treatments can be completed in just one appointment — which is exactly why many patients who've been putting off care choose sedation.",
+      a: "Often, yes. Because you stay comfortable for longer, several treatments can be completed in just one appointment, which is exactly why many patients who've been putting off care choose sedation.",
     },
     {
       q: "Who is oral sedation for?",

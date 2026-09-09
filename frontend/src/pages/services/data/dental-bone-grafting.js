@@ -1,4 +1,4 @@
-// Content config for /services/dental-bone-grafting — follows the dental-implants master template.
+// Content config for /services/dental-bone-grafting-in-milton, follows the dental-implants master template.
 const config = {
   slug: "dental-bone-grafting",
   name: "Dental Bone Grafting",
@@ -13,7 +13,7 @@ const config = {
       description:
         "Dental bone grafting is the addition of bone, or bone-like material, to increase the volume of bone in the jaw so dental implants have a solid foundation, planned by an ICOI Fellow on 3D CBCT imaging.",
       howPerformed:
-        "3D CBCT evaluation of the jawbone, placement of bone or bone-like grafting material where volume is missing — at the same time as the implant when possible, or as a separate stage that heals first — with Plasma Rich Fibrin used to support healing when indicated.",
+        "3D CBCT evaluation of the jawbone, placement of bone or bone-like grafting material where volume is missing, at the same time as the implant when possible, or as a separate stage that heals first, with Plasma Rich Fibrin used to support healing when indicated.",
     },
   },
 
@@ -22,7 +22,7 @@ const config = {
     titleA: "Lost bone,",
     titleB: "rebuilt for implants.",
     intro:
-      "A dental implant is only as strong as the bone that holds it. Bone grafting adds bone, or bone-like material, to increase the volume of bone in your jaw — so even if bone has been lost, implants can still have a solid foundation to hold onto.",
+      "A dental implant is only as strong as the bone that holds it. Bone grafting adds bone, or bone-like material, to increase the volume of bone in your jaw, so even if bone has been lost, implants can still have a solid foundation to hold onto.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=75&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Bone grafting from an",
     titleB: "award-winning team.",
     subtitle:
-      "The same surgical judgement that earned Dr. Sarna his ICOI Fellowship — and our Milton clinic 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated — goes into every graft we place.",
+      "The same surgical judgement that earned Dr. Sarna his ICOI Fellowship, and our Milton clinic 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated, goes into every graft we place.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "More bone,",
     titleB: "exactly where you need it.",
     paragraph:
-      "Bone grafting is the addition of bone, or bone-like material, in an effort to increase the volume of bone in the jaw. Dr. Sarna evaluates your jawbone carefully before any implant is placed — and when there isn't enough, grafting rebuilds it in stages:",
+      "Bone grafting is the addition of bone, or bone-like material, in an effort to increase the volume of bone in the jaw. Dr. Sarna evaluates your jawbone carefully before any implant is placed, and when there isn't enough, grafting rebuilds it in stages:",
     image: {
       src: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=800&q=75&auto=format&fit=crop",
       alt: "Dental jaw model showing where grafted bone supports replacement teeth",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Layers",
+        image: { src: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=800&q=80&auto=format&fit=crop", alt: "A 3D dental scan reviewed on a tablet" },
         kicker: "Stage 1",
         title: "The graft",
-        desc: "Bone, or bone-like material, is placed where your jaw needs more volume — sometimes at the very same visit as your implant.",
+        desc: "Bone, or bone-like material, is placed where your jaw needs more volume, sometimes at the very same visit as your implant.",
       },
       {
         icon: "Hourglass",
+        image: { src: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=800&q=80&auto=format&fit=crop", alt: "A dental implant model" },
         kicker: "Stage 2",
         title: "The healing",
         desc: "The graft typically heals and becomes part of your jaw before the implant is placed. How long that takes depends on the type of graft used.",
       },
       {
         icon: "Anchor",
+        image: { src: "https://images.pexels.com/photos/4269365/pexels-photo-4269365.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dental model and planning instruments" },
         kicker: "Stage 3",
         title: "The implant",
         desc: "With solid bone rebuilt, your implant is placed with the full support it needs to anchor a crown for the long term.",
       },
     ],
     closingNote:
-      "When the clinical situation allows, the graft is placed at the same time as the implant to save treatment time. When it can't be, the graft heals first — and following that timeline is what protects your result.",
+      "When the clinical situation allows, the graft is placed at the same time as the implant to save treatment time. When it can't be, the graft heals first, and following that timeline is what protects your result.",
   },
 
   context: {
@@ -99,23 +102,27 @@ const config = {
     cards: [
       {
         icon: "Ruler",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         title: "Implants need room",
-        desc: "At least 1 millimetre of bone is required around a dental implant — and 2 to 3 millimetres when it sits next to a tooth or another implant.",
+        desc: "At least 1 millimetre of bone is required around a dental implant, and 2 to 3 millimetres when it sits next to a tooth or another implant.",
       },
       {
         icon: "Hourglass",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "Bone shrinks after tooth loss",
-        desc: "Without a tooth root to stimulate it, the jawbone gradually resorbs — which is why bone is often missing exactly where an implant needs to go.",
+        desc: "Without a tooth root to stimulate it, the jawbone gradually resorbs, which is why bone is often missing exactly where an implant needs to go.",
       },
       {
         icon: "Waves",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         title: "The upper jaw has sinuses",
         desc: "Near the sinuses, vertical bone can be limited. A sinus lift adds the bone volume an upper-jaw implant needs.",
       },
       {
         icon: "Gauge",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Full depth is required",
-        desc: "An implant must be completely submerged in bone along its full vertical length — partial support isn't enough.",
+        desc: "An implant must be completely submerged in bone along its full vertical length, partial support isn't enough.",
       },
     ],
   },
@@ -128,7 +135,7 @@ const config = {
       icon: "Bone",
       value: "1 mm",
       label: "minimum bone around every implant",
-      note: "Grafting restores the volume implants depend on — and when possible, it's placed at the same visit as the implant itself.",
+      note: "Grafting restores the volume implants depend on, and when possible, it's placed at the same visit as the implant itself.",
     },
     cards: [
       {
@@ -159,7 +166,7 @@ const config = {
     ],
     cta: {
       title: "Told you don't have enough bone for implants?",
-      sub: "Book a consultation with Dr. Sarna and find out exactly what your jaw needs — and how grafting can get you there.",
+      sub: "Book a consultation with Dr. Sarna and find out exactly what your jaw needs, and how grafting can get you there.",
     },
   },
 
@@ -170,7 +177,7 @@ const config = {
     cards: [
       {
         title: "Graft with implant placement",
-        desc: "When conditions allow, the bone graft and the implant are placed at the same time — one procedure, less overall treatment time.",
+        desc: "When conditions allow, the bone graft and the implant are placed at the same time, one procedure, less overall treatment time.",
       },
       {
         title: "Staged bone grafting",
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Dental implants",
-        desc: "The whole point of the foundation — permanent replacement teeth that look, feel and function like your own.",
+        desc: "The whole point of the foundation, permanent replacement teeth that look, feel and function like your own.",
       },
     ],
   },
@@ -211,7 +218,7 @@ const config = {
         icon: "Droplets",
         name: "Plasma Rich Fibrin technique",
         benefit:
-          "Your own platelets are used to enhance bone and soft tissue regeneration at the graft site — a technique few Milton clinics offer.",
+          "Your own platelets are used to enhance bone and soft tissue regeneration at the graft site, a technique few Milton clinics offer.",
       },
       {
         icon: "Wand2",
@@ -235,7 +242,7 @@ const config = {
     },
     {
       q: "Why would I need a bone graft before a dental implant?",
-      a: "At least 1 millimetre of bone is required around a dental implant, and more — 2 to 3 millimetres — when the implant sits next to a natural tooth or another implant. The implant must also be completely submerged in bone vertically. If your jaw doesn't have that volume, grafting rebuilds it.",
+      a: "At least 1 millimetre of bone is required around a dental implant, and more, 2 to 3 millimetres, when the implant sits next to a natural tooth or another implant. The implant must also be completely submerged in bone vertically. If your jaw doesn't have that volume, grafting rebuilds it.",
     },
     {
       q: "Can the graft be placed at the same time as the implant?",
@@ -243,7 +250,7 @@ const config = {
     },
     {
       q: "How long does a bone graft take to heal?",
-      a: "It depends on the type of graft used — different materials and techniques heal on different timelines. After your 3D CBCT evaluation, Dr. Sarna will tell you exactly what to expect for your specific case.",
+      a: "It depends on the type of graft used, different materials and techniques heal on different timelines. After your 3D CBCT evaluation, Dr. Sarna will tell you exactly what to expect for your specific case.",
     },
     {
       q: "What is a sinus lift?",

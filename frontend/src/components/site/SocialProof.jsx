@@ -10,7 +10,7 @@ const reviewUrl =
 const CLAMP_LENGTH = 140;
 
 const avatarTones = [
-  "bg-[#6366F1]", "bg-[#0D9488]", "bg-[#D97706]", "bg-[#0284C7]", "bg-[#DB2777]", "bg-[#16A34A]",
+  "bg-[#6366F1]", "bg-[#0D9488]", "bg-[#D97706]", "bg-[#4285F4]", "bg-[#DB2777]", "bg-[#16A34A]",
 ];
 
 function GoogleG({ className }) {
@@ -41,7 +41,7 @@ function Stars({ count = 5, className = "w-4 h-4" }) {
   return (
     <div className="flex gap-0.5">
       {Array.from({ length: count }).map((_, i) => (
-        <Star key={i} className={`${className} fill-[#F59E0B] text-[#F59E0B]`} />
+        <Star key={i} className={`${className} fill-[#F4B400] text-[#F4B400]`} />
       ))}
     </div>
   );
@@ -82,7 +82,7 @@ function ReviewCard({ t, tone }) {
         <button
           type="button"
           onClick={() => setExpanded((v) => !v)}
-          className="mt-1.5 self-start text-[14px] text-[#0284C7] hover:text-[#0369A1] font-medium transition-colors"
+          className="mt-1.5 self-start text-[14px] text-[#4285F4] hover:text-[#1967D2] font-medium transition-colors"
         >
           {expanded ? "Read less" : "Read more"}
         </button>
@@ -124,9 +124,12 @@ export default function SocialProof() {
   };
 
   return (
-    <section id="reviews" data-testid="social-proof" ref={ref} className="reveal py-20 md:py-28 bg-[#F8FAFC]">
+    <section id="reviews" data-testid="social-proof" ref={ref} className="reveal py-14 md:py-20 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
-        <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05] text-center">
+        <div className="text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-semibold mb-3 text-center">
+          Patient reviews
+        </div>
+        <h2 className="text-[30px] md:text-[42px] font-semibold text-[#0A192F] tracking-tight leading-[1.08] text-center">
           What our patients <span className="font-light text-[#64748B]">say.</span>
         </h2>
 
@@ -152,7 +155,7 @@ export default function SocialProof() {
             target="_blank"
             rel="noopener noreferrer"
             data-testid="review-us-btn"
-            className="self-start md:self-auto inline-flex items-center rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-6 py-3 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:-translate-y-0.5 transition-all"
+            className="self-center md:self-auto inline-flex items-center rounded-full bg-[#1A73E8] hover:bg-[#185ABC] text-white px-6 py-3 text-[15px] font-medium shadow-[0_8px_24px_rgba(26,115,232,0.35)] hover:-translate-y-0.5 transition-all"
           >
             Review us on Google
           </a>

@@ -54,13 +54,13 @@ export default function BookingDialog({ open, onOpenChange }) {
       <DialogContent data-testid="booking-dialog" className="sm:max-w-[520px] rounded-3xl p-0 overflow-hidden border-slate-200">
         {done ? (
           <div className="p-8 md:p-10 text-center">
-            <div className="w-14 h-14 rounded-full bg-[#E6F8F3] text-[#10B981] flex items-center justify-center mx-auto">
+            <div className="w-14 h-14 rounded-full bg-[#E8F0FE] text-[#0F9D58] flex items-center justify-center mx-auto">
               <CheckCircle2 className="w-7 h-7" />
             </div>
             <h3 className="mt-5 font-display text-2xl text-[#0A192F]">You&apos;re in — we&apos;ll be in touch.</h3>
             <p className="mt-3 text-[#64748B] text-[15px] leading-relaxed">
               A team member from Hawthorne Village Dental Care will call you within one business hour to
-              confirm your appointment time. If urgent, please call <a href="tel:+19058643368" className="text-[#2563EB] underline">(905) 864-3368</a>.
+              confirm your appointment time. If urgent, please call <a href="tel:+19058643368" className="text-[#1A73E8] underline">(905) 864-3368</a>.
             </p>
             <Button
               data-testid="booking-close-btn"
@@ -132,7 +132,7 @@ export default function BookingDialog({ open, onOpenChange }) {
                 type="submit"
                 data-testid="booking-submit"
                 disabled={submitting}
-                className="w-full h-12 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)]"
+                className="w-full h-12 rounded-full bg-[#1A73E8] hover:bg-[#185ABC] text-white font-medium shadow-[0_8px_24px_rgba(26,115,232,0.35)]"
               >
                 {submitting ? "Sending…" : "Request appointment"}
               </Button>

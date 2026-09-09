@@ -1,4 +1,4 @@
-// Content config for /services/sleep-apnea.
+// Content config for /services/sleep-apnea-in-milton.
 const config = {
   slug: "sleep-apnea",
   name: "Sleep Apnea",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Quiet nights,",
     titleB: "restful mornings.",
     intro:
-      "Snoring is a sign that something is wrong with your breathing during sleep — and it can progress to obstructive sleep apnea, which raises the risk of stroke, heart attack and hypertension. A custom-fitted oral appliance holds your jaw in position so your airway stays open, all night.",
+      "Snoring is a sign that something is wrong with your breathing during sleep, and it can progress to obstructive sleep apnea, which raises the risk of stroke, heart attack and hypertension. A custom-fitted oral appliance holds your jaw in position so your airway stays open, all night.",
     bookLabel: "Book an Assessment",
     image: {
       src: "https://images.unsplash.com/photo-1759540638947-82b58f341f52?w=1200&q=80&auto=format&fit=crop",
@@ -50,7 +50,7 @@ const config = {
     titleA: "A small device",
     titleB: "with a big job.",
     paragraph:
-      "Snoring happens when throat muscles relax during sleep and the airway partially collapses — the structures vibrate as air rushes past. A snoring appliance is worn in the mouth at night and gently repositions your jaw to optimize your airway while you sleep. Getting there is simple:",
+      "Snoring happens when throat muscles relax during sleep and the airway partially collapses, the structures vibrate as air rushes past. A snoring appliance is worn in the mouth at night and gently repositions your jaw to optimize your airway while you sleep. Getting there is simple:",
     image: {
       src: "https://images.unsplash.com/photo-1770009534034-85be3c774f60?w=1200&q=80&auto=format&fit=crop",
       alt: "A custom-fitted oral appliance similar to those used for snoring and sleep apnea",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Stethoscope",
+        image: { src: "https://images.unsplash.com/photo-1520206183501-b80df61043c2?w=800&q=80&auto=format&fit=crop", alt: "A woman sleeping peacefully" },
         kicker: "Step 1",
         title: "Assess your airway",
         desc: "Dr. Sarna evaluates your snoring, jaw position and airway to confirm an oral appliance is the right fit for your situation.",
       },
       {
         icon: "Ruler",
+        image: { src: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=800&q=80&auto=format&fit=crop", alt: "A dental appliance model" },
         kicker: "Step 2",
         title: "Custom-fit your appliance",
         desc: "Your appliance is made to fit your mouth precisely, holding the jaw in the proper position so the airway can't collapse.",
       },
       {
         icon: "Moon",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         kicker: "Step 3",
-        title: "Sleep — actually sleep",
+        title: "Sleep, actually sleep",
         desc: "Worn nightly, the appliance keeps breathing smooth and quiet, restoring the restful sleep your health depends on.",
       },
     ],
     closingNote:
-      "Snoring appliances are effective 90% of the time and are much less intrusive than the alternatives — surgery and the CPAP system.",
+      "Snoring appliances are effective 90% of the time and are much less intrusive than the alternatives, surgery and the CPAP system.",
   },
 
   context: {
@@ -99,21 +102,25 @@ const config = {
     cards: [
       {
         icon: "Heart",
+        image: { src: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=800&q=80&auto=format&fit=crop", alt: "A 3D dental scan reviewed on a tablet" },
         title: "Heart and stroke risk",
         desc: "Snoring and sleep apnea increase the risk of stroke, heart attack and hypertension.",
       },
       {
         icon: "Gauge",
+        image: { src: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=80&auto=format&fit=crop", alt: "A man holding his jaw in discomfort" },
         title: "Daytime fatigue",
         desc: "Disrupted sleep leads to sleepiness that erodes your ability to function at home and at work.",
       },
       {
         icon: "Ear",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Second-hand snoring",
-        desc: "Your snoring disrupts your partner's sleep too — everyone in the bedroom loses rest.",
+        desc: "Your snoring disrupts your partner's sleep too, everyone in the bedroom loses rest.",
       },
       {
         icon: "Baby",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Children snore too",
         desc: "Airway problems affect kids as well, and early assessment can prevent long-term damage.",
       },
@@ -128,7 +135,7 @@ const config = {
       icon: "Moon",
       value: "90%",
       label: "of the time, appliances work",
-      note: "Snoring appliances are effective 90% of the time — without surgery and without a CPAP machine.",
+      note: "Snoring appliances are effective 90% of the time, without surgery and without a CPAP machine.",
     },
     cards: [
       {
@@ -139,7 +146,7 @@ const config = {
       {
         icon: "Feather",
         title: "No surgery involved",
-        desc: "The appliance simply repositions your jaw — far less intrusive than surgical alternatives.",
+        desc: "The appliance simply repositions your jaw, far less intrusive than surgical alternatives.",
       },
       {
         icon: "Ruler",
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Children's airway checks",
-        desc: "Kids can suffer from airway obstruction too — early evaluation helps prevent lasting problems.",
+        desc: "Kids can suffer from airway obstruction too, early evaluation helps prevent lasting problems.",
       },
     ],
   },
@@ -193,13 +200,13 @@ const config = {
     titleA: "Sleep medicine,",
     titleB: "from your dentist.",
     paragraph:
-      "Dentists are often the first to spot airway trouble — and the right custom appliance can change your nights entirely. Dr. Sarna has treated Milton families for over 25 years and fits every appliance personally, with the clinic's full diagnostic toolkit behind him.",
+      "Dentists are often the first to spot airway trouble, and the right custom appliance can change your nights entirely. Dr. Sarna has treated Milton families for over 25 years and fits every appliance personally, with the clinic's full diagnostic toolkit behind him.",
     items: [
       {
         icon: "Award",
         name: "25+ years of experience",
         benefit:
-          "Dr. Sarna has been helping Milton patients — adults and children — breathe and sleep better for decades.",
+          "Dr. Sarna has been helping Milton patients, adults and children, breathe and sleep better for decades.",
       },
       {
         icon: "Ruler",
@@ -231,7 +238,7 @@ const config = {
   faqs: [
     {
       q: "What actually causes snoring?",
-      a: "When you fall asleep, your throat muscles relax. If the airway partially collapses or throat structures are enlarged, air rushing past makes them vibrate — that's the snoring sound. It means your breathing is obstructed, not just noisy.",
+      a: "When you fall asleep, your throat muscles relax. If the airway partially collapses or throat structures are enlarged, air rushing past makes them vibrate, that's the snoring sound. It means your breathing is obstructed, not just noisy.",
     },
     {
       q: "Is snoring dangerous?",
@@ -239,19 +246,19 @@ const config = {
     },
     {
       q: "How does a snoring appliance work?",
-      a: "It's a custom-fitted device worn in the mouth at night that gently repositions your jaw to keep your airway from collapsing. Air keeps flowing smoothly, so the vibration — and the snoring — stops.",
+      a: "It's a custom-fitted device worn in the mouth at night that gently repositions your jaw to keep your airway from collapsing. Air keeps flowing smoothly, so the vibration, and the snoring, stops.",
     },
     {
       q: "Do oral appliances really work?",
-      a: "Snoring appliances are effective 90% of the time, and they're much less intrusive than the alternatives — surgery or the CPAP system.",
+      a: "Snoring appliances are effective 90% of the time, and they're much less intrusive than the alternatives, surgery or the CPAP system.",
     },
     {
       q: "How is this different from CPAP?",
-      a: "CPAP pushes pressurized air through a mask you wear all night. An oral appliance is a small custom mouthpiece with no mask, hose or machine — a comfortable alternative for mild to moderate cases and for patients who can't tolerate CPAP.",
+      a: "CPAP pushes pressurized air through a mask you wear all night. An oral appliance is a small custom mouthpiece with no mask, hose or machine, a comfortable alternative for mild to moderate cases and for patients who can't tolerate CPAP.",
     },
     {
       q: "My child snores. Should I be concerned?",
-      a: "Children can suffer from airway obstruction too. If your child snores regularly, it's worth an evaluation — Dr. Sarna may be able to help before it leads to lasting problems with sleep, growth or focus.",
+      a: "Children can suffer from airway obstruction too. If your child snores regularly, it's worth an evaluation, Dr. Sarna may be able to help before it leads to lasting problems with sleep, growth or focus.",
     },
     {
       q: "Is a sleep appliance covered by insurance?",

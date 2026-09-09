@@ -6,14 +6,14 @@ import { useReveal } from "@/hooks/useReveal";
 export default function FinalCTA() {
   const ref = useReveal();
   return (
-    <section id="contact" ref={ref} className="reveal py-24 md:py-32 bg-[#0A192F] text-white relative overflow-hidden">
+    <section id="contact" ref={ref} className="reveal py-14 md:py-20 bg-[#0A192F] text-white relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-40 -left-32 w-[560px] h-[560px] rounded-full bg-[#0284C7]/15 blur-3xl" />
-        <div className="absolute -bottom-40 -right-32 w-[560px] h-[560px] rounded-full bg-[#E6F8F3]/10 blur-3xl" />
+        <div className="absolute -top-40 -left-32 w-[560px] h-[560px] rounded-full bg-[#4285F4]/15 blur-3xl" />
+        <div className="absolute -bottom-40 -right-32 w-[560px] h-[560px] rounded-full bg-[#E8F0FE]/10 blur-3xl" />
       </div>
 
       <div className="relative max-w-4xl mx-auto px-6 md:px-8 text-center">
-        <div className="text-[13px] uppercase tracking-[0.14em] text-[#7DD3FC] font-medium mb-4">
+        <div className="text-[13px] uppercase tracking-[0.14em] text-[#8AB4F8] font-medium mb-4">
           Ready when you are
         </div>
         <h2 className="font-display text-4xl md:text-6xl tracking-tight leading-[1.03]">
@@ -29,7 +29,7 @@ export default function FinalCTA() {
           <Button
             data-testid="final-book-btn"
             asChild
-            className="h-14 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] px-8 text-[15px] font-medium shadow-[0_10px_40px_rgba(37,99,235,0.45)] hover:-translate-y-0.5 transition-all"
+            className="h-14 rounded-full bg-[#1A73E8] hover:bg-[#185ABC] px-8 text-[15px] font-medium shadow-[0_10px_40px_rgba(26,115,232,0.45)] hover:-translate-y-0.5 transition-all"
           >
             <a href={clinic.bookUrl} target="_blank" rel="noopener noreferrer">
               <Calendar className="w-4 h-4 mr-2" /> Book Appointment

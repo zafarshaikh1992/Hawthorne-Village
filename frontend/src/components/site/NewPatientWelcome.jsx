@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Check, ArrowRight, Sparkles, Play } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Check, ArrowUpRight, Sparkles, Play, Phone } from "lucide-react";
 import { clinic } from "@/lib/site-data";
 import { useReveal } from "@/hooks/useReveal";
 
@@ -19,7 +18,7 @@ function WelcomeVideo() {
   const [playing, setPlaying] = useState(false);
 
   return (
-    <div className="relative rounded-2xl overflow-hidden aspect-video bg-black/40 border border-white/10">
+    <div className="relative rounded-[24px] overflow-hidden aspect-video bg-[#0A192F]/20">
       {playing ? (
         <iframe
           className="absolute inset-0 w-full h-full"
@@ -36,9 +35,10 @@ function WelcomeVideo() {
           aria-label="Play video: a tour of Hawthorne Village Dental Care"
           className="group absolute inset-0 w-full h-full"
         >
+          {/* Stock placeholder poster; the tour video itself is unchanged */}
           <img
-            src={`${process.env.PUBLIC_URL}/images/welcome-video-poster.jpg`}
-            alt="Dr. Raju Sarna welcoming new patients inside Hawthorne Village Dental Care"
+            src={`${process.env.PUBLIC_URL}/images/stock/welcome-tour-poster.jpg`}
+            alt="Take a video tour of Hawthorne Village Dental Care"
             loading="lazy"
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
           />
@@ -54,6 +54,8 @@ function WelcomeVideo() {
   );
 }
 
+// New-patient moment styled like the CDCP "We accept" card, in the palette's
+// yellow: saturated gradient card, ambient light, tilted media frame.
 export default function NewPatientWelcome() {
   const ref = useReveal();
 
@@ -62,39 +64,41 @@ export default function NewPatientWelcome() {
       id="new-patients"
       ref={ref}
       data-testid="new-patient-section"
-      className="reveal py-24 md:py-32 bg-white"
+      className="reveal py-14 md:py-20 bg-gradient-to-b from-white via-[#FEF7E0]/60 to-white"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8">
-        <div className="rounded-[32px] bg-[#F8FAFC] border border-slate-100 overflow-hidden">
-          <div className="grid lg:grid-cols-[1.1fr_1fr]">
-            {/* Left copy + CTAs */}
-            <div className="p-10 md:p-14 lg:p-16">
-              <div className="inline-flex items-center gap-2 rounded-full bg-white border border-slate-200 px-3 py-1.5 shadow-sm">
-                <Sparkles className="w-3.5 h-3.5 text-[#0284C7]" />
-                <span className="text-[12px] uppercase tracking-[0.14em] text-[#0A192F] font-medium">
-                  New patient welcome
-                </span>
+        <div className="relative rounded-[36px] bg-gradient-to-br from-[#FDD663] via-[#F4C20D] to-[#E8A800] text-[#0A192F] overflow-hidden shadow-[0_40px_90px_-30px_rgba(232,168,0,0.6)]">
+          {/* Ambient light */}
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute -top-28 -left-20 w-[380px] h-[380px] rounded-full bg-white/30 blur-3xl" />
+            <div className="absolute -bottom-32 right-1/4 w-[420px] h-[420px] rounded-full bg-[#B06000]/25 blur-3xl" />
+          </div>
+
+          <div className="relative grid lg:grid-cols-[1.15fr_1fr] gap-8 lg:gap-6 items-center p-8 md:p-12 lg:p-14">
+            {/* Copy + perks */}
+            <div>
+              <div className="inline-flex items-center gap-2 rounded-full bg-white/40 border border-white/50 px-4 py-1.5 text-[11.5px] uppercase tracking-[0.16em] font-semibold">
+                <Sparkles className="w-3.5 h-3.5" /> New patient welcome
               </div>
 
-              <h2 className="mt-6 font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
-                Your first visit,{" "}
-                <span className="font-light text-[#64748B]">without the guesswork.</span>
+              <h2 className="mt-5 text-[30px] md:text-[42px] font-semibold tracking-tight leading-[1.08]">
+                Your first visit, without the guesswork.
               </h2>
 
-              <p className="mt-5 text-[17px] text-[#475569] leading-relaxed max-w-lg">
-                Choosing a new dentist in Milton is a big decision. Book a new-patient visit and
-                get an honest conversation about your smile and what it actually needs, with no
-                pressure and no surprise bills.
+              <p className="mt-4 text-[15px] md:text-[16.5px] leading-relaxed text-[#0A192F]/80 max-w-lg">
+                Choosing a new dentist is a big decision. Book a new-patient visit and get an
+                honest conversation about your smile and what it actually needs. No pressure,
+                no surprise bills.
               </p>
 
-              <ul className="mt-8 space-y-3">
+              <ul className="mt-7 space-y-3">
                 {perks.map((p, i) => (
                   <li
                     key={i}
                     data-testid={`welcome-perk-${i}`}
-                    className="flex items-start gap-3 text-[15px] text-[#334155]"
+                    className="flex items-start gap-3 text-[15px] font-medium"
                   >
-                    <span className="mt-0.5 w-6 h-6 rounded-full bg-[#E6F8F3] text-[#10B981] flex items-center justify-center shrink-0">
+                    <span className="mt-0.5 w-6 h-6 rounded-full bg-white text-[#0F9D58] shadow-sm flex items-center justify-center shrink-0">
                       <Check className="w-3.5 h-3.5" strokeWidth={3} />
                     </span>
                     <span className="pt-0.5">{p}</span>
@@ -102,56 +106,41 @@ export default function NewPatientWelcome() {
                 ))}
               </ul>
 
-              <div className="mt-10 flex flex-wrap gap-3">
-                <Button
-                  data-testid="welcome-book-btn"
-                  asChild
-                  className="h-12 md:h-13 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-7 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:-translate-y-0.5 transition-all"
-                >
-                  <a href={clinic.bookUrl} target="_blank" rel="noopener noreferrer">
-                    Book Appointment
-                    <ArrowRight className="w-4 h-4 ml-1.5" />
-                  </a>
-                </Button>
+              <div className="mt-9 flex flex-col sm:flex-row items-center sm:justify-start gap-3">
                 <a
-                  href="#services"
-                  data-testid="welcome-learn-btn"
-                  className="inline-flex items-center gap-2 h-12 md:h-13 rounded-full bg-white border border-slate-200 hover:border-slate-300 hover:bg-slate-50 px-6 text-[15px] font-medium text-[#0A192F] transition-all"
+                  href={clinic.bookUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="welcome-book-btn"
+                  className="group inline-flex items-center gap-2.5 rounded-full bg-[#0A192F] text-white pl-7 pr-1.5 py-1.5 text-[15px] font-semibold shadow-[0_14px_30px_-10px_rgba(10,25,47,0.5)] hover:-translate-y-0.5 transition-all"
                 >
-                  See what&apos;s included
+                  Book Appointment
+                  <span className="w-10 h-10 rounded-full bg-white text-[#0A192F] flex items-center justify-center group-hover:rotate-45 transition-transform duration-500">
+                    <ArrowUpRight className="w-4 h-4" strokeWidth={2.25} />
+                  </span>
+                </a>
+                <a
+                  href={clinic.phoneHref}
+                  data-testid="welcome-phone-btn"
+                  className="inline-flex items-center gap-2 h-13 rounded-full border border-[#0A192F]/25 px-6 py-3.5 text-[15px] font-semibold text-[#0A192F] hover:bg-white/30 transition-colors"
+                >
+                  <Phone className="w-4 h-4" /> {clinic.phone}
                 </a>
               </div>
 
-              <div className="mt-6 text-[13px] text-[#94A3B8]">
+              <div className="mt-6 text-[13px] text-[#0A192F]/70 font-medium">
                 Direct billing to most insurers · Evening &amp; Saturday appointments · New patients always welcome
               </div>
             </div>
 
-            {/* Right: stat cluster */}
-            <div className="relative bg-[#0A192F] p-10 md:p-14 lg:p-16 flex items-center">
-              <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute -top-32 -right-20 w-80 h-80 rounded-full bg-[#0284C7]/20 blur-3xl" />
-                <div className="absolute -bottom-32 -left-20 w-80 h-80 rounded-full bg-[#E6F8F3]/8 blur-3xl" />
-              </div>
-
-              <div className="relative w-full">
-                <div className="text-[12px] uppercase tracking-[0.14em] text-[#7DD3FC] font-medium mb-5">
-                  What you can expect
-                </div>
+            {/* Video tour in a tilted frame, mirroring the CDCP photo card */}
+            <div className="relative max-w-md mx-auto w-full lg:pr-2">
+              <div className="rounded-[28px] overflow-hidden ring-8 ring-white/40 shadow-[0_30px_70px_-20px_rgba(122,80,0,0.55)] -rotate-1">
                 <WelcomeVideo />
-
-                <div className="mt-8 pt-6 border-t border-white/10 flex items-center justify-between gap-4">
-                  <div className="text-[13px] text-white/70 max-w-[220px] leading-relaxed">
-                    Prefer to talk first? Our front desk answers in under a minute.
-                  </div>
-                  <a
-                    href="tel:+19058643368"
-                    data-testid="welcome-call-btn"
-                    className="shrink-0 inline-flex items-center gap-1.5 rounded-full bg-white text-[#0A192F] px-4 py-2 text-[13px] font-medium hover:bg-[#E6F8F3] transition-colors"
-                  >
-                    Call clinic <ArrowRight className="w-3.5 h-3.5" />
-                  </a>
-                </div>
+              </div>
+              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 lg:left-auto lg:right-6 lg:translate-x-0 inline-flex items-center gap-2 rounded-full bg-white text-[#0A192F] px-4 py-2.5 shadow-[0_16px_35px_-12px_rgba(0,0,0,0.35)]">
+                <Play className="w-3.5 h-3.5 text-[#F4B400] fill-[#F4B400]" />
+                <span className="text-[13px] font-semibold whitespace-nowrap">Take the 60-second clinic tour</span>
               </div>
             </div>
           </div>

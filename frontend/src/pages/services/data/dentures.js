@@ -1,4 +1,4 @@
-// Content config for /services/dentures.
+// Content config for /services/dentures-in-milton.
 const config = {
   slug: "dentures",
   name: "Dentures",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Custom dentures,",
     titleB: "made to be smiled in.",
     intro:
-      "Dentures remain the most common and most affordable way to replace missing teeth. Dr. Sarna provides complete full and partial denture services — new custom-fitted dentures with high function and beautiful aesthetics, repairs when you need them, and implant stabilization for dentures that won't stay put.",
+      "Dentures remain the most common and most affordable way to replace missing teeth. Dr. Sarna provides complete full and partial denture services, new custom-fitted dentures with high function and beautiful aesthetics, repairs when you need them, and implant stabilization for dentures that won't stay put.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=1200&q=80&auto=format&fit=crop",
@@ -50,7 +50,7 @@ const config = {
     titleA: "A removable prosthetic,",
     titleB: "fitted properly.",
     paragraph:
-      "A denture is a removable prosthetic that replaces missing teeth — the most affordable option compared with fixed bridgework or implant-supported restorations, and especially practical when several teeth are missing. What separates a good denture from a frustrating one is the fit, and that's where we obsess:",
+      "A denture is a removable prosthetic that replaces missing teeth, the most affordable option compared with fixed bridgework or implant-supported restorations, and especially practical when several teeth are missing. What separates a good denture from a frustrating one is the fit, and that's where we obsess:",
     image: {
       src: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=1200&q=80&auto=format&fit=crop",
       alt: "Dental implants that can stabilize a loose denture",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Scan",
+        image: { src: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=800&q=80&auto=format&fit=crop", alt: "A dental appliance model" },
         kicker: "Step 1",
         title: "Assess and design",
         desc: "Dr. Sarna evaluates your mouth and designs a full or partial denture around your bite, your gums and your face.",
       },
       {
         icon: "Gem",
+        image: { src: "https://images.pexels.com/photos/4269365/pexels-photo-4269365.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dental model and planning instruments" },
         kicker: "Step 2",
         title: "Fabricate your denture",
-        desc: "Your new denture is custom-fabricated for high function and beautiful aesthetics — teeth that look like they've always been yours.",
+        desc: "Your new denture is custom-fabricated for high function and beautiful aesthetics, teeth that look like they've always been yours.",
       },
       {
         icon: "RefreshCw",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         kicker: "Step 3",
         title: "Fit, adjust, maintain",
         desc: "We fine-tune the fit and stay with you: repairs, relines and adjustments keep the denture comfortable for years.",
       },
     ],
     closingNote:
-      "If your denture ever feels loose, it can be stabilized with dental implants — eliminating the worry that it might slip out of place.",
+      "If your denture ever feels loose, it can be stabilized with dental implants, eliminating the worry that it might slip out of place.",
   },
 
   context: {
@@ -99,21 +102,25 @@ const config = {
     cards: [
       {
         icon: "Layers",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Several missing teeth",
-        desc: "Dentures shine when a few or many teeth are gone — one prosthetic restores the whole picture.",
+        desc: "Dentures shine when a few or many teeth are gone, one prosthetic restores the whole picture.",
       },
       {
         icon: "CreditCard",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Budget matters",
         desc: "Perhaps the most common and inexpensive option to replace missing teeth, with financing if you need it.",
       },
       {
         icon: "Feather",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "Easy to wear",
-        desc: "A well-made removable prosthetic is worn relatively easily — and ours are fitted until they feel right.",
+        desc: "A well-made removable prosthetic is worn relatively easily, and ours are fitted until they feel right.",
       },
       {
         icon: "Anchor",
+        image: { src: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient laughing with confidence in her smile" },
         title: "Loose denture already?",
         desc: "Implant stabilization anchors your existing denture so it stops slipping when you talk or eat.",
       },
@@ -128,7 +135,7 @@ const config = {
       icon: "Gem",
       value: "Custom",
       label: "fitted, always",
-      note: "New dentures are fabricated custom for high function and beautiful aesthetics — never one-size-fits-most.",
+      note: "New dentures are fabricated custom for high function and beautiful aesthetics, never one-size-fits-most.",
     },
     cards: [
       {
@@ -144,7 +151,7 @@ const config = {
       {
         icon: "CreditCard",
         title: "The affordable option",
-        desc: "The most economical tooth replacement there is — especially compared to bridges or implant restorations.",
+        desc: "The most economical tooth replacement there is, especially compared to bridges or implant restorations.",
       },
       {
         icon: "Wrench",
@@ -154,7 +161,7 @@ const config = {
       {
         icon: "Anchor",
         title: "Upgradeable stability",
-        desc: "Loose dentures can be stabilized with dental implants — comfort and security without starting over.",
+        desc: "Loose dentures can be stabilized with dental implants, comfort and security without starting over.",
       },
     ],
     cta: {
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Implant stabilization",
-        desc: "Dental implants anchor a loose denture in place — no more worrying it might slip.",
+        desc: "Dental implants anchor a loose denture in place, no more worrying it might slip.",
       },
     ],
   },
@@ -193,7 +200,7 @@ const config = {
     titleA: "Denture craft,",
     titleB: "backed by implant expertise.",
     paragraph:
-      "Because Dr. Sarna is an ICOI Implantology Fellow as well as a restorative dentist, your denture options don't stop at removable. From custom fabrication to implant stabilization — and Teeth In a Day when you're ready to go fixed — every path is available under one roof.",
+      "Because Dr. Sarna is an ICOI Implantology Fellow as well as a restorative dentist, your denture options don't stop at removable. From custom fabrication to implant stabilization, and Teeth In a Day when you're ready to go fixed, every path is available under one roof.",
     items: [
       {
         icon: "Award",
@@ -205,7 +212,7 @@ const config = {
         icon: "Anchor",
         name: "Implant stabilization in-house",
         benefit:
-          "An ICOI Implantology Fellow can anchor your loose denture with implants — no referral needed.",
+          "An ICOI Implantology Fellow can anchor your loose denture with implants, no referral needed.",
       },
       {
         icon: "Wrench",
@@ -235,7 +242,7 @@ const config = {
     },
     {
       q: "Are dentures the cheapest way to replace missing teeth?",
-      a: "Generally, yes. Dentures are perhaps the most common and inexpensive option to replace missing teeth — the most affordable choice compared with fixed bridgework or implant-supported restorations.",
+      a: "Generally, yes. Dentures are perhaps the most common and inexpensive option to replace missing teeth, the most affordable choice compared with fixed bridgework or implant-supported restorations.",
     },
     {
       q: "My denture keeps slipping. What can be done?",
@@ -243,7 +250,7 @@ const config = {
     },
     {
       q: "Do you repair dentures?",
-      a: "Yes, denture repairs are available in-house. If your denture cracks, chips or stops fitting well, bring it in — the team that fits dentures every week will put it right.",
+      a: "Yes, denture repairs are available in-house. If your denture cracks, chips or stops fitting well, bring it in, the team that fits dentures every week will put it right.",
     },
     {
       q: "How long does it take to get used to a new denture?",

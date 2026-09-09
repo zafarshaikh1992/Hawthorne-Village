@@ -1,4 +1,4 @@
-// Content config for /services/connective-tissue-graft — follows the dental-implants master template.
+// Content config for /services/connective-tissue-graft-in-milton, follows the dental-implants master template.
 const config = {
   slug: "connective-tissue-graft",
   name: "Connective Tissue Graft",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Receding gums,",
     titleB: "restored gently.",
     intro:
-      "Dr. Sarna uses connective tissue grafts to protect teeth from the damaging effects of gum disease — and to help patients who simply want to improve the appearance of their smile. It's the most common method used to treat root exposure, using a small amount of your own tissue.",
+      "Dr. Sarna uses connective tissue grafts to protect teeth from the damaging effects of gum disease, and to help patients who simply want to improve the appearance of their smile. It's the most common method used to treat root exposure, using a small amount of your own tissue.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=800&q=75&auto=format&fit=crop",
@@ -62,19 +62,21 @@ const config = {
     parts: [
       {
         icon: "Hand",
+        image: { src: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=800&q=80&auto=format&fit=crop", alt: "A close-up of healthy gums and teeth" },
         kicker: "Step 1",
         title: "The donor tissue",
-        desc: "A minimal amount of your own tissue is gently taken from somewhere else in your mouth — nothing artificial, nothing foreign.",
+        desc: "A minimal amount of your own tissue is gently taken from somewhere else in your mouth, nothing artificial, nothing foreign.",
       },
       {
         icon: "ShieldPlus",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "Step 2",
         title: "The coverage",
         desc: "That tissue is transferred to the gum surrounding the exposed root, rebuilding coverage where recession pulled the gum away.",
       },
     ],
     closingNote:
-      "Once healed, the graft covers the exposed root — calming sensitivity, protecting the supporting bone, and restoring a natural-looking gum line.",
+      "Once healed, the graft covers the exposed root, calming sensitivity, protecting the supporting bone, and restoring a natural-looking gum line.",
   },
 
   context: {
@@ -86,28 +88,32 @@ const config = {
         src: "https://images.unsplash.com/photo-1567516364473-233c4b6fcfbe?w=900&q=80&auto=format&fit=crop",
         alt: "A healthy, even gum line framing a confident smile",
       },
-      headline: "Most people never notice their gums receding — until roots show.",
+      headline: "Most people never notice their gums receding, until roots show.",
       caption:
         "Gum recession affects up to 12% of adults and happens so gradually that it often goes unnoticed until it becomes more severe.",
     },
     cards: [
       {
         icon: "Thermometer",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Sensitivity to hot and cold",
         desc: "An exposed tooth root can cause real sensitivity, especially when eating cold or hot foods.",
       },
       {
         icon: "Eye",
+        image: { src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80&auto=format&fit=crop", alt: "A modern dental treatment room" },
         title: "A smile that looks uneven",
-        desc: "Exposed roots make teeth look longer and the gum line uneven — a change many patients notice in photos first.",
+        desc: "Exposed roots make teeth look longer and the gum line uneven, a change many patients notice in photos first.",
       },
       {
         icon: "Bone",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         title: "Damage to supporting bone",
-        desc: "As tissue pulls away from the tooth, the bone that supports it can be damaged too — recession is more than cosmetic.",
+        desc: "As tissue pulls away from the tooth, the bone that supports it can be damaged too, recession is more than cosmetic.",
       },
       {
         icon: "Hourglass",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "Tooth loss if untreated",
         desc: "Left alone, gum recession can eventually cause tooth loss. Treating root exposure early protects the tooth itself.",
       },
@@ -122,7 +128,7 @@ const config = {
       icon: "SmilePlus",
       value: "12%",
       label: "of adults live with gum recession",
-      note: "Most don't notice until roots are exposed — and a connective tissue graft is the most common way to treat it.",
+      note: "Most don't notice until roots are exposed, and a connective tissue graft is the most common way to treat it.",
     },
     cards: [
       {
@@ -143,7 +149,7 @@ const config = {
       {
         icon: "Gem",
         title: "Restores a natural gum line",
-        desc: "Teeth stop looking long and uneven — many patients choose grafting purely to improve the appearance of their smile.",
+        desc: "Teeth stop looking long and uneven, many patients choose grafting purely to improve the appearance of their smile.",
       },
       {
         icon: "Heart",
@@ -164,7 +170,7 @@ const config = {
     cards: [
       {
         title: "Connective tissue graft",
-        desc: "The most common method for treating root exposure — your own tissue, transferred to cover the exposed root.",
+        desc: "The most common method for treating root exposure, your own tissue, transferred to cover the exposed root.",
       },
       {
         title: "Periodontal (gum) care",
@@ -176,7 +182,7 @@ const config = {
       },
       {
         title: "Plasma Rich Fibrin",
-        desc: "Your own platelets, used to enhance soft tissue healing — a natural fit alongside gum grafting.",
+        desc: "Your own platelets, used to enhance soft tissue healing, a natural fit alongside gum grafting.",
       },
     ],
   },
@@ -187,7 +193,7 @@ const config = {
     titleA: "Gum grafts heal better",
     titleB: "in careful hands.",
     paragraph:
-      "Soft tissue work rewards precision and gentleness. Dr. Sarna is a recognized leader in cosmetic, restorative and implant dentistry with an emphasis on re-creating natural aesthetic beauty — and a connective tissue graft is exactly that: health and aesthetics restored together.",
+      "Soft tissue work rewards precision and gentleness. Dr. Sarna is a recognized leader in cosmetic, restorative and implant dentistry with an emphasis on re-creating natural aesthetic beauty, and a connective tissue graft is exactly that: health and aesthetics restored together.",
     items: [
       {
         icon: "Award",
@@ -205,7 +211,7 @@ const config = {
         icon: "Droplets",
         name: "Plasma Rich Fibrin healing",
         benefit:
-          "Your own platelets can be used to enhance soft tissue regeneration after grafting — a technique few Milton clinics offer.",
+          "Your own platelets can be used to enhance soft tissue regeneration after grafting, a technique few Milton clinics offer.",
       },
       {
         icon: "HeartPulse",
@@ -229,7 +235,7 @@ const config = {
     },
     {
       q: "How would I know if my gums are receding?",
-      a: "Often you wouldn't — gum recession affects up to 12% of adults and happens so gradually that many people don't notice until it becomes more severe. Teeth that look longer, an uneven gum line, or new sensitivity to hot and cold foods are the usual first signs.",
+      a: "Often you wouldn't, gum recession affects up to 12% of adults and happens so gradually that many people don't notice until it becomes more severe. Teeth that look longer, an uneven gum line, or new sensitivity to hot and cold foods are the usual first signs.",
     },
     {
       q: "What happens if receding gums are left untreated?",
@@ -237,7 +243,7 @@ const config = {
     },
     {
       q: "Where does the graft tissue come from?",
-      a: "From your own mouth. Only a minimal amount of tissue is taken from another area and transferred to the gum around the exposed root — nothing artificial or foreign is used.",
+      a: "From your own mouth. Only a minimal amount of tissue is taken from another area and transferred to the gum around the exposed root, nothing artificial or foreign is used.",
     },
     {
       q: "Is the procedure painful?",
@@ -245,7 +251,7 @@ const config = {
     },
     {
       q: "Can a connective tissue graft improve how my smile looks?",
-      a: "Yes — Dr. Sarna performs connective tissue grafts both for patients protecting their teeth from the damaging effects of gum disease and for patients simply seeking to improve the appearance of their smile. Restoring the gum line makes teeth look natural and even again.",
+      a: "Yes, Dr. Sarna performs connective tissue grafts both for patients protecting their teeth from the damaging effects of gum disease and for patients simply seeking to improve the appearance of their smile. Restoring the gum line makes teeth look natural and even again.",
     },
     {
       q: "How much does a connective tissue graft cost in Milton?",

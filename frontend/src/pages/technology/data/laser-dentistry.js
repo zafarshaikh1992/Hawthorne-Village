@@ -14,7 +14,7 @@ const config = {
     procedure: {
       alternateName: "Fotona LightWalker Hydrokinetic Laser",
       description:
-        "The Fotona LightWalker uses hydrokinetic technology — laser-powered water droplets — to remove hard and soft tissue with no heat and no vibration, often with no need for anaesthesia.",
+        "The Fotona LightWalker uses hydrokinetic technology, laser-powered water droplets, to remove hard and soft tissue with no heat and no vibration, often with no need for anaesthesia.",
       howPerformed:
         "Protective eyewear is provided, then the LightWalker projects streams of atomized water combined with laser energy to gently remove hard or soft tissue, sterilizing the area as it works.",
     },
@@ -25,7 +25,7 @@ const config = {
     titleA: "The drill,",
     titleB: "retired.",
     intro:
-      "Our Fotona LightWalker uses hydrokinetic technology — laser-powered water droplets — to remove hard and soft tissue with no heat and no vibration. In most cases there's no need for anaesthesia, which makes it a needleless, painless option for children and fearful patients alike.",
+      "Our Fotona LightWalker uses hydrokinetic technology, laser-powered water droplets, to remove hard and soft tissue with no heat and no vibration. In most cases there's no need for anaesthesia, which makes it a needleless, painless option for children and fearful patients alike.",
     bookLabel: "Book Appointment",
     image: {
       src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Painless dentistry from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards offers laser dentistry because comfort shouldn't be optional — for kids, nervous patients, or anyone.",
+      "The Milton clinic recognized with 12 consecutive community awards offers laser dentistry because comfort shouldn't be optional, for kids, nervous patients, or anyone.",
   },
 
   intro: {
@@ -53,7 +53,7 @@ const config = {
     titleA: "Water, light,",
     titleB: "and no drill.",
     paragraph:
-      "The Fotona LightWalker is an extremely versatile piece of dental equipment. It works by precisely combining atomized water and laser energy to gently remove hard and soft tissue — and because the laser sterilizes as it moves, there's less risk of bacterial invasion or infection:",
+      "The Fotona LightWalker is an extremely versatile piece of dental equipment. It works by precisely combining atomized water and laser energy to gently remove hard and soft tissue, and because the laser sterilizes as it moves, there's less risk of bacterial invasion or infection:",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
       alt: "Modern laser dentistry equipment in a Milton dental operatory",
@@ -65,25 +65,28 @@ const config = {
     parts: [
       {
         icon: "Eye",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         kicker: "Step 1",
         title: "Eyes protected",
         desc: "Every LightWalker procedure starts the same way: protective eyewear for you and the team.",
       },
       {
         icon: "Droplets",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "Step 2",
         title: "Atomized water does the work",
-        desc: "The laser projects streams of laser-energized water that cut hard or soft tissue precisely — no heat, no vibration.",
+        desc: "The laser projects streams of laser-energized water that cut hard or soft tissue precisely, no heat, no vibration.",
       },
       {
         icon: "Sparkles",
+        image: { src: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=800&q=80&auto=format&fit=crop", alt: "A close-up of healthy gums and teeth" },
         kicker: "Step 3",
         title: "Sterile from the start",
         desc: "The laser sterilizes the area as it moves, so many soft tissue procedures finish completely in a single visit.",
       },
     ],
     closingNote:
-      "The FDA deemed hydrokinetic laser technology safe for use on both adults and children back in 1998 — this is proven equipment, gently applied.",
+      "The FDA deemed hydrokinetic laser technology safe for use on both adults and children back in 1998, this is proven equipment, gently applied.",
   },
 
   context: {
@@ -102,21 +105,25 @@ const config = {
     cards: [
       {
         icon: "Baby",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Kids who fear the chair",
-        desc: "No needle, no drill noise, no vibration — laser visits change how children feel about the dentist.",
+        desc: "No needle, no drill noise, no vibration, laser visits change how children feel about the dentist.",
       },
       {
         icon: "Heart",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Anxious adults",
         desc: "The LightWalker increases comfort and measurably reduces anxiety during treatment.",
       },
       {
         icon: "Syringe",
+        image: { src: "https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dentist working carefully with a patient" },
         title: "Needle-averse patients",
         desc: "In most cases the laser's precision means there's simply no need for anaesthesia at all.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Infection-prone situations",
         desc: "Because the laser sterilizes as it cuts, the risk of bacterial invasion drops.",
       },
@@ -137,7 +144,7 @@ const config = {
       {
         icon: "Feather",
         title: "Often anaesthesia-free",
-        desc: "The laser's precision means most cases need no freezing — and no needle to deliver it.",
+        desc: "The laser's precision means most cases need no freezing, and no needle to deliver it.",
       },
       {
         icon: "Snowflake",
@@ -157,7 +164,7 @@ const config = {
       {
         icon: "Leaf",
         title: "Least invasive option",
-        desc: "One of the least invasive, most effective tools in dentistry — better tooth health, restored smiles.",
+        desc: "One of the least invasive, most effective tools in dentistry, better tooth health, restored smiles.",
       },
     ],
     cta: {
@@ -196,7 +203,7 @@ const config = {
     titleA: "Comfort, engineered",
     titleB: "into every visit.",
     paragraph:
-      "The LightWalker increases comfort levels, reduces anxiety and reduces cost — one of the least invasive, most effective tools a dentist can hold. We invested in it for the same reason we use The Wand and offer sedation: patients who feel nothing come back for the care they need.",
+      "The LightWalker increases comfort levels, reduces anxiety and reduces cost, one of the least invasive, most effective tools a dentist can hold. We invested in it for the same reason we use The Wand and offer sedation: patients who feel nothing come back for the care they need.",
     items: [
       {
         icon: "Sparkles",
@@ -208,7 +215,7 @@ const config = {
         icon: "Baby",
         name: "Proven safe for children",
         benefit:
-          "FDA-deemed safe for adults and children since 1998 — ideal for young or fearful patients.",
+          "FDA-deemed safe for adults and children since 1998, ideal for young or fearful patients.",
       },
       {
         icon: "Wand2",
@@ -233,11 +240,11 @@ const config = {
     },
     {
       q: "Is laser dentistry safe?",
-      a: "Yes — the FDA deemed hydrokinetic laser technology safe for use on both adults and children in 1998. Protective eyewear is provided during every procedure.",
+      a: "Yes, the FDA deemed hydrokinetic laser technology safe for use on both adults and children in 1998. Protective eyewear is provided during every procedure.",
     },
     {
       q: "Will I still need a needle?",
-      a: "In most cases, no. The laser's precision means there's usually no need for anaesthesia — which makes it a genuinely needleless, painless option for children and fearful patients.",
+      a: "In most cases, no. The laser's precision means there's usually no need for anaesthesia, which makes it a genuinely needleless, painless option for children and fearful patients.",
     },
     {
       q: "What can the laser be used for?",
@@ -245,11 +252,11 @@ const config = {
     },
     {
       q: "Why is it better than the traditional drill?",
-      a: "No heat, no vibration, usually no anaesthesia, a sterilized field with less infection risk, reduced anxiety and lower cost — while being one of the least invasive, most effective tools available.",
+      a: "No heat, no vibration, usually no anaesthesia, a sterilized field with less infection risk, reduced anxiety and lower cost, while being one of the least invasive, most effective tools available.",
     },
     {
       q: "Is laser treatment more expensive?",
-      a: "No — the LightWalker actually reduces cost in many cases. As always, you'll get a written estimate first and we bill your insurance directly.",
+      a: "No, the LightWalker actually reduces cost in many cases. As always, you'll get a written estimate first and we bill your insurance directly.",
     },
   ],
 };

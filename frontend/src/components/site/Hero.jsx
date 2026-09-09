@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="absolute top-1/2 -left-40 w-[400px] h-[400px] rounded-full bg-[#EEF4FF] blur-3xl opacity-80" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 md:px-8 pt-16 pb-24 md:pt-24 md:pb-32">
+      <div className="relative max-w-7xl mx-auto px-6 md:px-8 pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="grid lg:grid-cols-[1.05fr_1fr] gap-12 lg:gap-16 items-center">
           {/* Left copy */}
           <div ref={leftRef} className="reveal">
@@ -65,7 +65,7 @@ export default function Hero() {
             <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-xl">
               {[
                 { k: "10,000+", v: "Happy patients" },
-                { k: "15+ yrs", v: "In Milton" },
+                { k: "15+ Years", v: "In Milton" },
                 { k: "Direct", v: "Insurance billing" },
                 { k: "CDCP", v: "Accepted here" },
               ].map((t) => (
@@ -80,10 +80,11 @@ export default function Hero() {
           {/* Right image */}
           <div ref={rightRef} className="reveal relative">
             <div className="relative rounded-[32px] overflow-hidden shadow-[0_30px_80px_-20px_rgba(10,25,47,0.35)] aspect-[4/5] max-h-[620px]">
+              {/* Premium stock placeholder — replace with professional clinic photography (see public/images/stock/PLACEHOLDERS.md) */}
               <img
-                src={`${process.env.PUBLIC_URL}/images/hero-dentist.png`}
-                alt="Dr. Raju Sarna at Hawthorne Village Dental Care in Milton"
-                className="w-full h-full object-cover object-left"
+                src={`${process.env.PUBLIC_URL}/images/stock/hero-patient.jpg`}
+                alt="A smiling patient in a bright, modern dental clinic"
+                className="w-full h-full object-cover"
                 loading="eager"
                 fetchPriority="high"
               />

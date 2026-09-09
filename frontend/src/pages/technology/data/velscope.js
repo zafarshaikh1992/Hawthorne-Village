@@ -25,7 +25,7 @@ const config = {
     titleA: "Two minutes that can",
     titleB: "change everything.",
     intro:
-      "Dr. Sarna strongly suggests every patient have an oral cancer screening. The VELscope system uses fluorescence technology to detect oral cancer at an early stage — or at least as early as possible — in a screening that takes less than two minutes of your checkup.",
+      "Dr. Sarna strongly suggests every patient have an oral cancer screening. The VELscope system uses fluorescence technology to detect oral cancer at an early stage, or at least as early as possible, in a screening that takes less than two minutes of your checkup.",
     bookLabel: "Book a Screening",
     image: {
       src: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Preventive care from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards screens for oral cancer as a routine part of care — because early is everything.",
+      "The Milton clinic recognized with 12 consecutive community awards screens for oral cancer as a routine part of care, because early is everything.",
   },
 
   intro: {
@@ -65,25 +65,28 @@ const config = {
     parts: [
       {
         icon: "Sun",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "Step 1",
         title: "A special light",
         desc: "The hand-held VELscope shines a safe fluorescence light across the tissues of your mouth.",
       },
       {
         icon: "Eye",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         kicker: "Step 2",
         title: "Tissue reveals itself",
-        desc: "Healthy and abnormal tissue fluoresce differently under the light — changes become visible long before the naked eye could catch them.",
+        desc: "Healthy and abnormal tissue fluoresce differently under the light, changes become visible long before the naked eye could catch them.",
       },
       {
         icon: "CalendarCheck",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         kicker: "Step 3",
         title: "Answers immediately",
         desc: "Dr. Sarna reviews what the light shows on the spot, and anything suspicious gets followed up promptly.",
       },
     ],
     closingNote:
-      "The whole screening takes less than two minutes — a small addition to a checkup with immediate benefits for the patient.",
+      "The whole screening takes less than two minutes, a small addition to a checkup with immediate benefits for the patient.",
   },
 
   context: {
@@ -97,26 +100,30 @@ const config = {
       },
       headline: "Early detection is the entire game.",
       caption:
-        "Detecting oral cancer at an early stage — or at least as early as possible — is exactly what the VELscope was built for.",
+        "Detecting oral cancer at an early stage, or at least as early as possible, is exactly what the VELscope was built for.",
     },
     cards: [
       {
         icon: "Eye",
+        image: { src: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=800&q=80&auto=format&fit=crop", alt: "A confident, healthy smile" },
         title: "Invisible beginnings",
-        desc: "Early tissue changes simply can't be seen by the naked eye — fluorescence makes them visible.",
+        desc: "Early tissue changes simply can't be seen by the naked eye, fluorescence makes them visible.",
       },
       {
         icon: "Hourglass",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         title: "Time is the variable",
         desc: "The earlier a problem is visualized, the simpler every next step becomes.",
       },
       {
         icon: "Stethoscope",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Screening beats symptoms",
         desc: "By the time oral cancer causes symptoms, it's no longer early. Routine screening flips that.",
       },
       {
         icon: "Heart",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         title: "Everyone should screen",
         desc: "Dr. Sarna strongly suggests all patients have an oral cancer screening when they come in.",
       },
@@ -142,7 +149,7 @@ const config = {
       {
         icon: "Feather",
         title: "Completely comfortable",
-        desc: "No scraping, no rinses, no discomfort — just light and a trained eye.",
+        desc: "No scraping, no rinses, no discomfort, just light and a trained eye.",
       },
       {
         icon: "CalendarCheck",
@@ -157,7 +164,7 @@ const config = {
       {
         icon: "Heart",
         title: "Peace of mind",
-        desc: "Most screenings simply confirm everything is fine — and that certainty is worth two minutes.",
+        desc: "Most screenings simply confirm everything is fine, and that certainty is worth two minutes.",
       },
     ],
     cta: {
@@ -177,7 +184,7 @@ const config = {
       },
       {
         title: "Periodontal gum care",
-        desc: "Healthy soft tissue is monitored from every angle — gums and beyond.",
+        desc: "Healthy soft tissue is monitored from every angle, gums and beyond.",
       },
       {
         title: "Digital radiography",
@@ -196,7 +203,7 @@ const config = {
     titleA: "Prevention we practice,",
     titleB: "not just preach.",
     paragraph:
-      "A screening tool only helps if it's actually used. At our Milton clinic the VELscope is part of how checkups work — Dr. Sarna strongly suggests every patient be screened, because a two-minute look is the cheapest insurance dentistry offers.",
+      "A screening tool only helps if it's actually used. At our Milton clinic the VELscope is part of how checkups work, Dr. Sarna strongly suggests every patient be screened, because a two-minute look is the cheapest insurance dentistry offers.",
     items: [
       {
         icon: "Eye",
@@ -214,7 +221,7 @@ const config = {
         icon: "CalendarCheck",
         name: "Built into checkups",
         benefit:
-          "No separate appointment needed — screening happens inside the visit you already booked.",
+          "No separate appointment needed, screening happens inside the visit you already booked.",
       },
       {
         icon: "Heart",
@@ -229,7 +236,7 @@ const config = {
   faqs: [
     {
       q: "What is the VELscope?",
-      a: "A revolutionary hand-held screening device that uses fluorescence technology to provide early visualization of oral tissue changes — a more effective oral cancer screening protocol with immediate benefits for the patient.",
+      a: "A revolutionary hand-held screening device that uses fluorescence technology to provide early visualization of oral tissue changes, a more effective oral cancer screening protocol with immediate benefits for the patient.",
     },
     {
       q: "How does fluorescence find cancer?",
@@ -237,7 +244,7 @@ const config = {
     },
     {
       q: "How long does the screening take?",
-      a: "Less than two minutes, done right inside your regular checkup. There's no discomfort — just light.",
+      a: "Less than two minutes, done right inside your regular checkup. There's no discomfort, just light.",
     },
     {
       q: "Who should be screened?",
@@ -245,11 +252,11 @@ const config = {
     },
     {
       q: "What happens if something looks abnormal?",
-      a: "Most findings turn out benign, but anything suspicious is documented and followed up promptly — that's the entire value of catching things at an early stage.",
+      a: "Most findings turn out benign, but anything suspicious is documented and followed up promptly, that's the entire value of catching things at an early stage.",
     },
     {
       q: "Does the screening cost extra?",
-      a: "Ask our front desk about your plan — many cover screening as part of the exam. Either way, you'll always know costs up front.",
+      a: "Ask our front desk about your plan, many cover screening as part of the exam. Either way, you'll always know costs up front.",
     },
   ],
 };

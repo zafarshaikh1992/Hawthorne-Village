@@ -1,4 +1,4 @@
-// Content config for /services/sports-mouthguards.
+// Content config for /services/sports-mouthguards-in-milton.
 const config = {
   slug: "sports-mouthguards",
   name: "Sports Mouthguards",
@@ -11,7 +11,7 @@ const config = {
     procedure: {
       alternateName: "Custom Athletic Mouthguard Fabrication",
       description:
-        "Sports dentistry — the treatment and prevention of orofacial athletic injuries — including pre-season screenings and custom-designed sports mouthguards, the most efficient and effective type of athletic mouth protection.",
+        "Sports dentistry, the treatment and prevention of orofacial athletic injuries, including pre-season screenings and custom-designed sports mouthguards, the most efficient and effective type of athletic mouth protection.",
       howPerformed:
         "A pre-season screening assesses the athlete's dentition, bite relationships and risk factors. The right mouthguard type and design is determined, then a custom sports mouthguard is designed and built in-office.",
     },
@@ -22,7 +22,7 @@ const config = {
     titleA: "One piece of equipment",
     titleB: "protects the smile.",
     intro:
-      "A sports mouthguard is one of the most important pieces of athletic equipment. If you treasure your child's smile — or your own — a custom-designed sports mouthguard is a must. Dr. Sarna and his team are specifically trained in the prevention of sports injuries.",
+      "A sports mouthguard is one of the most important pieces of athletic equipment. If you treasure your child's smile, or your own, a custom-designed sports mouthguard is a must. Dr. Sarna and his team are specifically trained in the prevention of sports injuries.",
     bookLabel: "Book a Fitting",
     image: {
       src: "https://images.unsplash.com/photo-1770009534034-85be3c774f60?w=1200&q=80&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Sports dentistry from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards also keeps local athletes — from house league to varsity — playing with their smiles intact.",
+      "The Milton clinic recognized with 12 consecutive community awards also keeps local athletes, from house league to varsity, playing with their smiles intact.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "Prevention,",
     titleB: "before the season starts.",
     paragraph:
-      "Sports dentistry is the treatment and prevention of orofacial athletic injuries. Pre-season screenings are essential: health histories, at-risk dentitions, cavity diagnosis, bite relationships, orthodontics, loose teeth, crown and bridgework, missing teeth — everything that affects how your mouth should be protected. Then we build for it:",
+      "Sports dentistry is the treatment and prevention of orofacial athletic injuries. Pre-season screenings are essential: health histories, at-risk dentitions, cavity diagnosis, bite relationships, orthodontics, loose teeth, crown and bridgework, missing teeth, everything that affects how your mouth should be protected. Then we build for it:",
     image: {
       src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=1200&q=80&auto=format&fit=crop",
       alt: "A young athlete at a pre-season dental screening in Milton",
@@ -62,21 +62,24 @@ const config = {
     parts: [
       {
         icon: "Stethoscope",
+        image: { src: "https://images.unsplash.com/photo-1770009534034-85be3c774f60?w=800&q=80&auto=format&fit=crop", alt: "An athlete wearing a protective mouthguard" },
         kicker: "Step 1",
         title: "Screen the athlete",
-        desc: "A pre-season examination maps risk: bite, braces, loose teeth, existing dental work — even whether wisdom teeth need attention first.",
+        desc: "A pre-season examination maps risk: bite, braces, loose teeth, existing dental work, even whether wisdom teeth need attention first.",
       },
       {
         icon: "Target",
+        image: { src: "https://images.unsplash.com/photo-1598531228433-d9f0cb960816?w=800&q=80&auto=format&fit=crop", alt: "An intraoral scanner capturing a digital impression" },
         kicker: "Step 2",
         title: "Design for the sport",
         desc: "The specific type and design of athletic mouthguard is chosen for the athlete and the sport they play.",
       },
       {
         icon: "Gem",
+        image: { src: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=800&q=80&auto=format&fit=crop", alt: "A dental appliance model" },
         kicker: "Step 3",
         title: "Build it custom",
-        desc: "Your guard is custom designed and built right here in our Milton office by Dr. Sarna — the most efficient and effective type there is.",
+        desc: "Your guard is custom designed and built right here in our Milton office by Dr. Sarna, the most efficient and effective type there is.",
       },
     ],
     closingNote:
@@ -94,28 +97,32 @@ const config = {
       },
       headline: "The inexpensive options are also the least effective.",
       caption:
-        "Ready-made and boil-and-bite guards from the sports store cost less for a reason — protection is where they save it.",
+        "Ready-made and boil-and-bite guards from the sports store cost less for a reason, protection is where they save it.",
     },
     cards: [
       {
         icon: "ShieldCheck",
+        image: { src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=80&auto=format&fit=crop", alt: "A dentist making a young patient comfortable" },
         title: "Custom-designed guards",
-        desc: "Made from precise impressions of your teeth — the most efficient and effective protection available.",
+        desc: "Made from precise impressions of your teeth, the most efficient and effective protection available.",
       },
       {
         icon: "Layers",
+        image: { src: "https://images.pexels.com/photos/4269365/pexels-photo-4269365.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dental model and planning instruments" },
         title: "Fitted (boil-and-bite) guards",
         desc: "Pre-made and softened to roughly match your mouth. Better than nothing, far from custom.",
       },
       {
         icon: "Frown",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "Ready-made guards",
-        desc: "Off the shelf at the sports store — inexpensive, bulky, and the least effective of the three.",
+        desc: "Off the shelf at the sports store, inexpensive, bulky, and the least effective of the three.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "What's at stake",
-        desc: "Knocked-out and broken teeth are painful, expensive injuries — and almost always preventable.",
+        desc: "Knocked-out and broken teeth are painful, expensive injuries, and almost always preventable.",
       },
     ],
   },
@@ -144,7 +151,7 @@ const config = {
       {
         icon: "Baby",
         title: "Built for growing smiles",
-        desc: "Kids' guards account for erupting teeth and orthodontics — checked as they grow.",
+        desc: "Kids' guards account for erupting teeth and orthodontics, checked as they grow.",
       },
       {
         icon: "Puzzle",
@@ -193,7 +200,7 @@ const config = {
     titleA: "Trained for the sidelines,",
     titleB: "equipped for the chair.",
     paragraph:
-      "Dr. Sarna and his team are specifically trained in the prevention of sports injuries — and everything a guard needs to account for, from bite relationships to braces, is assessed and built for under one roof in Milton.",
+      "Dr. Sarna and his team are specifically trained in the prevention of sports injuries, and everything a guard needs to account for, from bite relationships to braces, is assessed and built for under one roof in Milton.",
     items: [
       {
         icon: "Award",
@@ -205,7 +212,7 @@ const config = {
         icon: "Gem",
         name: "Made in our office",
         benefit:
-          "Custom guards are designed and built here by Dr. Sarna — no outsourced lab guesswork.",
+          "Custom guards are designed and built here by Dr. Sarna, no outsourced lab guesswork.",
       },
       {
         icon: "Timer",
@@ -224,7 +231,7 @@ const config = {
 
   cost: {
     paragraph:
-      "A custom mouthguard costs more than the sports-store version and protects immeasurably better — a fraction of the cost of repairing a knocked-out tooth. You'll get a written quote at the screening, we bill your insurance directly, and many plans cover athletic mouthguards.",
+      "A custom mouthguard costs more than the sports-store version and protects immeasurably better, a fraction of the cost of repairing a knocked-out tooth. You'll get a written quote at the screening, we bill your insurance directly, and many plans cover athletic mouthguards.",
   },
 
   faqEyebrow: "Sports mouthguard questions",
@@ -235,15 +242,15 @@ const config = {
     },
     {
       q: "What sports need a mouthguard?",
-      a: "Any sport with contact or impact risk — hockey, football, basketball, rugby, martial arts and everything in between. If you treasure your smile, a custom sports mouthguard is a must.",
+      a: "Any sport with contact or impact risk, hockey, football, basketball, rugby, martial arts and everything in between. If you treasure your smile, a custom sports mouthguard is a must.",
     },
     {
       q: "What happens at a pre-season screening?",
-      a: "A full examination: health history, at-risk teeth, cavity diagnosis, bite relationships, orthodontics, loose teeth, crown and bridgework, missing or artificial teeth — and from that, the right mouthguard type and design for injury prevention.",
+      a: "A full examination: health history, at-risk teeth, cavity diagnosis, bite relationships, orthodontics, loose teeth, crown and bridgework, missing or artificial teeth, and from that, the right mouthguard type and design for injury prevention.",
     },
     {
       q: "Can my child wear a mouthguard with braces?",
-      a: "Yes — that's exactly when custom matters most. A custom guard is designed around orthodontic appliances, protecting both the braces and the lips and cheeks around them.",
+      a: "Yes, that's exactly when custom matters most. A custom guard is designed around orthodontic appliances, protecting both the braces and the lips and cheeks around them.",
     },
     {
       q: "How long does a custom mouthguard last?",

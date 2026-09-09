@@ -1,4 +1,4 @@
-// Content config for /services/wisdom-teeth.
+// Content config for /services/wisdom-teeth-in-milton.
 const config = {
   slug: "wisdom-teeth",
   name: "Wisdom Teeth",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Wisdom teeth acting up?",
     titleB: "We'll know for sure.",
     intro:
-      "Wisdom teeth are removed for two reasons: they've already become impacted, or they're likely to cause trouble if left alone. Dr. Sarna evaluates every case individually with a 3D CBCT scan — and if yours can safely stay, he'll be the first to tell you.",
+      "Wisdom teeth are removed for two reasons: they've already become impacted, or they're likely to cause trouble if left alone. Dr. Sarna evaluates every case individually with a 3D CBCT scan, and if yours can safely stay, he'll be the first to tell you.",
     bookLabel: "Book an Assessment",
     image: {
       src: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=1200&q=80&auto=format&fit=crop",
@@ -50,7 +50,7 @@ const config = {
     titleA: "Third molars,",
     titleB: "last to the party.",
     paragraph:
-      "Wisdom teeth are the third molars — the last teeth to erupt, usually between ages 17 and 21. Impacted wisdom teeth can't erupt at all: they've grown in at an awkward angle or are blocked by another tooth or the jawbone itself. Here's how we handle them:",
+      "Wisdom teeth are the third molars, the last teeth to erupt, usually between ages 17 and 21. Impacted wisdom teeth can't erupt at all: they've grown in at an awkward angle or are blocked by another tooth or the jawbone itself. Here's how we handle them:",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
       alt: "3D dental imaging used to evaluate wisdom teeth before removal",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "ScanLine",
+        image: { src: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=80&auto=format&fit=crop", alt: "A man holding his jaw in discomfort" },
         kicker: "Step 1",
         title: "Scan and evaluate",
-        desc: "A 3D CBCT scan shows the tooth's angle, roots and position relative to nerves — so nothing about your case is a guess.",
+        desc: "A 3D CBCT scan shows the tooth's angle, roots and position relative to nerves, so nothing about your case is a guess.",
       },
       {
         icon: "Puzzle",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         kicker: "Step 2",
         title: "Decide honestly",
         desc: "If a wisdom tooth erupts straight, has room and can be cleaned, it can stay. Dr. Sarna always suggests saving a tooth whenever possible.",
       },
       {
         icon: "Slice",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "Step 3",
         title: "Remove with care",
-        desc: "When extraction is the right call, it's done surgically the same day with modern comfort protocols — sedation included if you want it.",
+        desc: "When extraction is the right call, it's done surgically the same day with modern comfort protocols, sedation included if you want it.",
       },
     ],
     closingNote:
-      "Have other problematic teeth from decay or trauma? There are often ways to save them — talk to Dr. Sarna before deciding on extraction.",
+      "Have other problematic teeth from decay or trauma? There are often ways to save them, talk to Dr. Sarna before deciding on extraction.",
   },
 
   context: {
@@ -94,26 +97,30 @@ const config = {
       },
       headline: "They can start causing problems years before they appear.",
       caption:
-        "There isn't always enough room at the back of the jaw — and when there isn't, inflammation and pain follow.",
+        "There isn't always enough room at the back of the jaw, and when there isn't, inflammation and pain follow.",
     },
     cards: [
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=800&q=80&auto=format&fit=crop", alt: "A 3D dental scan reviewed on a tablet" },
         title: "Trapped food, repeat infections",
-        desc: "Food particles collect behind wisdom teeth where brushing and flossing barely reach — infections there can be frequent, painful and medically dangerous.",
+        desc: "Food particles collect behind wisdom teeth where brushing and flossing barely reach, infections there can be frequent, painful and medically dangerous.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dentist working carefully with a patient" },
         title: "Decay and damage",
         desc: "Over time an impacted tooth can cause decay and damage to the healthy teeth beside it.",
       },
       {
         icon: "Frown",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Pain and stiffness",
         desc: "Crowding at the back of the jaw leads to inflammation, pain and difficulty opening your mouth.",
       },
       {
         icon: "Zap",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Irritation you can feel",
         desc: "A tooth that's grown in improperly can sit where your tongue constantly brushes against it.",
       },
@@ -128,7 +135,7 @@ const config = {
       icon: "ScanLine",
       value: "3D",
       label: "CBCT scan for every case",
-      note: "Ultra-low-radiation 3D imaging means the decision to remove — or keep — your wisdom teeth is made on evidence.",
+      note: "Ultra-low-radiation 3D imaging means the decision to remove, or keep, your wisdom teeth is made on evidence.",
     },
     cards: [
       {
@@ -144,7 +151,7 @@ const config = {
       {
         icon: "Timer",
         title: "Same-day surgical extraction",
-        desc: "When removal is needed, it's handled promptly — often the same day — with modern comfort protocols.",
+        desc: "When removal is needed, it's handled promptly, often the same day, with modern comfort protocols.",
       },
       {
         icon: "Moon",
@@ -193,13 +200,13 @@ const config = {
     titleA: "Surgical care,",
     titleB: "without the referral shuffle.",
     paragraph:
-      "Most wisdom teeth cases are handled entirely in-house: 3D imaging, honest evaluation, surgical extraction and comfort options under one roof. Dr. Sarna's first instinct is always to save teeth — so when he recommends removal, you can trust it's the right call.",
+      "Most wisdom teeth cases are handled entirely in-house: 3D imaging, honest evaluation, surgical extraction and comfort options under one roof. Dr. Sarna's first instinct is always to save teeth, so when he recommends removal, you can trust it's the right call.",
     items: [
       {
         icon: "ScanLine",
         name: "3D CBCT imaging",
         benefit:
-          "Every case is evaluated individually with a 3D scan — precise planning with ultra-low radiation.",
+          "Every case is evaluated individually with a 3D scan, precise planning with ultra-low radiation.",
       },
       {
         icon: "Award",
@@ -217,14 +224,14 @@ const config = {
         icon: "Timer",
         name: "Same-day emergency slots",
         benefit:
-          "A wisdom tooth flaring up won't wait — we hold appointments every weekday for exactly this.",
+          "A wisdom tooth flaring up won't wait, we hold appointments every weekday for exactly this.",
       },
     ],
   },
 
   cost: {
     paragraph:
-      "Wisdom tooth costs depend on how the tooth sits — a straightforward extraction differs from a surgical impaction. Your written estimate comes after the 3D scan, before any treatment. We bill your insurance directly, accept the CDCP, and offer 0% financing over 6 to 24 months.",
+      "Wisdom tooth costs depend on how the tooth sits, a straightforward extraction differs from a surgical impaction. Your written estimate comes after the 3D scan, before any treatment. We bill your insurance directly, accept the CDCP, and offer 0% financing over 6 to 24 months.",
   },
 
   faqEyebrow: "Wisdom teeth questions",
@@ -235,7 +242,7 @@ const config = {
     },
     {
       q: "What does 'impacted' actually mean?",
-      a: "An impacted wisdom tooth is unable to erupt — it has grown in at an awkward angle or is blocked by another tooth or your jawbone. Over time it can cause decay, damage to other teeth, or pain.",
+      a: "An impacted wisdom tooth is unable to erupt, it has grown in at an awkward angle or is blocked by another tooth or your jawbone. Over time it can cause decay, damage to other teeth, or pain.",
     },
     {
       q: "When do wisdom teeth come in?",
@@ -255,7 +262,7 @@ const config = {
     },
     {
       q: "My wisdom tooth hurts right now. Can you see me today?",
-      a: "In most cases, yes — we reserve same-day emergency slots every weekday. Call (905) 864-3368 and our front desk will fit you in as quickly as possible.",
+      a: "In most cases, yes, we reserve same-day emergency slots every weekday. Call (905) 864-3368 and our front desk will fit you in as quickly as possible.",
     },
   ],
 };

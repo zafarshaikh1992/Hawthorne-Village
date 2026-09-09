@@ -1,4 +1,4 @@
-// Content config for /water-purification-system — in-office distilled water technology page.
+// Content config for /water-purification-system, in-office distilled water technology page.
 const config = {
   slug: "water-purification-system",
   name: "Water Purification System",
@@ -25,7 +25,7 @@ const config = {
     titleA: "Every drop in your mouth,",
     titleB: "distilled first.",
     intro:
-      "To offer our patients high-quality, bacteria-free water, Dr. Sarna installed a very high quality water purification system. It produces distilled, non-corrosive water for every treatment unit in the clinic — so the water that touches your mouth is cleaner than what comes out of the tap.",
+      "To offer our patients high-quality, bacteria-free water, Dr. Sarna installed a very high quality water purification system. It produces distilled, non-corrosive water for every treatment unit in the clinic, so the water that touches your mouth is cleaner than what comes out of the tap.",
     bookLabel: "Book a Visit",
     image: {
       src: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Cleaner water from an",
     titleB: "award-winning team.",
     subtitle:
-      "Twelve consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated — earned by sweating details most patients never see, right down to the water in our treatment units.",
+      "Twelve consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated, earned by sweating details most patients never see, right down to the water in our treatment units.",
   },
 
   intro: {
@@ -53,7 +53,7 @@ const config = {
     titleA: "From tap water to",
     titleB: "treatment-grade water.",
     paragraph:
-      "Dental units use water constantly — for rinsing, cooling and cleaning. Rather than rely on ordinary tap water, Dr. Sarna installed a very high quality purification system that upgrades every drop before it reaches you. Here's the path it takes:",
+      "Dental units use water constantly, for rinsing, cooling and cleaning. Rather than rely on ordinary tap water, Dr. Sarna installed a very high quality purification system that upgrades every drop before it reaches you. Here's the path it takes:",
     image: {
       src: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?w=1200&q=80&auto=format&fit=crop",
       alt: "Precision dental equipment supplied with distilled, bacteria-free water",
@@ -65,25 +65,28 @@ const config = {
     parts: [
       {
         icon: "Waves",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         kicker: "Step 1",
         title: "Water is distilled",
-        desc: "The system produces high-quality, non-corrosive, distilled water — removing what ordinary tap water carries in.",
+        desc: "The system produces high-quality, non-corrosive, distilled water, removing what ordinary tap water carries in.",
       },
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1445527815219-ecbfec67492e?w=800&q=80&auto=format&fit=crop", alt: "A bright dental operatory with modern equipment" },
         kicker: "Step 2",
         title: "Clean bottles are filled",
         desc: "That bacteria-free water supplies the clean water bottle systems feeding each treatment unit.",
       },
       {
         icon: "Wrench",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "Step 3",
         title: "Every instrument runs on it",
         desc: "Ultrasonic scalers, sonic scaler hand-pieces and ultrasonic cleaning units all run on the same purified supply.",
       },
     ],
     closingNote:
-      "The result is simple: every treatment unit in the clinic runs on high-quality, distilled, bacteria-free water — for safer care at every visit.",
+      "The result is simple: every treatment unit in the clinic runs on high-quality, distilled, bacteria-free water, for safer care at every visit.",
   },
 
   context: {
@@ -97,26 +100,30 @@ const config = {
       },
       headline: "Dental water touches your mouth more than you think.",
       caption:
-        "Rinsing, cooling, scaling — water is part of nearly every procedure. Dr. Sarna made sure ours is bacteria-free before it gets anywhere near you.",
+        "Rinsing, cooling, scaling, water is part of nearly every procedure. Dr. Sarna made sure ours is bacteria-free before it gets anywhere near you.",
     },
     cards: [
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1629909615957-be38d48fbbe6?w=800&q=80&auto=format&fit=crop", alt: "A calm, welcoming dental treatment room" },
         title: "Bacteria in the water supply",
         desc: "The system exists for one core reason: to offer patients high-quality, bacteria-free water instead of untreated tap water.",
       },
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Water sprayed during cleanings",
-        desc: "Ultrasonic scalers and sonic scaler hand-pieces spray water directly in your mouth — here, that water is distilled first.",
+        desc: "Ultrasonic scalers and sonic scaler hand-pieces spray water directly in your mouth, here, that water is distilled first.",
       },
       {
         icon: "Wrench",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Corrosion inside the equipment",
         desc: "Because the water is non-corrosive, the instruments that deliver your care stay in better working condition.",
       },
       {
         icon: "CheckCircle2",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "Inconsistency between rooms",
         desc: "Every treatment unit runs on the same purified supply, so the water standard is identical in every operatory.",
       },
@@ -131,13 +138,13 @@ const config = {
       icon: "Droplets",
       value: "Every",
       label: "treatment unit runs on distilled water",
-      note: "High-quality, non-corrosive, bacteria-free water in every unit — not just some of them.",
+      note: "High-quality, non-corrosive, bacteria-free water in every unit, not just some of them.",
     },
     cards: [
       {
         icon: "ShieldCheck",
         title: "Bacteria-free by design",
-        desc: "The water used during your treatment is purified before it ever reaches your mouth — that's the whole point of the system.",
+        desc: "The water used during your treatment is purified before it ever reaches your mouth, that's the whole point of the system.",
       },
       {
         icon: "Sparkles",
@@ -162,7 +169,7 @@ const config = {
     ],
     cta: {
       title: "Questions about the water we use?",
-      sub: "Speak with any of our Hawthorne Village Dental Care team members — we're happy to explain how it works.",
+      sub: "Speak with any of our Hawthorne Village Dental Care team members, we're happy to explain how it works.",
     },
   },
 
@@ -173,7 +180,7 @@ const config = {
     cards: [
       {
         title: "Medical-grade air purification",
-        desc: "The Surgically Clean Air System filters every operatory continuously — clean air to match the clean water.",
+        desc: "The Surgically Clean Air System filters every operatory continuously, clean air to match the clean water.",
       },
       {
         title: "Isolite dental isolation",
@@ -181,7 +188,7 @@ const config = {
       },
       {
         title: "Soft-tissue laser",
-        desc: "Faster healing, less bleeding and no sutures for many gum procedures — gentler treatment from start to finish.",
+        desc: "Faster healing, less bleeding and no sutures for many gum procedures, gentler treatment from start to finish.",
       },
       {
         title: "Seiler microscope precision",
@@ -196,13 +203,13 @@ const config = {
     titleA: "Why we invested in",
     titleB: "better water.",
     paragraph:
-      "Most patients never ask what's in the water their dentist uses — and Dr. Sarna believes they shouldn't have to. He installed a very high quality water purification system so the answer is already taken care of, in every treatment room, at every visit to our Milton clinic.",
+      "Most patients never ask what's in the water their dentist uses, and Dr. Sarna believes they shouldn't have to. He installed a very high quality water purification system so the answer is already taken care of, in every treatment room, at every visit to our Milton clinic.",
     items: [
       {
         icon: "Droplets",
         name: "A very high quality system",
         benefit:
-          "Dr. Sarna installed the purification system specifically to offer patients high-quality, bacteria-free water — no shortcuts on something this fundamental.",
+          "Dr. Sarna installed the purification system specifically to offer patients high-quality, bacteria-free water, no shortcuts on something this fundamental.",
       },
       {
         icon: "Waves",
@@ -237,11 +244,11 @@ const config = {
     },
     {
       q: "Which equipment uses the purified water?",
-      a: "The purified water supplies our clean water bottle systems, ultrasonic scalers, sonic scaler hand-pieces and ultrasonic cleaning units — essentially every treatment unit that uses water during your care.",
+      a: "The purified water supplies our clean water bottle systems, ultrasonic scalers, sonic scaler hand-pieces and ultrasonic cleaning units, essentially every treatment unit that uses water during your care.",
     },
     {
       q: "Does purified water actually make my dental visit safer?",
-      a: "Yes. Water is used throughout dental treatment — for rinsing, cooling and scaling — and much of it contacts your mouth directly. Running every unit on distilled, bacteria-free water removes a source of bacteria from that process.",
+      a: "Yes. Water is used throughout dental treatment, for rinsing, cooling and scaling, and much of it contacts your mouth directly. Running every unit on distilled, bacteria-free water removes a source of bacteria from that process.",
     },
     {
       q: "Is the purified water used in every treatment room?",

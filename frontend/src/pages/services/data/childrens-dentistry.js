@@ -1,4 +1,4 @@
-// Content config for /services/childrens-dentistry — follows the dental-implants master template.
+// Content config for /services/childrens-dentistry-in-milton, follows the dental-implants master template.
 const config = {
   slug: "childrens-dentistry",
   name: "Children's Dentistry",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Little smiles,",
     titleB: "lifelong habits.",
     intro:
-      "Dr. Sarna and his team want your children to have a broad, beautiful, healthy smile — and to actually enjoy coming to the dentist. Our friendly, caring and fun office makes visits comfortable, relaxing and pressure-less, building a positive attitude towards dental health that lasts a lifetime.",
+      "Dr. Sarna and his team want your children to have a broad, beautiful, healthy smile, and to actually enjoy coming to the dentist. Our friendly, caring and fun office makes visits comfortable, relaxing and pressure-less, building a positive attitude towards dental health that lasts a lifetime.",
     bookLabel: "Book a Visit",
     image: {
       src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=75&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Kids' dentistry from an",
     titleB: "award-winning team.",
     subtitle:
-      "Milton families have voted for this team 12 years running — Milton Champion, Hamilton Spectator and Three Best Rated awards — and their kids are a big part of why.",
+      "Milton families have voted for this team 12 years running, Milton Champion, Hamilton Spectator and Three Best Rated awards, and their kids are a big part of why.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "Visits kids look",
     titleB: "forward to.",
     paragraph:
-      "Introducing children to dentistry in an engaging environment enhances a positive attitude towards dental health — at the office and at home. Dr. Sarna has over 10 years of experience working with children, and every young patient's care follows the same gentle arc:",
+      "Introducing children to dentistry in an engaging environment enhances a positive attitude towards dental health, at the office and at home. Dr. Sarna has over 10 years of experience working with children, and every young patient's care follows the same gentle arc:",
     image: {
       src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1000&q=80&auto=format&fit=crop",
       alt: "A calm, comfortable dental visit designed to put young patients at ease",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Hand",
+        image: { src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=80&auto=format&fit=crop", alt: "A dentist making a young patient comfortable" },
         kicker: "Stage 1",
         title: "A gentle introduction",
         desc: "Children and parents tour the office and meet Dr. Sarna and the team, whose reassuring approach makes that first visit comfortable, relaxing and fun.",
       },
       {
         icon: "Ruler",
+        image: { src: "https://images.pexels.com/photos/5355839/pexels-photo-5355839.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A gentle dental treatment in progress" },
         kicker: "Stage 2",
         title: "Growth and development",
         desc: "We manage the early growth and development of your child's dentition through adolescence, identifying potential problems early to support overall dental function.",
       },
       {
         icon: "Sparkles",
+        image: { src: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=80&auto=format&fit=crop", alt: "Daily home care with dental floss" },
         kicker: "Stage 3",
         title: "Habits that stick",
         desc: "An engaging environment builds a positive attitude towards dental health, encouraging kids to take part in their own care at the office and at home.",
       },
     ],
     closingNote:
-      "Bring the whole crew — our waiting area has a small kids' corner, and our team is happy to hold your little one for a quick moment if needed.",
+      "Bring the whole crew, our waiting area has a small kids' corner, and our team is happy to hold your little one for a quick moment if needed.",
   },
 
   context: {
@@ -94,28 +97,32 @@ const config = {
       },
       headline: "How a child feels at the dentist tends to follow them into adulthood.",
       caption:
-        "That is why our team keeps early visits short, positive and pressure-less — the habit matters as much as the checkup.",
+        "That is why our team keeps early visits short, positive and pressure-less, the habit matters as much as the checkup.",
     },
     cards: [
       {
         icon: "ZoomIn",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "Problems are caught early",
         desc: "Regular visits let Dr. Sarna identify potential problems with growth and development early, when they are simplest to address.",
       },
       {
         icon: "Heart",
+        image: { src: "https://images.unsplash.com/photo-1629909615957-be38d48fbbe6?w=800&q=80&auto=format&fit=crop", alt: "A calm, welcoming dental treatment room" },
         title: "Comfort prevents fear",
-        desc: "A reassuring, fun first experience means no dental anxiety to unlearn later — kids who like the dentist become adults who keep going.",
+        desc: "A reassuring, fun first experience means no dental anxiety to unlearn later, kids who like the dentist become adults who keep going.",
       },
       {
         icon: "Ruler",
+        image: { src: "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?w=800&q=80&auto=format&fit=crop", alt: "Gentle treatment in a calm operatory" },
         title: "Dentition changes fast",
         desc: "From the first tooth through adolescence, a child's mouth is constantly developing, and consistent monitoring keeps everything on track.",
       },
       {
         icon: "Droplets",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Home care starts here",
-        desc: "Kids who take part in their care at the office carry those brushing and flossing habits home — the real foundation of a healthy smile.",
+        desc: "Kids who take part in their care at the office carry those brushing and flossing habits home, the real foundation of a healthy smile.",
       },
     ],
   },
@@ -144,7 +151,7 @@ const config = {
       {
         icon: "Zap",
         title: "Gentler cavity care",
-        desc: "A DIAGNOdent laser finds cavities at their earliest stage, so less tooth structure needs repair — and The Wand makes freezing barely noticeable.",
+        desc: "A DIAGNOdent laser finds cavities at their earliest stage, so less tooth structure needs repair, and The Wand makes freezing barely noticeable.",
       },
       {
         icon: "Shield",
@@ -154,12 +161,12 @@ const config = {
       {
         icon: "CalendarCheck",
         title: "Scheduling built for families",
-        desc: "Evenings until 7 PM, Saturdays until 2 PM and a kids' corner in the waiting area — appointments without the school-day scramble.",
+        desc: "Evenings until 7 PM, Saturdays until 2 PM and a kids' corner in the waiting area, appointments without the school-day scramble.",
       },
     ],
     cta: {
       title: "Ready for your child's first visit?",
-      sub: "Book a short, friendly introduction — meet Dr. Sarna, tour the office and let your child set the pace.",
+      sub: "Book a short, friendly introduction, meet Dr. Sarna, tour the office and let your child set the pace.",
     },
   },
 
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Custom sports mouthguards",
-        desc: "Custom-fitted protection for hockey, football and every sport in between — stronger and more comfortable than boil-and-bite guards.",
+        desc: "Custom-fitted protection for hockey, football and every sport in between, stronger and more comfortable than boil-and-bite guards.",
       },
     ],
   },
@@ -193,13 +200,13 @@ const config = {
     titleA: "Kids feel safe here.",
     titleB: "That is the whole point.",
     paragraph:
-      "Dr. Sarna has over 10 years of experience working with children, and the whole office — from the front desk to the operatories — is set up so young patients leave smiling. Add family-friendly hours and technology chosen for gentleness, and dental visits stop being a battle.",
+      "Dr. Sarna has over 10 years of experience working with children, and the whole office, from the front desk to the operatories, is set up so young patients leave smiling. Add family-friendly hours and technology chosen for gentleness, and dental visits stop being a battle.",
     items: [
       {
         icon: "Heart",
         name: "A reassuring, experienced team",
         benefit:
-          "Dr. Sarna's 10+ years working with children shape a gentle first-visit routine designed for kids from age one — comfortable, relaxing and fun.",
+          "Dr. Sarna's 10+ years working with children shape a gentle first-visit routine designed for kids from age one, comfortable, relaxing and fun.",
       },
       {
         icon: "Zap",
@@ -211,7 +218,7 @@ const config = {
         icon: "Shield",
         name: "Low-radiation digital X-rays",
         benefit:
-          "Up to 90% less radiation than traditional film with instant results — imaging that is considered safe for children when clinically indicated.",
+          "Up to 90% less radiation than traditional film with instant results, imaging that is considered safe for children when clinically indicated.",
       },
       {
         icon: "Clock",
@@ -224,7 +231,7 @@ const config = {
 
   cost: {
     paragraph:
-      "Most dental insurance plans cover children's checkups and cleanings, and we bill your provider directly so there is no paperwork or reimbursement wait. We are also a participating provider in the Canadian Dental Care Plan (CDCP), which covers many Milton children — and you always receive a written estimate before any treatment begins.",
+      "Most dental insurance plans cover children's checkups and cleanings, and we bill your provider directly so there is no paperwork or reimbursement wait. We are also a participating provider in the Canadian Dental Care Plan (CDCP), which covers many Milton children, and you always receive a written estimate before any treatment begins.",
   },
 
   faqEyebrow: "Children's dentistry questions",

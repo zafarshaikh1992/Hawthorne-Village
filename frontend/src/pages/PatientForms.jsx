@@ -133,7 +133,7 @@ function Hero() {
   return (
     <section data-testid="forms-hero" className="relative overflow-hidden bg-white">
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-[#E6F8F3] blur-3xl opacity-70" />
+        <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-[#E8F0FE] blur-3xl opacity-70" />
         <div className="absolute top-1/2 -left-40 w-[400px] h-[400px] rounded-full bg-[#EEF4FF] blur-3xl opacity-80" />
       </div>
 
@@ -145,11 +145,11 @@ function Hero() {
         </nav>
 
         <div ref={ref} className="reveal max-w-3xl">
-          <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-4">
+          <div className="text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-medium mb-4">
             Patient forms
           </div>
           <h1 className="font-display font-medium text-[38px] leading-[1.06] md:text-[56px] md:leading-[1.03] text-[#0A192F] tracking-tight">
-            Paperwork, done <span className="font-light text-[#0284C7]">before you arrive.</span>
+            Paperwork, done <span className="font-light text-[#4285F4]">before you arrive.</span>
           </h1>
           <p className="mt-6 text-[17px] md:text-lg leading-relaxed text-[#475569] max-w-2xl">
             Before coming in, feel free to download and complete the patient registration form.
@@ -160,10 +160,10 @@ function Hero() {
 
         {/* Download card */}
         <div className="mt-12 rounded-[32px] bg-[#0A192F] text-white p-8 md:p-12 relative overflow-hidden max-w-4xl">
-          <div className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-[#0284C7]/20 blur-3xl pointer-events-none" />
+          <div className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-[#4285F4]/20 blur-3xl pointer-events-none" />
           <div className="relative flex flex-col md:flex-row md:items-center gap-8">
             <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center shrink-0">
-              <FileText className="w-8 h-8 text-[#7DD3FC]" strokeWidth={1.5} />
+              <FileText className="w-8 h-8 text-[#8AB4F8]" strokeWidth={1.5} />
             </div>
             <div className="flex-1">
               <h2 className="font-display text-2xl md:text-[28px] font-semibold tracking-tight">
@@ -179,7 +179,7 @@ function Hero() {
                 href={FORM_PDF}
                 download="Hawthorne-Village-Dental-Patient-Registration.pdf"
                 data-testid="forms-download-btn"
-                className="inline-flex items-center justify-center gap-2 h-12 rounded-full bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-7 text-[15px] font-medium shadow-[0_8px_24px_rgba(37,99,235,0.35)] hover:-translate-y-0.5 transition-all"
+                className="inline-flex items-center justify-center gap-2 h-12 rounded-full bg-[#1A73E8] hover:bg-[#185ABC] text-white px-7 text-[15px] font-medium shadow-[0_8px_24px_rgba(26,115,232,0.35)] hover:-translate-y-0.5 transition-all"
               >
                 <Download className="w-4 h-4" /> Download Form
               </a>
@@ -188,7 +188,7 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="forms-book-btn"
-                className="inline-flex items-center justify-center gap-2 h-12 rounded-full bg-white text-[#0A192F] px-7 text-[15px] font-medium hover:bg-[#E6F8F3] transition-colors"
+                className="inline-flex items-center justify-center gap-2 h-12 rounded-full bg-white text-[#0A192F] px-7 text-[15px] font-medium hover:bg-[#E8F0FE] transition-colors"
               >
                 <Calendar className="w-4 h-4" /> Book Appointment
               </a>
@@ -206,7 +206,7 @@ function WhyAdvance() {
     <section ref={ref} data-testid="forms-why" className="reveal py-24 md:py-28 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="max-w-2xl mb-12 md:mb-14">
-          <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">
+          <div className="text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-medium mb-3">
             Why complete forms in advance
           </div>
           <h2 className="font-display text-3xl md:text-4xl text-[#0A192F] tracking-tight leading-[1.05]">
@@ -221,7 +221,7 @@ function WhyAdvance() {
               data-testid={`forms-benefit-${i}`}
               className="rounded-[24px] bg-white border border-slate-100 p-7 shadow-[0_10px_40px_-20px_rgba(10,25,47,0.12)] hover:shadow-[0_20px_50px_-20px_rgba(10,25,47,0.2)] hover:-translate-y-1 transition-all duration-300"
             >
-              <span className="w-11 h-11 rounded-2xl bg-[#E6F8F3] text-[#0284C7] flex items-center justify-center">
+              <span className="w-11 h-11 rounded-2xl bg-[#E8F0FE] text-[#4285F4] flex items-center justify-center">
                 <b.icon className="w-5 h-5" strokeWidth={1.75} />
               </span>
               <h3 className="mt-5 font-display text-[19px] font-semibold text-[#0A192F] leading-snug">{b.title}</h3>
@@ -233,7 +233,7 @@ function WhyAdvance() {
         {/* Helpful checklist */}
         <div className="mt-10 rounded-[24px] bg-white border border-slate-100 p-8 md:p-10 max-w-4xl">
           <div className="flex items-center gap-3 mb-5">
-            <span className="w-11 h-11 rounded-2xl bg-[#E6F8F3] text-[#0284C7] flex items-center justify-center">
+            <span className="w-11 h-11 rounded-2xl bg-[#E8F0FE] text-[#4285F4] flex items-center justify-center">
               <ClipboardCheck className="w-5 h-5" strokeWidth={1.75} />
             </span>
             <h3 className="font-display text-[21px] font-semibold text-[#0A192F]">Before you start, have these ready</h3>
@@ -241,15 +241,15 @@ function WhyAdvance() {
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3">
             {helpfulInfo.map((t, i) => (
               <li key={i} className="flex items-start gap-3 text-[14.5px] leading-relaxed text-[#475569]">
-                <ChevronRight className="w-4 h-4 mt-0.5 shrink-0 text-[#0284C7]" />
+                <ChevronRight className="w-4 h-4 mt-0.5 shrink-0 text-[#4285F4]" />
                 {t}
               </li>
             ))}
           </ul>
           <div className="mt-6 pt-5 border-t border-slate-100 flex flex-wrap items-center gap-x-6 gap-y-2 text-[13.5px] text-[#64748B]">
-            <span className="inline-flex items-center gap-1.5"><Printer className="w-4 h-4 text-[#0284C7]" /> Print at home and bring it in</span>
-            <span className="inline-flex items-center gap-1.5"><Mail className="w-4 h-4 text-[#0284C7]" /> Or email it to {clinic.email}</span>
-            <span className="inline-flex items-center gap-1.5"><Phone className="w-4 h-4 text-[#0284C7]" /> Questions? {clinic.phone}</span>
+            <span className="inline-flex items-center gap-1.5"><Printer className="w-4 h-4 text-[#4285F4]" /> Print at home and bring it in</span>
+            <span className="inline-flex items-center gap-1.5"><Mail className="w-4 h-4 text-[#4285F4]" /> Or email it to {clinic.email}</span>
+            <span className="inline-flex items-center gap-1.5"><Phone className="w-4 h-4 text-[#4285F4]" /> Questions? {clinic.phone}</span>
           </div>
         </div>
       </div>
@@ -263,7 +263,7 @@ function FormsFAQ() {
     <section ref={ref} data-testid="forms-faq" className="reveal py-24 md:py-28 bg-white">
       <div className="max-w-3xl mx-auto px-6 md:px-8">
         <div className="mb-12 md:mb-14">
-          <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">
+          <div className="text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-medium mb-3">
             Patient form questions
           </div>
           <h2 className="font-display text-3xl md:text-4xl text-[#0A192F] tracking-tight leading-[1.05]">
@@ -299,7 +299,7 @@ export default function PatientForms() {
   }, []);
 
   return (
-    <div data-testid="forms-page" className="min-h-screen bg-white text-[#1E293B]">
+    <div data-testid="forms-page" className="home-v3 min-h-screen bg-white text-[#1E293B]">
       <PageMeta />
       <Header />
       <main>

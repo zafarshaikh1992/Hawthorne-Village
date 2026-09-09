@@ -1,4 +1,4 @@
-// Content config for /services/invisalign — follows the dental-implants master template.
+// Content config for /services/invisalign-in-milton, follows the dental-implants master template.
 const config = {
   slug: "invisalign",
   name: "Invisalign",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Straighter teeth,",
     titleB: "without the metal.",
     intro:
-      "Invisalign straightens teeth using clear plastic aligners instead of traditional, unsightly metal bands and brackets. Each aligner is worn for about two weeks before you move to the next in the series, gently guiding your teeth into the correct position — and it is genuinely hard to notice someone wearing them.",
+      "Invisalign straightens teeth using clear plastic aligners instead of traditional, unsightly metal bands and brackets. Each aligner is worn for about two weeks before you move to the next in the series, gently guiding your teeth into the correct position, and it is genuinely hard to notice someone wearing them.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1777793636393-a0fec488f3fb?w=800&q=75&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Clear aligners from an",
     titleB: "award-winning team.",
     subtitle:
-      "The discreet way to straighten teeth, delivered by a clinic Milton has voted for 12 consecutive community awards — from the Milton Champion, Hamilton Spectator and Three Best Rated.",
+      "The discreet way to straighten teeth, delivered by a clinic Milton has voted for 12 consecutive community awards, from the Milton Champion, Hamilton Spectator and Three Best Rated.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "A series of aligners,",
     titleB: "not a mouthful of metal.",
     paragraph:
-      "Instead of brackets and wires, Invisalign moves your teeth with a sequence of clear, removable plastic aligners, each one nudging your teeth a little closer to their correct position. At our Milton clinic, the whole journey starts on a screen — you see where your smile is going before the first aligner is made. Here is how it works:",
+      "Instead of brackets and wires, Invisalign moves your teeth with a sequence of clear, removable plastic aligners, each one nudging your teeth a little closer to their correct position. At our Milton clinic, the whole journey starts on a screen, you see where your smile is going before the first aligner is made. Here is how it works:",
     image: {
       src: "https://images.unsplash.com/photo-1670250492416-570b5b7343b1?w=1000&q=80&auto=format&fit=crop",
       alt: "A straight, natural-looking smile achieved with clear aligner treatment",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Scan",
+        image: { src: "https://images.unsplash.com/photo-1777793636393-a0fec488f3fb?w=800&q=80&auto=format&fit=crop", alt: "A clear aligner held in the hands" },
         kicker: "Step 1",
         title: "The iTero scan",
-        desc: "A gentle 3D intra-oral scan builds a computer-generated model of your teeth and simulates how your smile will look after treatment — no goopy impressions.",
+        desc: "A gentle 3D intra-oral scan builds a computer-generated model of your teeth and simulates how your smile will look after treatment, no goopy impressions.",
       },
       {
         icon: "Layers",
+        image: { src: "https://images.unsplash.com/photo-1598531228433-d9f0cb960816?w=800&q=80&auto=format&fit=crop", alt: "An intraoral scanner capturing a digital impression" },
         kicker: "Step 2",
         title: "Your aligner series",
         desc: "A sequence of clear plastic aligners is custom-made for your teeth. They fit closely, and it is difficult to tell you are wearing them at all.",
       },
       {
         icon: "RefreshCw",
+        image: { src: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=800&q=80&auto=format&fit=crop", alt: "A digital smile preview on the clinic monitor" },
         kicker: "Step 3",
         title: "Two weeks at a time",
         desc: "You wear each aligner for approximately two weeks, then progress to the next fitted aligner in the series, until your teeth are in the correct position.",
       },
     ],
     closingNote:
-      "Because the aligners are removable, mealtimes, brushing and flossing carry on exactly as they always have — no wires to work around.",
+      "Because the aligners are removable, mealtimes, brushing and flossing carry on exactly as they always have, no wires to work around.",
   },
 
   context: {
@@ -90,32 +93,36 @@ const config = {
     feature: {
       image: {
         src: "https://images.unsplash.com/photo-1720685193964-4529228a33c1?w=1000&q=80&auto=format&fit=crop",
-        alt: "Traditional metal braces — the visible alternative Invisalign replaces",
+        alt: "Traditional metal braces, the visible alternative Invisalign replaces",
       },
       headline: "For many adults, the brackets were the only thing holding them back.",
       caption:
-        "Dr. Sarna and his team offer both options at our Milton clinic, so the recommendation is based on your teeth — not on what happens to be available.",
+        "Dr. Sarna and his team offer both options at our Milton clinic, so the recommendation is based on your teeth, not on what happens to be available.",
     },
     cards: [
       {
         icon: "Frown",
+        image: { src: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?w=800&q=80&auto=format&fit=crop", alt: "A close-up of teeth during treatment" },
         title: "Self-conscious about metal",
         desc: "Many adults and teens put off straightening their teeth because they do not want a visibly metallic smile at work or school.",
       },
       {
         icon: "Utensils",
+        image: { src: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient laughing with confidence in her smile" },
         title: "Food restrictions with braces",
         desc: "Fixed brackets and wires mean avoiding certain foods for the length of treatment. Removable aligners simply come out at mealtimes.",
       },
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1670250492416-570b5b7343b1?w=800&q=80&auto=format&fit=crop", alt: "Matching the shade of natural teeth" },
         title: "Brushing around brackets is hard",
         desc: "Wires make thorough brushing and flossing a chore. With aligners out of the way, home care stays exactly as easy as before.",
       },
       {
         icon: "Wrench",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "No brackets to adjust or break",
-        desc: "There are no bands to tighten and no brackets to pop off — you progress through the series aligner by aligner.",
+        desc: "There are no bands to tighten and no brackets to pop off, you progress through the series aligner by aligner.",
       },
     ],
   },
@@ -134,7 +141,7 @@ const config = {
       {
         icon: "Eye",
         title: "Hard to notice at all",
-        desc: "The aligners are clear plastic and fit closely over your teeth — it is difficult to tell when someone is wearing them.",
+        desc: "The aligners are clear plastic and fit closely over your teeth, it is difficult to tell when someone is wearing them.",
       },
       {
         icon: "Utensils",
@@ -144,7 +151,7 @@ const config = {
       {
         icon: "Feather",
         title: "No metal on your teeth",
-        desc: "Straight teeth without metal bands or brackets — smooth plastic instead of wires against your cheeks and lips.",
+        desc: "Straight teeth without metal bands or brackets, smooth plastic instead of wires against your cheeks and lips.",
       },
       {
         icon: "Scan",
@@ -154,12 +161,12 @@ const config = {
       {
         icon: "SmilePlus",
         title: "Made for adults and teens",
-        desc: "Clear aligners suit working adults and image-conscious teens alike — straighter teeth without a change to how you look mid-treatment.",
+        desc: "Clear aligners suit working adults and image-conscious teens alike, straighter teeth without a change to how you look mid-treatment.",
       },
     ],
     cta: {
       title: "Wondering if Invisalign is right for you?",
-      sub: "Book a consultation to find out if you are a candidate — and see your simulated result on screen.",
+      sub: "Book a consultation to find out if you are a candidate, and see your simulated result on screen.",
     },
   },
 
@@ -170,7 +177,7 @@ const config = {
     cards: [
       {
         title: "iTero smile simulation",
-        desc: "Before anything starts, a 3D digital scan shows how your smile is expected to look after treatment — no impressions, no guesswork.",
+        desc: "Before anything starts, a 3D digital scan shows how your smile is expected to look after treatment, no impressions, no guesswork.",
       },
       {
         title: "Invisalign for teens and adults",
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Retainers to protect the result",
-        desc: "Once your teeth reach their correct position, a retainer keeps them there — the last step in making the change permanent.",
+        desc: "Once your teeth reach their correct position, a retainer keeps them there, the last step in making the change permanent.",
       },
     ],
   },
@@ -193,13 +200,13 @@ const config = {
     titleA: "Clear aligners work best",
     titleB: "with clear planning.",
     paragraph:
-      "Dr. Sarna is a recognized leader in cosmetic and restorative dentistry with an emphasis on re-creating natural aesthetic beauty. At our Milton clinic, Invisalign starts with a precise iTero digital scan — and because we offer braces too, the recommendation you get is the one that actually fits your case.",
+      "Dr. Sarna is a recognized leader in cosmetic and restorative dentistry with an emphasis on re-creating natural aesthetic beauty. At our Milton clinic, Invisalign starts with a precise iTero digital scan, and because we offer braces too, the recommendation you get is the one that actually fits your case.",
     items: [
       {
         icon: "ScanLine",
         name: "iTero 3D digital scanner",
         benefit:
-          "A gentle wand captures a complete 3D image of your teeth and simulates your post-treatment smile — a better setup experience, proven across 400,000+ documented cases.",
+          "A gentle wand captures a complete 3D image of your teeth and simulates your post-treatment smile, a better setup experience, proven across 400,000+ documented cases.",
       },
       {
         icon: "Puzzle",
@@ -217,14 +224,14 @@ const config = {
         icon: "Clock",
         name: "Evenings, Saturdays, direct billing",
         benefit:
-          "Open until 7 PM weeknights and 2 PM Saturdays, and we bill your insurance directly — progress checks fit around your life.",
+          "Open until 7 PM weeknights and 2 PM Saturdays, and we bill your insurance directly, progress checks fit around your life.",
       },
     ],
   },
 
   cost: {
     paragraph:
-      "For most adult cases, Invisalign pricing is very similar to traditional braces — the clear plastic does not carry the premium people expect. You receive a written estimate before treatment begins, we bill your insurance directly, and 0% financing over 12 to 24 months lets you spread the cost comfortably.",
+      "For most adult cases, Invisalign pricing is very similar to traditional braces, the clear plastic does not carry the premium people expect. You receive a written estimate before treatment begins, we bill your insurance directly, and 0% financing over 12 to 24 months lets you spread the cost comfortably.",
   },
 
   faqEyebrow: "Invisalign questions",
@@ -243,7 +250,7 @@ const config = {
     },
     {
       q: "Will people notice I am wearing aligners?",
-      a: "Rarely. The aligners are made of clear plastic and fit closely over your teeth, so it is difficult to notice someone wearing them — that is the main reason adults and teens choose Invisalign over metal brackets.",
+      a: "Rarely. The aligners are made of clear plastic and fit closely over your teeth, so it is difficult to notice someone wearing them, that is the main reason adults and teens choose Invisalign over metal brackets.",
     },
     {
       q: "Can I eat and drink normally with Invisalign?",
@@ -255,7 +262,7 @@ const config = {
     },
     {
       q: "What is the iTero scanner and why does it matter?",
-      a: "The iTero is a 3D intra-oral digital scanner that builds a computer-generated model of your teeth using a gentle wand — no impression trays. Based on more than 400,000 documented cases, it improves the setup experience for Invisalign patients and lets you see how your smile will look after treatment.",
+      a: "The iTero is a 3D intra-oral digital scanner that builds a computer-generated model of your teeth using a gentle wand, no impression trays. Based on more than 400,000 documented cases, it improves the setup experience for Invisalign patients and lets you see how your smile will look after treatment.",
     },
   ],
 };

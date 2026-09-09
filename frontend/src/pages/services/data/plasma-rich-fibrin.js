@@ -1,4 +1,4 @@
-// Content config for /services/plasma-rich-fibrin — follows the dental-implants master template.
+// Content config for /services/plasma-rich-fibrin-in-milton, follows the dental-implants master template.
 const config = {
   slug: "plasma-rich-fibrin",
   name: "Plasma Rich Fibrin",
@@ -7,7 +7,7 @@ const config = {
   meta: {
     title: "Plasma Rich Fibrin in Milton, ON - Hawthorne Village Dental Care",
     description:
-      "PRF, plasma rich fibrin, is harnessed from your own blood and used in dental implants, bone grafting, soft tissue grafting and extractions to enhance healing. Ask Hawthorne Village Dental Care in Milton — the future is now.",
+      "PRF, plasma rich fibrin, is harnessed from your own blood and used in dental implants, bone grafting, soft tissue grafting and extractions to enhance healing. Ask Hawthorne Village Dental Care in Milton, the future is now.",
     procedure: {
       alternateName: "PRF Therapy",
       description:
@@ -22,7 +22,7 @@ const config = {
     titleA: "Your own blood,",
     titleB: "healing you faster.",
     intro:
-      "PRF — plasma rich fibrin — is harnessed from your own blood and used in many surgical procedures: dental implants, soft tissue grafting, bone grafting and extractions. Its growth factors enhance your body's natural ability to regenerate bone and soft tissue. The future is now.",
+      "PRF, plasma rich fibrin, is harnessed from your own blood and used in many surgical procedures: dental implants, soft tissue grafting, bone grafting and extractions. Its growth factors enhance your body's natural ability to regenerate bone and soft tissue. The future is now.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1639772823849-6efbd173043c?w=800&q=75&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Regenerative dentistry from an",
     titleB: "award-winning team.",
     subtitle:
-      "PRF is the kind of forward-looking technique that has earned our Milton clinic 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated — and Dr. Sarna his ICOI Fellowship in Implantology.",
+      "PRF is the kind of forward-looking technique that has earned our Milton clinic 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated, and Dr. Sarna his ICOI Fellowship in Implantology.",
   },
 
   intro: {
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Syringe",
+        image: { src: "https://images.unsplash.com/photo-1639772823849-6efbd173043c?w=800&q=80&auto=format&fit=crop", alt: "Blood vials prepared for plasma rich fibrin treatment" },
         kicker: "Step 1",
         title: "A small blood draw",
-        desc: "A modest sample of your own blood is taken chairside — quick, simple, and no different from a routine lab draw.",
+        desc: "A modest sample of your own blood is taken chairside, quick, simple, and no different from a routine lab draw.",
       },
       {
         icon: "RefreshCw",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "Step 2",
         title: "The fibrin matrix",
-        desc: "Your sample is concentrated into a fibrin matrix enriched with platelets — packed with the growth factors and cytokines that drive healing.",
+        desc: "Your sample is concentrated into a fibrin matrix enriched with platelets, packed with the growth factors and cytokines that drive healing.",
       },
       {
         icon: "Target",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         kicker: "Step 3",
         title: "Placed where you heal",
-        desc: "The PRF is placed directly at the surgical site — an implant, graft or extraction socket — to enhance soft tissue and bone regeneration.",
+        desc: "The PRF is placed directly at the surgical site, an implant, graft or extraction socket, to enhance soft tissue and bone regeneration.",
       },
     ],
     closingNote:
-      "Because every bit of it comes from you, your body recognizes PRF completely — please ask us about PRF at your consultation. The future is now.",
+      "Because every bit of it comes from you, your body recognizes PRF completely, please ask us about PRF at your consultation. The future is now.",
   },
 
   context: {
@@ -99,23 +102,27 @@ const config = {
     cards: [
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Implants need integration",
-        desc: "A dental implant succeeds when bone and soft tissue heal firmly around it — regeneration is the whole game.",
+        desc: "A dental implant succeeds when bone and soft tissue heal firmly around it, regeneration is the whole game.",
       },
       {
         icon: "Bone",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "Grafts must become bone",
         desc: "Bone grafting relies on your body's regenerative capability to turn grafted material into solid, living jawbone.",
       },
       {
         icon: "Shield",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Extraction sites need support",
-        desc: "After a tooth is removed, the socket has real healing to do — PRF gives that process a concentrated head start.",
+        desc: "After a tooth is removed, the socket has real healing to do, PRF gives that process a concentrated head start.",
       },
       {
         icon: "Zap",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Growth factors do the work",
-        desc: "The platelets in PRF carry many growth factors and cytokines — the biological signals that tell tissue to rebuild.",
+        desc: "The platelets in PRF carry many growth factors and cytokines, the biological signals that tell tissue to rebuild.",
       },
     ],
   },
@@ -128,13 +135,13 @@ const config = {
       icon: "Droplets",
       value: "100%",
       label: "your own platelets",
-      note: "PRF is prepared from a small sample of your own blood — nothing foreign, nothing synthetic.",
+      note: "PRF is prepared from a small sample of your own blood, nothing foreign, nothing synthetic.",
     },
     cards: [
       {
         icon: "Leaf",
         title: "Completely natural",
-        desc: "PRF is harnessed from your own blood, so your body recognizes every bit of it — no synthetic additives involved.",
+        desc: "PRF is harnessed from your own blood, so your body recognizes every bit of it, no synthetic additives involved.",
       },
       {
         icon: "HeartPulse",
@@ -144,7 +151,7 @@ const config = {
       {
         icon: "Bone",
         title: "Supports bone regeneration",
-        desc: "The same growth factors work on bone — a meaningful advantage after grafting and implant placement.",
+        desc: "The same growth factors work on bone, a meaningful advantage after grafting and implant placement.",
       },
       {
         icon: "Puzzle",
@@ -154,12 +161,12 @@ const config = {
       {
         icon: "Star",
         title: "Not something every clinic offers",
-        desc: "PRF is a technique few Milton clinics offer — at Hawthorne Village it's part of how we plan surgical care.",
+        desc: "PRF is a technique few Milton clinics offer, at Hawthorne Village it's part of how we plan surgical care.",
       },
     ],
     cta: {
       title: "Curious whether PRF fits your treatment plan?",
-      sub: "Ask Dr. Sarna about PRF at your consultation — the future is now.",
+      sub: "Ask Dr. Sarna about PRF at your consultation, the future is now.",
     },
   },
 
@@ -170,7 +177,7 @@ const config = {
     cards: [
       {
         title: "Dental implants",
-        desc: "PRF supports the bone and soft tissue healing that anchors an implant — from single teeth to full arches.",
+        desc: "PRF supports the bone and soft tissue healing that anchors an implant, from single teeth to full arches.",
       },
       {
         title: "Dental bone grafting",
@@ -193,7 +200,7 @@ const config = {
     titleA: "PRF works best",
     titleB: "in experienced hands.",
     paragraph:
-      "Dr. Sarna is a recognized leader in cosmetic, restorative and implant dentistry with an emphasis on re-creating natural aesthetic beauty. PRF is one of the techniques he brings to surgical care at our Milton clinic — alongside 3D planning and comfort-first protocols.",
+      "Dr. Sarna is a recognized leader in cosmetic, restorative and implant dentistry with an emphasis on re-creating natural aesthetic beauty. PRF is one of the techniques he brings to surgical care at our Milton clinic, alongside 3D planning and comfort-first protocols.",
     items: [
       {
         icon: "Award",
@@ -211,20 +218,20 @@ const config = {
         icon: "Stethoscope",
         name: "One team, start to finish",
         benefit:
-          "Implants, grafting, soft tissue work and extractions all happen under one roof in Milton — with PRF woven through the surgical plan.",
+          "Implants, grafting, soft tissue work and extractions all happen under one roof in Milton, with PRF woven through the surgical plan.",
       },
       {
         icon: "Moon",
         name: "Comfort-first protocols",
         benefit:
-          "The Wand painless anaesthesia and oral sedation options keep surgical visits calm — for the procedure and the small blood draw alike.",
+          "The Wand painless anaesthesia and oral sedation options keep surgical visits calm, for the procedure and the small blood draw alike.",
       },
     ],
   },
 
   cost: {
     paragraph:
-      "PRF is usually part of a larger procedure — an implant, a graft or an extraction — so its cost is set out in the written estimate you receive before any treatment begins. We bill your insurance directly, we're a participating CDCP provider, and 0% financing over 6 to 24 months lets you spread the cost of your overall plan.",
+      "PRF is usually part of a larger procedure, an implant, a graft or an extraction, so its cost is set out in the written estimate you receive before any treatment begins. We bill your insurance directly, we're a participating CDCP provider, and 0% financing over 6 to 24 months lets you spread the cost of your overall plan.",
   },
 
   faqEyebrow: "Plasma Rich Fibrin questions",
@@ -243,11 +250,11 @@ const config = {
     },
     {
       q: "Is PRF safe?",
-      a: "PRF comes entirely from your own blood, so there's nothing foreign or synthetic being introduced — your body recognizes every bit of it. Dr. Sarna will review whether PRF fits your specific procedure at your consultation.",
+      a: "PRF comes entirely from your own blood, so there's nothing foreign or synthetic being introduced, your body recognizes every bit of it. Dr. Sarna will review whether PRF fits your specific procedure at your consultation.",
     },
     {
       q: "Does the blood draw hurt?",
-      a: "It's a quick, modest draw — much like routine bloodwork at a lab. Our comfort-first approach, including The Wand painless anaesthesia for the procedure itself, keeps the whole visit calm.",
+      a: "It's a quick, modest draw, much like routine bloodwork at a lab. Our comfort-first approach, including The Wand painless anaesthesia for the procedure itself, keeps the whole visit calm.",
     },
     {
       q: "Does PRF add to the cost of my treatment?",
@@ -255,7 +262,7 @@ const config = {
     },
     {
       q: "Why doesn't every dental clinic offer PRF?",
-      a: "PRF is a technique few Milton clinics offer — it takes surgical training and the right chairside setup. Dr. Sarna, an ICOI Fellow trained at UCSF and UCLA, has made it part of how Hawthorne Village approaches implants, grafting and extractions.",
+      a: "PRF is a technique few Milton clinics offer, it takes surgical training and the right chairside setup. Dr. Sarna, an ICOI Fellow trained at UCSF and UCLA, has made it part of how Hawthorne Village approaches implants, grafting and extractions.",
     },
   ],
 };

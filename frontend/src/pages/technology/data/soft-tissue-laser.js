@@ -14,7 +14,7 @@ const config = {
     procedure: {
       alternateName: "Dental Soft Tissue Laser",
       description:
-        "An advanced soft tissue laser used to reshape gum tissue, release tongue-ties, treat gummy smiles and remove soft tissue folds — often painlessly and without sutures.",
+        "An advanced soft tissue laser used to reshape gum tissue, release tongue-ties, treat gummy smiles and remove soft tissue folds, often painlessly and without sutures.",
       howPerformed:
         "The laser precisely reshapes or removes soft tissue while sealing as it works, which means less bleeding, faster healing and no sutures for many gum procedures.",
     },
@@ -25,7 +25,7 @@ const config = {
     titleA: "Gum procedures,",
     titleB: "without the stitches.",
     intro:
-      "Dr. Sarna uses an advanced soft tissue laser to perform a wide variety of dental procedures more efficiently and effectively — reshaping gum tissue with precision, from crown lengthening to gummy smiles to tongue-ties, often painlessly and suture-free.",
+      "Dr. Sarna uses an advanced soft tissue laser to perform a wide variety of dental procedures more efficiently and effectively, reshaping gum tissue with precision, from crown lengthening to gummy smiles to tongue-ties, often painlessly and suture-free.",
     bookLabel: "Book Appointment",
     image: {
       src: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Laser-precise care from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards performs gum procedures with a soft tissue laser — precision patients feel as gentler visits and faster healing.",
+      "The Milton clinic recognized with 12 consecutive community awards performs gum procedures with a soft tissue laser, precision patients feel as gentler visits and faster healing.",
   },
 
   intro: {
@@ -53,7 +53,7 @@ const config = {
     titleA: "Precision that gum tissue",
     titleB: "actually likes.",
     paragraph:
-      "Soft tissue laser technology has become important in dentistry precisely because it brings precision to a number of common — and not so common — procedures. Instead of a scalpel, focused light reshapes tissue gently:",
+      "Soft tissue laser technology has become important in dentistry precisely because it brings precision to a number of common, and not so common, procedures. Instead of a scalpel, focused light reshapes tissue gently:",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
       alt: "Advanced laser equipment in a modern Milton dental operatory",
@@ -65,25 +65,28 @@ const config = {
     parts: [
       {
         icon: "Target",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "How it works",
         title: "Focused light, exact edges",
         desc: "The laser reshapes gum tissue with pinpoint precision, exposing healthier tooth structure exactly where needed.",
       },
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=800&q=80&auto=format&fit=crop", alt: "A close-up of healthy gums and teeth" },
         kicker: "As it works",
         title: "Seals while it shapes",
-        desc: "The laser cauterizes as it goes — less bleeding during treatment and no sutures for many procedures.",
+        desc: "The laser cauterizes as it goes, less bleeding during treatment and no sutures for many procedures.",
       },
       {
         icon: "RefreshCw",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "Afterwards",
         title: "Heal faster",
         desc: "Gentler tissue handling means recovery is quicker and more comfortable than conventional gum surgery.",
       },
     ],
     closingNote:
-      "From crown lengthening that strengthens the foundation for restorations, to releasing a baby's tight frenulum — one tool, many gentle fixes.",
+      "From crown lengthening that strengthens the foundation for restorations, to releasing a baby's tight frenulum, one tool, many gentle fixes.",
   },
 
   context: {
@@ -93,30 +96,34 @@ const config = {
     feature: {
       image: {
         src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=1000&q=80&auto=format&fit=crop",
-        alt: "A young child at the dentist — tongue-tie release is a common soft tissue laser treatment",
+        alt: "A young child at the dentist, tongue-tie release is a common soft tissue laser treatment",
       },
       headline: "Even babies benefit from this laser.",
       caption:
-        "A restricted or tight frenulum can keep infants from breastfeeding adequately and children from speaking clearly — the laser releases it gently.",
+        "A restricted or tight frenulum can keep infants from breastfeeding adequately and children from speaking clearly, the laser releases it gently.",
     },
     cards: [
       {
         icon: "Crown",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "Crown lengthening",
-        desc: "Reshaping gum tissue exposes healthier tooth structure — a stronger foundation for restorations.",
+        desc: "Reshaping gum tissue exposes healthier tooth structure, a stronger foundation for restorations.",
       },
       {
         icon: "Smile",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Gummy smiles",
         desc: "Reshaped gum lines expose healthy tooth structure and improve how much tooth your smile shows.",
       },
       {
         icon: "Baby",
+        image: { src: "https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dentist working carefully with a patient" },
         title: "Tongue-ties",
         desc: "An ideal treatment for tongue-tied children and babies unable to breastfeed due to limited tongue movement.",
       },
       {
         icon: "Ear",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Speech impediments",
         desc: "Releasing restricted tissue can eliminate speech impediments caused by a tight frenulum.",
       },
@@ -131,13 +138,13 @@ const config = {
       icon: "Zap",
       value: "0",
       label: "sutures for many procedures",
-      note: "Faster healing, less bleeding, and no stitches for many gum procedures — that's the laser difference.",
+      note: "Faster healing, less bleeding, and no stitches for many gum procedures, that's the laser difference.",
     },
     cards: [
       {
         icon: "Feather",
         title: "Painless removal",
-        desc: "Soft tissue folds — often caused by ill-fitting dentures — are removed painlessly and suture-free.",
+        desc: "Soft tissue folds, often caused by ill-fitting dentures, are removed painlessly and suture-free.",
       },
       {
         icon: "RefreshCw",
@@ -162,7 +169,7 @@ const config = {
     ],
     cta: {
       title: "Wondering if the laser can fix it?",
-      sub: "Book a visit and ask — the answer is yes more often than you'd think.",
+      sub: "Book a visit and ask, the answer is yes more often than you'd think.",
     },
   },
 
@@ -196,7 +203,7 @@ const config = {
     titleA: "Gentler tools,",
     titleB: "deliberately chosen.",
     paragraph:
-      "Dr. Sarna incorporated soft tissue laser technology because it makes a wide variety of procedures more efficient and more effective — and because patients feel the difference. It's part of the same philosophy behind The Wand, Isolite and sedation: comfort is engineered, not hoped for.",
+      "Dr. Sarna incorporated soft tissue laser technology because it makes a wide variety of procedures more efficient and more effective, and because patients feel the difference. It's part of the same philosophy behind The Wand, Isolite and sedation: comfort is engineered, not hoped for.",
     items: [
       {
         icon: "Zap",
@@ -237,7 +244,7 @@ const config = {
     },
     {
       q: "Can it really help a baby who can't breastfeed?",
-      a: "Yes. A restricted or tight frenulum can limit tongue movement enough to prevent adequate breastfeeding. A gentle laser release is an ideal treatment for infants — and for tongue-tied children as well.",
+      a: "Yes. A restricted or tight frenulum can limit tongue movement enough to prevent adequate breastfeeding. A gentle laser release is an ideal treatment for infants, and for tongue-tied children as well.",
     },
     {
       q: "What is crown lengthening?",
@@ -245,7 +252,7 @@ const config = {
     },
     {
       q: "My dentures have caused a fold of tissue. Can that be fixed?",
-      a: "Yes — dental lasers are used for the painless, suture-free removal of soft tissue folds often caused by ill-fitting dentures. We can also address the denture fit itself.",
+      a: "Yes, dental lasers are used for the painless, suture-free removal of soft tissue folds often caused by ill-fitting dentures. We can also address the denture fit itself.",
     },
     {
       q: "Is laser treatment covered by insurance?",

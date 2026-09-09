@@ -42,7 +42,7 @@ export default function Awards({
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 mb-8 md:mb-10 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
         <div>
-          <div className="text-[12px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-2">
+          <div className="text-[12px] uppercase tracking-[0.14em] text-[#4285F4] font-medium mb-2">
             {eyebrow}
           </div>
           <h2 className="font-display text-2xl md:text-3xl text-[#0A192F] tracking-tight leading-tight">

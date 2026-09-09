@@ -97,25 +97,25 @@ export const whyChoose = [
 ];
 
 export const services = [
-  { name: "Dental Implants", blurb: "Permanent replacement teeth that look, feel and function like your own.", image: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=800&q=75&auto=format&fit=crop", href: "/services/dental-implants" },
-  { name: "Orthodontics", blurb: "Braces and aligners that guide teeth into place for kids, teens and adults.", image: "https://images.unsplash.com/photo-1720685193964-4529228a33c1?w=800&q=75&auto=format&fit=crop", href: "/services/orthodontics" },
-  { name: "Oral Sedation", blurb: "Calm, comfortable dentistry for patients who feel nervous about the chair.", image: "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?w=800&q=75&auto=format&fit=crop", href: "/services/oral-sedation" },
-  { name: "Dental Bone Grafting", blurb: "Rebuilds lost jawbone so implants have a solid foundation to hold onto.", image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=75&auto=format&fit=crop", href: "/services/dental-bone-grafting" },
-  { name: "Porcelain Veneers", blurb: "Thin porcelain shells that reshape chipped, stained or uneven front teeth.", image: "https://images.unsplash.com/photo-1670250492416-570b5b7343b1?w=800&q=75&auto=format&fit=crop", href: "/services/porcelain-veneers" },
-  { name: "Teeth In a Day", blurb: "Full-arch implants placed and restored with new teeth in a single visit.", image: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=75&auto=format&fit=crop", href: "/services/teeth-in-a-day" },
-  { name: "Root Canal Therapy", blurb: "Gentle, microscope-guided treatment that saves the tooth and stops the pain.", image: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?w=800&q=75&auto=format&fit=crop", href: "/services/root-canal-therapy" },
-  { name: "Dentures", blurb: "Custom, comfortable and natural-looking replacements for missing teeth.", image: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=800&q=75&auto=format&fit=crop", href: "/services/dentures" },
-  { name: "Periodontal (Gum) Care", blurb: "Deep cleaning and gum therapy that stops disease before it takes teeth.", image: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=800&q=75&auto=format&fit=crop", href: "/services/periodontal-gum-care" },
-  { name: "Cosmetic Dentistry", blurb: "Whitening, veneers and full smile makeovers designed around your face.", image: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=800&q=75&auto=format&fit=crop", href: "/services/cosmetic-dentistry" },
-  { name: "Same Day Crowns", blurb: "In-office CEREC crowns milled and fitted in a single visit.", image: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=800&q=75&auto=format&fit=crop", href: "/services/same-day-crowns" },
-  { name: "Botox & TMJ Treatment", blurb: "Relief for jaw pain, clenching and the headaches they drag along.", image: "https://images.unsplash.com/photo-1746708810803-722593e53772?w=800&q=75&auto=format&fit=crop", href: "/services/botox-tmj-treatment" },
-  { name: "Connective Tissue Graft", blurb: "Covers exposed roots and restores a healthy, even gum line.", image: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=800&q=75&auto=format&fit=crop", href: "/services/connective-tissue-graft" },
-  { name: "Invisalign", blurb: "Clear, removable aligners for adults and teens, straighter teeth in months, not years.", image: "https://images.unsplash.com/photo-1777793636393-a0fec488f3fb?w=800&q=75&auto=format&fit=crop", href: "/services/invisalign" },
-  { name: "Plasma Rich Fibrin", blurb: "Your own platelets, used to speed healing after extractions and surgery.", image: "https://images.unsplash.com/photo-1639772823849-6efbd173043c?w=800&q=75&auto=format&fit=crop", href: "/services/plasma-rich-fibrin" },
-  { name: "Sleep Apnea", blurb: "Custom oral appliances that quiet snoring and bring back real sleep.", image: "https://images.unsplash.com/photo-1759540638947-82b58f341f52?w=800&q=75&auto=format&fit=crop", href: "/services/sleep-apnea" },
-  { name: "Children's Dentistry", blurb: "Warm, unhurried visits that build lifelong healthy habits from age one.", image: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=75&auto=format&fit=crop", href: "/services/childrens-dentistry" },
-  { name: "Sports Mouthguards", blurb: "Custom-fitted protection for hockey, football and every sport in between.", image: "https://images.unsplash.com/photo-1770009534034-85be3c774f60?w=800&q=75&auto=format&fit=crop", href: "/services/sports-mouthguards" },
-  { name: "Wisdom Teeth", blurb: "Same-day surgical extraction with modern comfort protocols.", image: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=75&auto=format&fit=crop", href: "/services/wisdom-teeth" },
+  { name: "Dental Implants", blurb: "Permanent replacement teeth that look, feel and function like your own.", image: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=800&q=75&auto=format&fit=crop", href: "/services/dental-implants-in-milton" },
+  { name: "Orthodontics", blurb: "Braces and aligners that guide teeth into place for kids, teens and adults.", image: "https://images.unsplash.com/photo-1720685193964-4529228a33c1?w=800&q=75&auto=format&fit=crop", href: "/services/orthodontics-in-milton" },
+  { name: "Oral Sedation", blurb: "Calm, comfortable dentistry for patients who feel nervous about the chair.", image: "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?w=800&q=75&auto=format&fit=crop", href: "/services/oral-sedation-in-milton" },
+  { name: "Dental Bone Grafting", blurb: "Rebuilds lost jawbone so implants have a solid foundation to hold onto.", image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=75&auto=format&fit=crop", href: "/services/dental-bone-grafting-in-milton" },
+  { name: "Porcelain Veneers", blurb: "Thin porcelain shells that reshape chipped, stained or uneven front teeth.", image: "https://images.unsplash.com/photo-1670250492416-570b5b7343b1?w=800&q=75&auto=format&fit=crop", href: "/services/porcelain-veneers-in-milton" },
+  { name: "Teeth In a Day", blurb: "Full-arch implants placed and restored with new teeth in a single visit.", image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=75&auto=format&fit=crop", href: "/services/teeth-in-a-day-in-milton" },
+  { name: "Root Canal Therapy", blurb: "Gentle, microscope-guided treatment that saves the tooth and stops the pain.", image: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?w=800&q=75&auto=format&fit=crop", href: "/services/root-canal-therapy-in-milton" },
+  { name: "Dentures", blurb: "Custom, comfortable and natural-looking replacements for missing teeth.", image: "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=800&q=75&auto=format&fit=crop", href: "/services/dentures-in-milton" },
+  { name: "Periodontal (Gum) Care", blurb: "Deep cleaning and gum therapy that stops disease before it takes teeth.", image: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=800&q=75&auto=format&fit=crop", href: "/services/periodontal-gum-care-in-milton" },
+  { name: "Cosmetic Dentistry", blurb: "Whitening, veneers and full smile makeovers designed around your face.", image: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=800&q=75&auto=format&fit=crop", href: "/services/cosmetic-dentistry-in-milton" },
+  { name: "Same Day Crowns", blurb: "In-office CEREC crowns milled and fitted in a single visit.", image: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=800&q=75&auto=format&fit=crop", href: "/services/same-day-crowns-in-milton" },
+  { name: "Botox & TMJ Treatment", blurb: "Relief for jaw pain, clenching and the headaches they drag along.", image: "https://images.unsplash.com/photo-1746708810803-722593e53772?w=800&q=75&auto=format&fit=crop", href: "/services/botox-tmj-treatment-in-milton" },
+  { name: "Connective Tissue Graft", blurb: "Covers exposed roots and restores a healthy, even gum line.", image: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=800&q=75&auto=format&fit=crop", href: "/services/connective-tissue-graft-in-milton" },
+  { name: "Invisalign", blurb: "Clear, removable aligners for adults and teens, straighter teeth in months, not years.", image: "https://images.unsplash.com/photo-1777793636393-a0fec488f3fb?w=800&q=75&auto=format&fit=crop", href: "/services/invisalign-in-milton" },
+  { name: "Plasma Rich Fibrin", blurb: "Your own platelets, used to speed healing after extractions and surgery.", image: "https://images.unsplash.com/photo-1639772823849-6efbd173043c?w=800&q=75&auto=format&fit=crop", href: "/services/plasma-rich-fibrin-in-milton" },
+  { name: "Sleep Apnea", blurb: "Custom oral appliances that quiet snoring and bring back real sleep.", image: "https://images.unsplash.com/photo-1520206183501-b80df61043c2?w=800&q=75&auto=format&fit=crop", href: "/services/sleep-apnea-in-milton" },
+  { name: "Children's Dentistry", blurb: "Warm, unhurried visits that build lifelong healthy habits from age one.", image: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=75&auto=format&fit=crop", href: "/services/childrens-dentistry-in-milton" },
+  { name: "Sports Mouthguards", blurb: "Custom-fitted protection for hockey, football and every sport in between.", image: "https://images.unsplash.com/photo-1770009534034-85be3c774f60?w=800&q=75&auto=format&fit=crop", href: "/services/sports-mouthguards-in-milton" },
+  { name: "Wisdom Teeth", blurb: "Same-day surgical extraction with modern comfort protocols.", image: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=75&auto=format&fit=crop", href: "/services/wisdom-teeth-in-milton" },
 ];
 
 export const technology = [
@@ -136,10 +136,10 @@ export const technology = [
 export const testimonials = [
   { name: "Adeola", body: "Tried Hawthorne Village Dental Care for the first time and I have never ever felt so relaxed and at ease on a dentist chair. Erica was sweet, professional and pleasant. Really impressed.", rating: 5 },
   { name: "Krisen Allen", body: "Great experience at Hawthorne dental. The staff are all super friendly, and Dr. Malhi was great at explaining every step as he worked. The equipment they use is impressive and modern.", rating: 5 },
-  { name: "Mikhail Korolko", body: "All staff are friendly. I had cleaning with hygienist Katerina. She is so professional, knowledgeable and makes each client feel special — the reason I switched from my previous dental.", rating: 5 },
-  { name: "Verdah Ansari", body: "The best dental clinic I have ever been to. So kind, considerate and genuinely care for your health. Highly recommend Dr. Lulu — can't say enough good stuff about her.", rating: 5 },
+  { name: "Mikhail Korolko", body: "All staff are friendly. I had cleaning with hygienist Katerina. She is so professional, knowledgeable and makes each client feel special. She is the reason I switched from my previous dental.", rating: 5 },
+  { name: "Verdah Ansari", body: "The best dental clinic I have ever been to. So kind, considerate and genuinely care for your health. Highly recommend Dr. Lulu, can't say enough good stuff about her.", rating: 5 },
   { name: "Mikhael Pesin", body: "Recently moved to the area and today was my first visit. A great environment, friendly staff and an office that is technologically inclined. I will definitely be returning.", rating: 5 },
-  { name: "Darrel Saldanha", body: "I've never walked out of a dentist feeling so happy. My hygienist Haydee is excellent — she took the time to explain everything. Dr. Sarna gave me very good insight of my case.", rating: 5 },
+  { name: "Darrel Saldanha", body: "I've never walked out of a dentist feeling so happy. My hygienist Haydee is excellent, she took the time to explain everything. Dr. Sarna gave me very good insight of my case.", rating: 5 },
 ];
 
 export const journey = [
@@ -191,8 +191,8 @@ export const gallery = [
     patient: "Myrna",
     problem: "Missing teeth on the upper left side with worn, discoloured teeth and an old bridge on the upper right. She wanted a new smile without a partial denture.",
     solution: "Recreated using implants on the upper left, new fixed bridges on the upper left and right, and veneers on her four front teeth.",
-    before: "https://images.unsplash.com/photo-1664529845848-00f5fa16df86?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=900&q=80&auto=format&fit=crop",
+    before: "/images/gallery/case1-before.jpg",
+    after: "/images/gallery/case1-after.jpg",
   },
   {
     id: "all-porcelain-crown",
@@ -200,8 +200,8 @@ export const gallery = [
     patient: "Brenda",
     problem: "Brenda didn't like the appearance of the crown on her upper right incisor. It looked too opaque and had a dark shadow at the gum line.",
     solution: "The old crown was removed and replaced with a new all-porcelain crown that lets light pass through, eliminating the shadow.",
-    before: "https://images.unsplash.com/photo-1663182234283-28941e7612da?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1664529842504-5743d286ec1b?w=900&q=80&auto=format&fit=crop",
+    before: "/images/gallery/case2-before.jpg",
+    after: "/images/gallery/case2-after.jpg",
   },
   {
     id: "porcelain-veneers",
@@ -209,8 +209,8 @@ export const gallery = [
     patient: "Leslie",
     problem: "Leslie neglected her teeth while wearing braces, which left her with stained enamel. She wanted to improve her smile without returning to braces.",
     solution: "Direct bonding on six upper teeth in a single visit masked the discolouration and reshaped teeth, a big boost to Leslie's smile and confidence.",
-    before: "https://images.unsplash.com/photo-1679741919483-acf704e00495?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1567516364473-233c4b6fcfbe?w=900&q=80&auto=format&fit=crop",
+    before: "/images/gallery/case3-before.jpg",
+    after: "/images/gallery/case3-after.jpg",
   },
   {
     id: "tooth-whitening",
@@ -218,7 +218,7 @@ export const gallery = [
     patient: "Monique",
     problem: "Unhappy with the way her teeth had darkened over time, Monique wanted to bring back the whiteness of her smile.",
     solution: "Upper and lower teeth were whitened using a take-home whitening system, with dramatic results achieved in just two weeks.",
-    before: "https://images.unsplash.com/photo-1664529845843-b4192b8246fa?w=900&q=80&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1654373535457-383a0a4d00f9?w=900&q=80&auto=format&fit=crop",
+    before: "/images/gallery/case4-before.jpg",
+    after: "/images/gallery/case4-after.jpg",
   },
 ];

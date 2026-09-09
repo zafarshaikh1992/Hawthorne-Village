@@ -7,6 +7,8 @@ import OurTeam from "@/pages/OurTeam";
 import PatientForms from "@/pages/PatientForms";
 import Contact from "@/pages/Contact";
 import Blog from "@/pages/Blog";
+import PrivacyPolicy from "@/pages/PrivacyPolicy";
+import TermsOfUse from "@/pages/TermsOfUse";
 import ServicePage from "@/pages/services/ServicePage";
 import RootSlug from "@/pages/RootSlug";
 import { Toaster } from "sonner";
@@ -23,6 +25,8 @@ function App() {
           <Route path="/patient-forms" element={<PatientForms />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
           <Route path="/services/:slug" element={<ServicePage />} />
           {/* Technology pages and blog posts live at root-level slugs, matching the live site. */}
           <Route path="/:slug" element={<RootSlug />} />

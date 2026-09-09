@@ -31,7 +31,7 @@ export default function StickyActions() {
           <button
             data-testid="sticky-book-btn"
             onClick={() => window.open(clinic.bookUrl, "_blank", "noopener,noreferrer")}
-            className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-full py-3 text-[14px] font-medium text-white bg-[#2563EB]"
+            className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-full py-3 text-[14px] font-medium text-white bg-[#1A73E8]"
           >
             <Calendar className="w-4 h-4" /> Book Appointment
           </button>

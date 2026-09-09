@@ -1,40 +1,50 @@
 import Header from "@/components/site/Header";
-import Hero from "@/components/site/Hero";
+import HeroAwesome from "@/components/site/HeroAwesome";
 import CallBar from "@/components/site/CallBar";
-import Awards from "@/components/site/Awards";
-import SocialProof from "@/components/site/SocialProof";
+import IntroNearYou from "@/components/site/IntroNearYou";
+import CDCPBand from "@/components/site/CDCPBand";
+import ServicesChecklist from "@/components/site/ServicesChecklist";
 import WhyChoose from "@/components/site/WhyChoose";
 import MeetDentist from "@/components/site/MeetDentist";
-import Services from "@/components/site/Services";
+import BookingPromo from "@/components/site/BookingPromo";
 import Technology from "@/components/site/Technology";
-import SmileGallery from "@/components/site/SmileGallery";
+import SocialProof from "@/components/site/SocialProof";
 import NewPatientWelcome from "@/components/site/NewPatientWelcome";
-import Insurance from "@/components/site/Insurance";
 import FAQ from "@/components/site/FAQ";
+import Insurance from "@/components/site/Insurance";
+import Financing from "@/components/site/Financing";
 import VisitUs from "@/components/site/VisitUs";
+import ParkingNote from "@/components/site/ParkingNote";
 import Footer from "@/components/site/Footer";
 import StickyActions from "@/components/site/StickyActions";
 import JsonLd from "@/components/site/JsonLd";
 
+// Section order mirrors the client's reference flow (kiwidental.ca):
+// statement hero → "dentist near you" intro → CDCP → services → story
+// sections → booking promo → proof → new patients → posts → FAQ → money
+// (insurance/financing) → locations/parking.
 export default function Home() {
   return (
-    <div data-testid="home-page" className="min-h-screen bg-white text-[#1E293B]">
+    <div data-testid="home-page" className="home-v3 min-h-screen bg-white text-[#1E293B]">
       <JsonLd />
       <Header />
       <main>
-        <Hero />
+        <HeroAwesome />
         <CallBar />
-        <Awards />
+        <IntroNearYou />
+        <CDCPBand />
+        <ServicesChecklist />
         <WhyChoose />
-        <Services />
         <MeetDentist />
+        <BookingPromo />
         <Technology />
         <SocialProof />
-        <SmileGallery />
         <NewPatientWelcome />
-        <Insurance />
         <FAQ />
+        <Insurance />
+        <Financing />
         <VisitUs />
+        <ParkingNote />
       </main>
       <Footer />
       <StickyActions />

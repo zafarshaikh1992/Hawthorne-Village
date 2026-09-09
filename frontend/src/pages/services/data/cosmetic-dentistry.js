@@ -1,4 +1,4 @@
-// Content config for /services/cosmetic-dentistry — follows the dental-implants master template.
+// Content config for /services/cosmetic-dentistry-in-milton, follows the dental-implants master template.
 const config = {
   slug: "cosmetic-dentistry",
   name: "Cosmetic Dentistry",
@@ -7,11 +7,11 @@ const config = {
   meta: {
     title: "COSMETIC DENTISTRY | Hawthorne Village Dental",
     description:
-      "All aspects of our dental treatment offer a cosmetic and functional component. Teeth are restored with tooth coloured resins and ceramics — strong, durable restorations with no metal, bonded to tooth structure at our Milton clinic.",
+      "All aspects of our dental treatment offer a cosmetic and functional component. Teeth are restored with tooth coloured resins and ceramics, strong, durable restorations with no metal, bonded to tooth structure at our Milton clinic.",
     procedure: {
       alternateName: "Aesthetic Dentistry",
       description:
-        "Cosmetic dentistry is the blending of the science of dentistry with artistic ability — whitening, veneers, bonding, crowns, bridges, implants and orthodontics combined to achieve beautiful, natural, comfortable, lasting results.",
+        "Cosmetic dentistry is the blending of the science of dentistry with artistic ability, whitening, veneers, bonding, crowns, bridges, implants and orthodontics combined to achieve beautiful, natural, comfortable, lasting results.",
       howPerformed:
         "Dr. Sarna treats each patient holistically, planning the right combination of tooth-coloured resins and ceramics, whitening, veneers, crowns, bridges, implants or orthodontics to restore both the look and function of the smile.",
     },
@@ -22,7 +22,7 @@ const config = {
     titleA: "Excellence in dentistry",
     titleB: "with optimum care.",
     intro:
-      "Every treatment we provide has both a cosmetic and a functional component. Thanks to advances in modern dentistry, teeth can be restored with tooth-coloured resins and ceramics — strong, durable restorations bonded to tooth structure, with no metal in sight.",
+      "Every treatment we provide has both a cosmetic and a functional component. Thanks to advances in modern dentistry, teeth can be restored with tooth-coloured resins and ceramics, strong, durable restorations bonded to tooth structure, with no metal in sight.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=1200&q=80&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Cosmetic care from an",
     titleB: "award-winning team.",
     subtitle:
-      "Twelve consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated reflect the same thing patients see in the mirror — cosmetic work that looks natural, feels comfortable and lasts.",
+      "Twelve consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated reflect the same thing patients see in the mirror, cosmetic work that looks natural, feels comfortable and lasts.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "The science of dentistry,",
     titleB: "blended with art.",
     paragraph:
-      "Cosmetic dentistry is the blending of the science of dentistry with artistic ability. Dr. Sarna treats patients holistically, creating restorations that look and feel natural — and every plan rests on three things:",
+      "Cosmetic dentistry is the blending of the science of dentistry with artistic ability. Dr. Sarna treats patients holistically, creating restorations that look and feel natural, and every plan rests on three things:",
     image: {
       src: "https://images.unsplash.com/photo-1654373535457-383a0a4d00f9?w=1200&q=80&auto=format&fit=crop",
       alt: "Bright, natural smile after cosmetic dental treatment in Milton",
@@ -62,25 +62,28 @@ const config = {
     parts: [
       {
         icon: "Stethoscope",
+        image: { src: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=800&q=80&auto=format&fit=crop", alt: "A confident, healthy smile" },
         kicker: "Part 1",
         title: "The science",
-        desc: "Modern tooth-coloured resins and ceramics are strong, durable and bonded directly to tooth structure — a far better answer than the metal materials of the past.",
+        desc: "Modern tooth-coloured resins and ceramics are strong, durable and bonded directly to tooth structure, a far better answer than the metal materials of the past.",
       },
       {
         icon: "Wand2",
+        image: { src: "https://images.unsplash.com/photo-1670250492416-570b5b7343b1?w=800&q=80&auto=format&fit=crop", alt: "Matching the shade of natural teeth" },
         kicker: "Part 2",
         title: "The artistry",
         desc: "Dr. Sarna applies his artistic ability to create restorations that look and feel natural, matched to your face, your features and your other teeth.",
       },
       {
         icon: "Target",
+        image: { src: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient laughing with confidence in her smile" },
         kicker: "Part 3",
         title: "The plan",
-        desc: "Veneers, crowns, bridges, implants, orthodontics and whitening are combined thoughtfully — choosing only what achieves beautiful, natural, lasting results for you.",
+        desc: "Veneers, crowns, bridges, implants, orthodontics and whitening are combined thoughtfully, choosing only what achieves beautiful, natural, lasting results for you.",
       },
     ],
     closingNote:
-      "Our team takes great pride in helping every patient have the healthiest, most beautiful smile possible — cosmetic and functional, never one at the expense of the other.",
+      "Our team takes great pride in helping every patient have the healthiest, most beautiful smile possible, cosmetic and functional, never one at the expense of the other.",
   },
 
   context: {
@@ -92,28 +95,32 @@ const config = {
         src: "https://images.unsplash.com/photo-1664529845843-b4192b8246fa?w=1000&q=80&auto=format&fit=crop",
         alt: "Teeth darkened and worn over time, before cosmetic dental treatment",
       },
-      headline: "Most smiles aren't held back by one big problem — it's the accumulation of small ones.",
+      headline: "Most smiles aren't held back by one big problem, it's the accumulation of small ones.",
       caption:
-        "Dr. Sarna looks at the whole picture — colour, shape, spacing and old dental work — before recommending anything.",
+        "Dr. Sarna looks at the whole picture, colour, shape, spacing and old dental work, before recommending anything.",
     },
     cards: [
       {
         icon: "Frown",
+        image: { src: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=800&q=80&auto=format&fit=crop", alt: "A digital smile preview on the clinic monitor" },
         title: "Stained, dull colour",
-        desc: "Teeth darken gradually with coffee, tea and time — so slowly that photos often reveal it before the mirror does.",
+        desc: "Teeth darken gradually with coffee, tea and time, so slowly that photos often reveal it before the mirror does.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=800&q=80&auto=format&fit=crop", alt: "A dentist finishing a custom restoration" },
         title: "Chips and wear",
         desc: "Worn edges and small chips make front teeth look shorter and older than they need to.",
       },
       {
         icon: "Puzzle",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "Gaps and missing teeth",
-        desc: "Spacing issues and missing teeth affect how a smile looks — and how comfortably it functions.",
+        desc: "Spacing issues and missing teeth affect how a smile looks, and how comfortably it functions.",
       },
       {
         icon: "Layers",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Old, dark dental work",
         desc: "Aging metal fillings and opaque crowns stand out against natural enamel every time you laugh.",
       },
@@ -134,7 +141,7 @@ const config = {
       {
         icon: "Gem",
         title: "Strong, beautiful materials",
-        desc: "Porcelain and composites offer strength and durability while giving you a beautiful white smile — no metal anywhere.",
+        desc: "Porcelain and composites offer strength and durability while giving you a beautiful white smile, no metal anywhere.",
       },
       {
         icon: "Leaf",
@@ -144,12 +151,12 @@ const config = {
       {
         icon: "Heart",
         title: "Treated as a whole person",
-        desc: "Dr. Sarna plans holistically — your bite, your health and your goals shape the plan, not a checklist of procedures.",
+        desc: "Dr. Sarna plans holistically, your bite, your health and your goals shape the plan, not a checklist of procedures.",
       },
       {
         icon: "Star",
         title: "Results that last",
-        desc: "Every treatment is chosen to achieve beautiful, natural, comfortable, lasting results — not a quick fix that needs redoing.",
+        desc: "Every treatment is chosen to achieve beautiful, natural, comfortable, lasting results, not a quick fix that needs redoing.",
       },
       {
         icon: "Trophy",
@@ -174,7 +181,7 @@ const config = {
       },
       {
         title: "Porcelain veneers & bonding",
-        desc: "Thin porcelain shells or sculpted composite reshape chipped, stained or uneven front teeth — often in one or two visits.",
+        desc: "Thin porcelain shells or sculpted composite reshape chipped, stained or uneven front teeth, often in one or two visits.",
       },
       {
         title: "Tooth-coloured fillings & crowns",
@@ -211,7 +218,7 @@ const config = {
         icon: "Sun",
         name: "Whitening that works",
         benefit:
-          "In-office Zoom whitening lightens teeth up to 8 shades in a single visit — with custom take-home trays to keep it that way.",
+          "In-office Zoom whitening lightens teeth up to 8 shades in a single visit, with custom take-home trays to keep it that way.",
       },
       {
         icon: "Wand2",
@@ -224,14 +231,14 @@ const config = {
 
   cost: {
     paragraph:
-      "Every cosmetic plan is personal — a single whitening visit and a full smile makeover sit at very different price points — so you always receive a written estimate before anything begins. We bill your insurance directly where coverage applies, and 0% financing over 6 to 24 months lets you spread the cost comfortably.",
+      "Every cosmetic plan is personal, a single whitening visit and a full smile makeover sit at very different price points, so you always receive a written estimate before anything begins. We bill your insurance directly where coverage applies, and 0% financing over 6 to 24 months lets you spread the cost comfortably.",
   },
 
   faqEyebrow: "Cosmetic dentistry questions",
   faqs: [
     {
       q: "What is cosmetic dentistry, exactly?",
-      a: "Cosmetic dentistry is the blending of the science of dentistry with artistic ability. It covers whitening, veneers, bonding, tooth-coloured fillings, crowns, bridges, implants and orthodontics — chosen and combined to achieve beautiful, natural, comfortable, lasting results.",
+      a: "Cosmetic dentistry is the blending of the science of dentistry with artistic ability. It covers whitening, veneers, bonding, tooth-coloured fillings, crowns, bridges, implants and orthodontics, chosen and combined to achieve beautiful, natural, comfortable, lasting results.",
     },
     {
       q: "Does professional teeth whitening actually work?",
@@ -239,23 +246,23 @@ const config = {
     },
     {
       q: "Are tooth-coloured fillings as strong as metal ones?",
-      a: "Modern tooth-coloured resins and ceramics are strong, durable and bonded directly to tooth structure — with no metal. Porcelain and composites offer strength and durability while giving you a beautiful white smile.",
+      a: "Modern tooth-coloured resins and ceramics are strong, durable and bonded directly to tooth structure, with no metal. Porcelain and composites offer strength and durability while giving you a beautiful white smile.",
     },
     {
       q: "How do I know which treatment is right for me?",
-      a: "That's what the consultation is for. Dr. Sarna treats patients holistically — he examines your colour, tooth shape, spacing, bite and any existing dental work, then recommends the combination that genuinely fits your goals, whether that's a single whitening visit or a fuller makeover.",
+      a: "That's what the consultation is for. Dr. Sarna treats patients holistically, he examines your colour, tooth shape, spacing, bite and any existing dental work, then recommends the combination that genuinely fits your goals, whether that's a single whitening visit or a fuller makeover.",
     },
     {
       q: "Will cosmetic work look natural?",
-      a: "That's the entire emphasis of Dr. Sarna's approach — re-creating natural aesthetic beauty. Restorations are matched to your face and neighbouring teeth so the result reads as a healthy, beautiful smile rather than obvious dental work.",
+      a: "That's the entire emphasis of Dr. Sarna's approach, re-creating natural aesthetic beauty. Restorations are matched to your face and neighbouring teeth so the result reads as a healthy, beautiful smile rather than obvious dental work.",
     },
     {
       q: "Can old metal fillings and dark crowns be replaced?",
-      a: "Yes. Aging metal fillings can be replaced with composite matched to your tooth shade, and opaque older crowns can be swapped for all-porcelain crowns that let light pass through naturally — eliminating dark shadows at the gum line.",
+      a: "Yes. Aging metal fillings can be replaced with composite matched to your tooth shade, and opaque older crowns can be swapped for all-porcelain crowns that let light pass through naturally, eliminating dark shadows at the gum line.",
     },
     {
       q: "Is cosmetic dentistry covered by insurance?",
-      a: "It depends on the treatment — restorative work like fillings and crowns often has coverage, while purely cosmetic treatments like whitening usually don't. You receive a written estimate first, we bill your insurance directly where coverage applies, and 0% financing is available over 6 to 24 months.",
+      a: "It depends on the treatment, restorative work like fillings and crowns often has coverage, while purely cosmetic treatments like whitening usually don't. You receive a written estimate first, we bill your insurance directly where coverage applies, and 0% financing is available over 6 to 24 months.",
     },
   ],
 };

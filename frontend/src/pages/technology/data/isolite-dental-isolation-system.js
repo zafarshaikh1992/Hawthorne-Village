@@ -25,7 +25,7 @@ const config = {
     titleA: "Total control of",
     titleB: "the working field.",
     intro:
-      "The Isolite system illuminates the inside of your mouth, protects your cheek, tongue and jaw, and keeps the treatment area perfectly dry — which makes your visit more comfortable and your restorations last longer. Quiet, clever engineering you'll barely notice.",
+      "The Isolite system illuminates the inside of your mouth, protects your cheek, tongue and jaw, and keeps the treatment area perfectly dry, which makes your visit more comfortable and your restorations last longer. Quiet, clever engineering you'll barely notice.",
     bookLabel: "Book Appointment",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Meticulous dentistry from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards sweats details like field isolation — because that's where restorations quietly succeed or fail.",
+      "The Milton clinic recognized with 12 consecutive community awards sweats details like field isolation, because that's where restorations quietly succeed or fail.",
   },
 
   intro: {
@@ -53,10 +53,10 @@ const config = {
     titleA: "Light, suction and shielding,",
     titleB: "all in one.",
     paragraph:
-      "The Isolite is an individualized system that manages everything around the tooth being treated. Dr. Sarna uses it for all of his patients because it helps him offer the best dentistry possible — and because patients find it genuinely more comfortable:",
+      "The Isolite is an individualized system that manages everything around the tooth being treated. Dr. Sarna uses it for all of his patients because it helps him offer the best dentistry possible, and because patients find it genuinely more comfortable:",
     image: {
       src: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=1200&q=80&auto=format&fit=crop",
-      alt: "A precision dental restoration — dry-field isolation helps restorations last longer",
+      alt: "A precision dental restoration, dry-field isolation helps restorations last longer",
     },
     floatCards: [
       { icon: "Sun", title: "Built-in light", sub: "shadow-less working field" },
@@ -65,25 +65,28 @@ const config = {
     parts: [
       {
         icon: "Sun",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "It illuminates",
         title: "Light from inside the mouth",
-        desc: "The mouthpiece lights the working area itself — a considerable help in delivering precise dentistry.",
+        desc: "The mouthpiece lights the working area itself, a considerable help in delivering precise dentistry.",
       },
       {
         icon: "Wind",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "It evacuates",
         title: "Continuous individualized suction",
         desc: "Water and debris are drawn away constantly, keeping the field dry and your swallowing reflex at ease.",
       },
       {
         icon: "Shield",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         kicker: "It protects",
         title: "A shield for soft tissue",
         desc: "Your cheek, tongue and jaw are protected throughout, and the jaw gets a comfortable rest to close on.",
       },
     ],
     closingNote:
-      "A dry environment inside your mouth is more than comfort — it's what makes bonded restorations last longer.",
+      "A dry environment inside your mouth is more than comfort, it's what makes bonded restorations last longer.",
   },
 
   context: {
@@ -93,7 +96,7 @@ const config = {
     feature: {
       image: {
         src: "https://images.unsplash.com/photo-1663182234283-28941e7612da?w=1000&q=80&auto=format&fit=crop",
-        alt: "A well-sealed dental crown — the result of working in a properly isolated field",
+        alt: "A well-sealed dental crown, the result of working in a properly isolated field",
       },
       headline: "Restorations bond best to a dry tooth.",
       caption:
@@ -102,21 +105,25 @@ const config = {
     cards: [
       {
         icon: "Droplets",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Saliva ruins bonds",
         desc: "Even slight moisture during bonding weakens the seal between tooth and restoration.",
       },
       {
         icon: "Moon",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Shadows hide detail",
-        desc: "Overhead lights cast shadows exactly where precision matters — inside-the-mouth lighting doesn't.",
+        desc: "Overhead lights cast shadows exactly where precision matters, inside-the-mouth lighting doesn't.",
       },
       {
         icon: "Frown",
+        image: { src: "https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dentist working carefully with a patient" },
         title: "Tired jaws, bitten cheeks",
-        desc: "Long procedures strain jaws and risk soft tissue — the Isolite supports and shields both.",
+        desc: "Long procedures strain jaws and risk soft tissue, the Isolite supports and shields both.",
       },
       {
         icon: "Gauge",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Mercury vapour",
         desc: "When old metal fillings are removed, the system's suction reduces mercury vapour exposure.",
       },
@@ -131,13 +138,13 @@ const config = {
       icon: "Sun",
       value: "100%",
       label: "of patients treated with it",
-      note: "Dr. Sarna uses the Isolite system to benefit all of his patients — it's simply how treatment happens here.",
+      note: "Dr. Sarna uses the Isolite system to benefit all of his patients, it's simply how treatment happens here.",
     },
     cards: [
       {
         icon: "Gem",
         title: "Restorations last longer",
-        desc: "A dry field means stronger bonds — fillings and crowns that stay sealed for years more.",
+        desc: "A dry field means stronger bonds, fillings and crowns that stay sealed for years more.",
       },
       {
         icon: "Feather",
@@ -157,7 +164,7 @@ const config = {
       {
         icon: "Timer",
         title: "Faster appointments",
-        desc: "Total control of the field makes treatment more efficient — less chair time for the same quality.",
+        desc: "Total control of the field makes treatment more efficient, less chair time for the same quality.",
       },
     ],
     cta: {
@@ -196,13 +203,13 @@ const config = {
     titleA: "The details patients",
     titleB: "never have to think about.",
     paragraph:
-      "Field isolation is invisible when it's done right — you just experience a comfortable visit and a filling that lasts. Dr. Sarna adopted the Isolite for every patient because total control of the oral environment is what separates adequate dentistry from excellent dentistry.",
+      "Field isolation is invisible when it's done right, you just experience a comfortable visit and a filling that lasts. Dr. Sarna adopted the Isolite for every patient because total control of the oral environment is what separates adequate dentistry from excellent dentistry.",
     items: [
       {
         icon: "Sun",
         name: "Used for every patient",
         benefit:
-          "Not an upgrade or an option — the Isolite benefits all patients at every appropriate procedure.",
+          "Not an upgrade or an option, the Isolite benefits all patients at every appropriate procedure.",
       },
       {
         icon: "Gem",
@@ -229,7 +236,7 @@ const config = {
   faqs: [
     {
       q: "What is the Isolite system?",
-      a: "An individualized dental isolation system that illuminates the inside of your mouth, provides continuous suction, and shields your cheek, tongue and jaw during procedures — giving the dentist total control of the oral environment.",
+      a: "An individualized dental isolation system that illuminates the inside of your mouth, provides continuous suction, and shields your cheek, tongue and jaw during procedures, giving the dentist total control of the oral environment.",
     },
     {
       q: "How does it make my fillings last longer?",
@@ -237,15 +244,15 @@ const config = {
     },
     {
       q: "Is it comfortable?",
-      a: "Yes — that's half the point. The soft mouthpiece gives your jaw something to rest on, keeps water from pooling, and shields your tongue and cheek. Most patients find procedures noticeably easier with it.",
+      a: "Yes, that's half the point. The soft mouthpiece gives your jaw something to rest on, keeps water from pooling, and shields your tongue and cheek. Most patients find procedures noticeably easier with it.",
     },
     {
       q: "What's this about mercury vapours?",
-      a: "When old metal (amalgam) fillings are removed, the Isolite's individualized vacuum system reduces the mercury vapours released — an extra layer of protection during replacement.",
+      a: "When old metal (amalgam) fillings are removed, the Isolite's individualized vacuum system reduces the mercury vapours released, an extra layer of protection during replacement.",
     },
     {
       q: "Do I need to ask for it?",
-      a: "No. Dr. Sarna uses the Isolite system to benefit all of his patients — it's a standard part of how treatment is done here.",
+      a: "No. Dr. Sarna uses the Isolite system to benefit all of his patients, it's a standard part of how treatment is done here.",
     },
   ],
 };

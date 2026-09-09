@@ -51,11 +51,11 @@ function HorizontalSlider({ item }) {
       onMouseDown={start}
       onTouchStart={start}
       data-testid={`ba-h-slider-${item.id}`}
-      className="group relative w-full aspect-[16/10] rounded-2xl overflow-hidden bg-slate-100 shadow-[0_20px_60px_-25px_rgba(10,25,47,0.35)] cursor-ew-resize select-none"
+      className="group relative w-full aspect-[24/7] rounded-2xl overflow-hidden bg-slate-100 shadow-[0_20px_60px_-25px_rgba(10,25,47,0.35)] cursor-ew-resize select-none"
     >
       {/* AFTER (full base layer) */}
       <img
-        src={item.after}
+        src={`${process.env.PUBLIC_URL}${item.after}`}
         alt={`After ${item.label}`}
         loading="lazy"
         draggable={false}
@@ -68,7 +68,7 @@ function HorizontalSlider({ item }) {
         style={{ clipPath: `polygon(0 0, ${pos}% 0, ${pos}% 100%, 0 100%)` }}
       >
         <img
-          src={item.before}
+          src={`${process.env.PUBLIC_URL}${item.before}`}
           alt={`Before ${item.label}`}
           loading="lazy"
           draggable={false}
@@ -115,13 +115,13 @@ export default function SmileGallery() {
       id="gallery"
       ref={ref}
       data-testid="smile-gallery"
-      className="reveal py-24 md:py-32 bg-[#F8FAFC]"
+      className="reveal py-14 md:py-20 bg-[#F8FAFC]"
     >
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         {/* Header */}
         <div className="mb-12 md:mb-16 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div className="max-w-2xl">
-            <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">
+            <div className="text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-medium mb-3">
               Smile gallery
             </div>
             <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
@@ -154,7 +154,7 @@ export default function SmileGallery() {
                   {g.label}
                 </h3>
               </div>
-              <div className="mt-1 text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium">
+              <div className="mt-1 text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-medium">
                 Patient · {g.patient}
               </div>
 
@@ -169,7 +169,7 @@ export default function SmileGallery() {
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-[11px] uppercase tracking-[0.14em] text-[#10B981] font-medium">
+                  <dt className="text-[11px] uppercase tracking-[0.14em] text-[#0F9D58] font-medium">
                     Solution
                   </dt>
                   <dd className="mt-1 text-[14.5px] text-[#334155] leading-relaxed">

@@ -1,4 +1,4 @@
-// Content config for /digital-radiography — technology page.
+// Content config for /digital-radiography, technology page.
 const config = {
   slug: "digital-radiography",
   name: "Digital Radiography",
@@ -15,7 +15,7 @@ const config = {
       description:
         "Digital radiography captures dental X-ray images with a small electronic sensor instead of film, using up to 90% less radiation and displaying large, crisp images on screen instantly.",
       howPerformed:
-        "A small digital sensor is placed gently in the mouth, the image is captured with minimal exposure time, and it appears on screen moments later — enlarged, crisp and stored in your patient file for future reference.",
+        "A small digital sensor is placed gently in the mouth, the image is captured with minimal exposure time, and it appears on screen moments later, enlarged, crisp and stored in your patient file for future reference.",
     },
   },
 
@@ -24,7 +24,7 @@ const config = {
     titleA: "Sharper X-rays,",
     titleB: "a fraction of the radiation.",
     intro:
-      "Digital X-rays help diagnose and treat many dental conditions — bone height, bone defects, infection, root issues, tooth decay and more. At our Milton clinic they appear on screen instantly, with up to 90% less radiation than traditional film X-rays.",
+      "Digital X-rays help diagnose and treat many dental conditions, bone height, bone defects, infection, root issues, tooth decay and more. At our Milton clinic they appear on screen instantly, with up to 90% less radiation than traditional film X-rays.",
     bookLabel: "Book a Checkup",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
@@ -44,7 +44,7 @@ const config = {
     titleA: "Modern diagnostics from an",
     titleB: "award-winning team.",
     subtitle:
-      "Dr. Sarna and his team keep Hawthorne Village Dental Care digital end to end — and our Milton clinic has earned 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated.",
+      "Dr. Sarna and his team keep Hawthorne Village Dental Care digital end to end, and our Milton clinic has earned 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated.",
   },
 
   intro: {
@@ -52,7 +52,7 @@ const config = {
     titleA: "X-rays without film,",
     titleB: "and without the wait.",
     paragraph:
-      "Digital radiography replaces old-fashioned film with an electronic sensor and a computer. The result is faster, safer and environmentally friendly imaging — and a picture of your mouth you can actually see and understand. Here's how a digital X-ray works:",
+      "Digital radiography replaces old-fashioned film with an electronic sensor and a computer. The result is faster, safer and environmentally friendly imaging, and a picture of your mouth you can actually see and understand. Here's how a digital X-ray works:",
     image: {
       src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80&auto=format&fit=crop",
       alt: "Patient having a comfortable digital X-ray visit at Hawthorne Village Dental Care",
@@ -64,25 +64,28 @@ const config = {
     parts: [
       {
         icon: "Scan",
-        kicker: "How it works — 1",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
+        kicker: "How it works, 1",
         title: "A quick, gentle capture",
-        desc: "A small digital sensor takes the place of film, so exposure time is minimal — up to 90% less radiation than a normal X-ray.",
+        desc: "A small digital sensor takes the place of film, so exposure time is minimal, up to 90% less radiation than a normal X-ray.",
       },
       {
         icon: "Cpu",
-        kicker: "How it works — 2",
+        image: { src: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=800&q=80&auto=format&fit=crop", alt: "A 3D dental scan reviewed on a tablet" },
+        kicker: "How it works, 2",
         title: "On screen in moments",
-        desc: "Images are scanned straight into our computer — large, crisp views of your teeth, supporting bone and gums, with no film developing.",
+        desc: "Images are scanned straight into our computer, large, crisp views of your teeth, supporting bone and gums, with no film developing.",
       },
       {
         icon: "Layers",
-        kicker: "How it works — 3",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
+        kicker: "How it works, 3",
         title: "Stored in your file",
         desc: "Every image is saved to your record for future reference, so we can compare visits and catch changes early.",
       },
     ],
     closingNote:
-      "The quick on-screen reference does more than speed things up — it lets Dr. Sarna walk you through any area of concern on the monitor, so you understand exactly what's happening in your mouth.",
+      "The quick on-screen reference does more than speed things up, it lets Dr. Sarna walk you through any area of concern on the monitor, so you understand exactly what's happening in your mouth.",
   },
 
   context: {
@@ -101,21 +104,25 @@ const config = {
     cards: [
       {
         icon: "ZoomIn",
+        image: { src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=80&auto=format&fit=crop", alt: "A dentist making a young patient comfortable" },
         title: "Hidden tooth decay",
         desc: "Cavities between teeth and under old fillings show up on a digital X-ray long before they cause pain.",
       },
       {
         icon: "Bone",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Bone height and defects",
-        desc: "Digital X-rays illustrate bone height and bone defects — essential information for implants, dentures and extractions.",
+        desc: "Digital X-rays illustrate bone height and bone defects, essential information for implants, dentures and extractions.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Infection and root issues",
         desc: "Trouble at the root tip or inside the tooth is invisible from above. X-rays reveal it while it's still treatable.",
       },
       {
         icon: "Waves",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Gum disease tracking",
         desc: "Comparing images over time shows whether gum disease is progressing or arrested, so treatment can be adjusted.",
       },
@@ -136,7 +143,7 @@ const config = {
       {
         icon: "Shield",
         title: "A fraction of the radiation",
-        desc: "Minimal exposure time means up to 90% less radiation than traditional film X-rays — a meaningful difference over a lifetime of dental care.",
+        desc: "Minimal exposure time means up to 90% less radiation than traditional film X-rays, a meaningful difference over a lifetime of dental care.",
       },
       {
         icon: "Timer",
@@ -151,7 +158,7 @@ const config = {
       {
         icon: "Leaf",
         title: "Cleaner and greener",
-        desc: "No film and no developing chemicals — digital X-rays are faster, safer and environmentally friendly.",
+        desc: "No film and no developing chemicals, digital X-rays are faster, safer and environmentally friendly.",
       },
       {
         icon: "Layers",
@@ -161,7 +168,7 @@ const config = {
     ],
     cta: {
       title: "Due for a checkup?",
-      sub: "Book a visit and see your own smile on screen — clear images, clear answers, minimal radiation.",
+      sub: "Book a visit and see your own smile on screen, clear images, clear answers, minimal radiation.",
     },
   },
 
@@ -195,13 +202,13 @@ const config = {
     titleA: "Why we went",
     titleB: "digital everything.",
     paragraph:
-      "Dr. Sarna and his team realize the benefits for our patients when utilizing our digital X-ray system — it's one piece of a clinic built around 3D CBCT, digital impressions and same-day CEREC crowns. Faster, quieter, more precise.",
+      "Dr. Sarna and his team realize the benefits for our patients when utilizing our digital X-ray system, it's one piece of a clinic built around 3D CBCT, digital impressions and same-day CEREC crowns. Faster, quieter, more precise.",
     items: [
       {
         icon: "ShieldCheck",
         name: "Patient safety first",
         benefit:
-          "Minimal exposure time with up to 90% less radiation than normal X-rays — the reason we retired film entirely.",
+          "Minimal exposure time with up to 90% less radiation than normal X-rays, the reason we retired film entirely.",
       },
       {
         icon: "Eye",
@@ -244,7 +251,7 @@ const config = {
     },
     {
       q: "Will I get to see my own X-rays?",
-      a: "Yes — that's one of the best parts. A digital X-ray allows for quick on-screen reference, so Dr. Sarna can walk you through any area of concern on the monitor and answer your questions before any treatment is planned.",
+      a: "Yes, that's one of the best parts. A digital X-ray allows for quick on-screen reference, so Dr. Sarna can walk you through any area of concern on the monitor and answer your questions before any treatment is planned.",
     },
     {
       q: "Are digital X-rays covered by insurance or the CDCP?",

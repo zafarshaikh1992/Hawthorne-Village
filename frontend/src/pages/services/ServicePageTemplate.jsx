@@ -103,7 +103,7 @@ function TwoTone({ a, b, lightClass = "text-[#64748B]" }) {
 
 function PageMeta({ config }) {
   useEffect(() => {
-    const pageUrl = `https://hawthornevillagedental.ca${config.urlPath || `/services/${config.slug}/`}`;
+    const pageUrl = `https://hawthornevillagedental.ca${config.urlPath || `/services/${config.slug}-in-milton/`}`;
     const prevTitle = document.title;
     document.title = config.meta.title;
 
@@ -559,14 +559,15 @@ function GallerySection({ config }) {
             </a>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          {/* The real case photos are wide close-up strips, so Before and After stack as full-width bars. */}
+          <div className="grid gap-5">
             {[
               { label: "Before", src: item.before, badge: "bg-white text-[#0A192F]" },
               { label: "After", src: item.after, badge: "bg-[#0A192F] text-white" },
             ].map((img) => (
-              <div key={img.label} className="relative rounded-[24px] overflow-hidden aspect-[3/4] shadow-[0_20px_50px_-20px_rgba(10,25,47,0.25)]">
+              <div key={img.label} className="relative rounded-[24px] overflow-hidden aspect-[24/7] shadow-[0_20px_50px_-20px_rgba(10,25,47,0.25)]">
                 <img
-                  src={img.src}
+                  src={`${process.env.PUBLIC_URL}${img.src}`}
                   alt={`${item.patient}'s smile ${img.label.toLowerCase()} ${config.name.toLowerCase()} treatment`}
                   loading="lazy"
                   className="absolute inset-0 w-full h-full object-cover"

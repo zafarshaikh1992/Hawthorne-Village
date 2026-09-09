@@ -11,13 +11,14 @@ const credentials = [
 export default function MeetDentist() {
   const ref = useReveal();
   return (
-    <section id="dentist" ref={ref} className="reveal py-24 md:py-32 bg-[#F8FAFC]">
+    <section id="dentist" ref={ref} className="reveal py-14 md:py-20 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-6 md:px-8 grid lg:grid-cols-[1fr_1.1fr] gap-12 lg:gap-16 items-center">
         {/* Photo */}
         <div className="relative">
           <div className="relative rounded-[32px] overflow-hidden shadow-[0_30px_80px_-20px_rgba(10,25,47,0.3)] aspect-[4/5] max-w-[520px]">
+            {/* Retouched portrait (tighter crop, corrected colour) — replace with a professional headshot when available */}
             <img
-              src={`${process.env.PUBLIC_URL}/images/dentist-square.jpg`}
+              src={`${process.env.PUBLIC_URL}/images/dr-sarna-portrait.jpg`}
               alt="Dr. Raju Sarna, lead dentist at Hawthorne Village Dental Care in Milton"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -32,17 +33,17 @@ export default function MeetDentist() {
 
         {/* Bio */}
         <div>
-          <div className="text-[13px] uppercase tracking-[0.14em] text-[#0284C7] font-medium mb-3">Meet Dr. Sarna</div>
-          <h2 className="font-display text-3xl md:text-5xl text-[#0A192F] tracking-tight leading-[1.05]">
+          <div className="text-[13px] uppercase tracking-[0.14em] text-[#4285F4] font-medium mb-3">Meet Dr. Sarna</div>
+          <h2 className="text-[30px] md:text-[42px] font-semibold text-[#0A192F] tracking-tight leading-[1.08]">
             Skilled hands, <span className="font-light text-[#64748B]">an even kinder chairside manner.</span>
           </h2>
-          <p className="mt-6 text-[17px] leading-relaxed text-[#475569]">
+          <p className="mt-6 text-[15.5px] md:text-[16.5px] leading-relaxed text-[#475569]">
             Dr. Sarna holds an ICOI Fellowship in Implantology, Orthodontics and General Dentistry, and is
             recognized as a leader in cosmetic, restorative and implant dentistry with a focus on natural,
             lasting results. It's a big reason patients across the GTA call him one of the best dentists in
             Milton, though you'll find him just as happy explaining a first filling to a nervous seven-year-old.
           </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-[#475569]">
+          <p className="mt-4 text-[15.5px] md:text-[16.5px] leading-relaxed text-[#475569]">
             Every treatment plan starts with an honest conversation about what you want, what you can afford
             and what will actually make you smile more often. No pressure, ever.
           </p>
@@ -54,7 +55,7 @@ export default function MeetDentist() {
                 data-testid={`credential-${i}`}
                 className="flex items-start gap-3 text-[15px] text-[#334155]"
               >
-                <span className="mt-0.5 w-8 h-8 rounded-full bg-[#E6F8F3] text-[#0284C7] flex items-center justify-center shrink-0">
+                <span className="mt-0.5 w-8 h-8 rounded-full bg-[#E8F0FE] text-[#4285F4] flex items-center justify-center shrink-0">
                   <c.icon className="w-4 h-4" strokeWidth={2} />
                 </span>
                 <span className="leading-tight pt-1.5">{c.label}</span>

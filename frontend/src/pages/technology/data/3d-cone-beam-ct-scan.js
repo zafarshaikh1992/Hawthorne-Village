@@ -14,7 +14,7 @@ const config = {
     procedure: {
       alternateName: "Cone Beam Computed Tomography (CBCT)",
       description:
-        "Cone Beam Computed Tomography gives the dentist a 360-degree, three-dimensional view of the area being examined — a large volume of information and subtle details no two-dimensional X-ray can provide.",
+        "Cone Beam Computed Tomography gives the dentist a 360-degree, three-dimensional view of the area being examined, a large volume of information and subtle details no two-dimensional X-ray can provide.",
       howPerformed:
         "A single scan rotates around the patient's head, capturing a high-resolution 3D image that can be examined from many different perspectives with ultra-low radiation.",
     },
@@ -25,7 +25,7 @@ const config = {
     titleA: "Diagnosis in",
     titleB: "three dimensions.",
     intro:
-      "Dr. Sarna's goal is the most accurate, thorough diagnosis possible — and Cone Beam Computed Tomography delivers it. Similar to a CAT scan, one CBCT scan gives a 360-degree, three-dimensional view of your teeth, jaw and airway that no flat X-ray can match.",
+      "Dr. Sarna's goal is the most accurate, thorough diagnosis possible, and Cone Beam Computed Tomography delivers it. Similar to a CAT scan, one CBCT scan gives a 360-degree, three-dimensional view of your teeth, jaw and airway that no flat X-ray can match.",
     bookLabel: "Book Appointment",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Precision imaging from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards invests in the diagnostic technology behind that care — including 3D Cone Beam CT.",
+      "The Milton clinic recognized with 12 consecutive community awards invests in the diagnostic technology behind that care, including 3D Cone Beam CT.",
   },
 
   intro: {
@@ -65,25 +65,28 @@ const config = {
     parts: [
       {
         icon: "Scan",
+        image: { src: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=800&q=80&auto=format&fit=crop", alt: "A 3D dental scan reviewed on a tablet" },
         kicker: "Step 1",
         title: "One quick scan",
-        desc: "The scanner rotates once around your head — comfortable, fast, and with ultra-low radiation.",
+        desc: "The scanner rotates once around your head, comfortable, fast, and with ultra-low radiation.",
       },
       {
         icon: "Layers",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         kicker: "Step 2",
         title: "A 3D model is built",
         desc: "The scan becomes a 360-degree, high-resolution model of your teeth, roots, jawbone, nerves and sinuses.",
       },
       {
         icon: "ZoomIn",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         kicker: "Step 3",
         title: "Examined from every angle",
         desc: "Dr. Sarna studies the region of interest from many different perspectives before making any treatment decision.",
       },
     ],
     closingNote:
-      "Clinical studies support CBCT's improved diagnostic capabilities — which is exactly why we invested in it.",
+      "Clinical studies support CBCT's improved diagnostic capabilities, which is exactly why we invested in it.",
   },
 
   context: {
@@ -93,7 +96,7 @@ const config = {
     feature: {
       image: {
         src: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?w=1000&q=80&auto=format&fit=crop",
-        alt: "A dental implant model — implant placement is planned on CBCT imaging",
+        alt: "A dental implant model, implant placement is planned on CBCT imaging",
       },
       headline: "The best treatment starts with seeing everything.",
       caption:
@@ -102,21 +105,25 @@ const config = {
     cards: [
       {
         icon: "Anchor",
+        image: { src: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=800&q=80&auto=format&fit=crop", alt: "A digital preview on the clinic monitor" },
         title: "Implants placed precisely",
         desc: "Bone volume, nerve position and sinus anatomy are mapped before an implant is ever placed.",
       },
       {
         icon: "Puzzle",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         title: "Wisdom teeth, understood",
         desc: "Angles, roots and nerve proximity are evaluated individually before any extraction decision.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Hidden problems surface",
         desc: "Infections, extra canals and subtle fractures show up in 3D detail that flat images miss.",
       },
       {
         icon: "Wind",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         title: "Airway analysis",
         desc: "The same scan supports airway assessment for snoring and sleep apnea treatment planning.",
       },
@@ -137,7 +144,7 @@ const config = {
       {
         icon: "Target",
         title: "More accurate diagnosis",
-        desc: "The best, most accurate and thorough diagnosis possible — that's the whole goal of the technology.",
+        desc: "The best, most accurate and thorough diagnosis possible, that's the whole goal of the technology.",
       },
       {
         icon: "ShieldCheck",
@@ -147,7 +154,7 @@ const config = {
       {
         icon: "Feather",
         title: "Quick and comfortable",
-        desc: "The scan itself takes moments — no biting on films, no discomfort.",
+        desc: "The scan itself takes moments, no biting on films, no discomfort.",
       },
       {
         icon: "Gauge",
@@ -157,7 +164,7 @@ const config = {
       {
         icon: "Heart",
         title: "Confident decisions",
-        desc: "You see what we see — a clear 3D picture makes your options genuinely understandable.",
+        desc: "You see what we see, a clear 3D picture makes your options genuinely understandable.",
       },
     ],
     cta: {
@@ -181,7 +188,7 @@ const config = {
       },
       {
         title: "Root canal therapy",
-        desc: "Curved or extra roots are mapped before treatment starts — no surprises mid-procedure.",
+        desc: "Curved or extra roots are mapped before treatment starts, no surprises mid-procedure.",
       },
       {
         title: "Sleep apnea",
@@ -196,7 +203,7 @@ const config = {
     titleA: "State-of-the-art,",
     titleB: "for a reason.",
     paragraph:
-      "Dr. Sarna and the team are very proud of the 3D Cone Beam — and feel strongly that this state-of-the-art technology allows us to provide patients with the very highest level of care possible today. It anchors the clinic's digital workflow, from implant planning to airway analysis.",
+      "Dr. Sarna and the team are very proud of the 3D Cone Beam, and feel strongly that this state-of-the-art technology allows us to provide patients with the very highest level of care possible today. It anchors the clinic's digital workflow, from implant planning to airway analysis.",
     items: [
       {
         icon: "Award",
@@ -241,11 +248,11 @@ const config = {
     },
     {
       q: "When would I need a CBCT scan?",
-      a: "Most commonly for implant planning, wisdom teeth evaluation, complex root canals and airway analysis — anywhere precise anatomy changes the treatment plan.",
+      a: "Most commonly for implant planning, wisdom teeth evaluation, complex root canals and airway analysis, anywhere precise anatomy changes the treatment plan.",
     },
     {
       q: "Does the scan hurt or take long?",
-      a: "Not at all. The scanner simply rotates around your head in moments — no films to bite on, nothing inside your mouth.",
+      a: "Not at all. The scanner simply rotates around your head in moments, no films to bite on, nothing inside your mouth.",
     },
     {
       q: "Do I need a referral to get scanned?",

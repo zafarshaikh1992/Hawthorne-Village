@@ -1,4 +1,4 @@
-// Content config for /services/orthodontics — follows the dental-implants master template.
+// Content config for /services/orthodontics-in-milton, follows the dental-implants master template.
 const config = {
   slug: "orthodontics",
   name: "Orthodontics",
@@ -22,7 +22,7 @@ const config = {
     titleA: "Crooked teeth,",
     titleB: "guided gently into line.",
     intro:
-      "Orthodontics — most people just say braces — is the area of dentistry concerned with straightening teeth. Braces have come a long way, and Dr. Sarna and his team pride themselves on staying at the leading edge, with custom brackets that move teeth more comfortably and efficiently for kids, teens and adults.",
+      "Orthodontics, most people just say braces, is the area of dentistry concerned with straightening teeth. Braces have come a long way, and Dr. Sarna and his team pride themselves on staying at the leading edge, with custom brackets that move teeth more comfortably and efficiently for kids, teens and adults.",
     bookLabel: "Book a Consultation",
     image: {
       src: "https://images.unsplash.com/photo-1720685193964-4529228a33c1?w=800&q=75&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Orthodontics from an",
     titleB: "award-winning team.",
     subtitle:
-      "The same team Milton families have voted for year after year straightens their teeth too — 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated.",
+      "The same team Milton families have voted for year after year straightens their teeth too, 12 consecutive community awards from the Milton Champion, Hamilton Spectator and Three Best Rated.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "Braces have changed.",
     titleB: "For the better.",
     paragraph:
-      "At our Milton clinic, orthodontic treatment starts digitally and stays comfortable throughout. Insignia Damon brackets are custom-fabricated for your teeth, reduce friction and do not need elastics to hold the wire in place — which means less discomfort and fewer adjustment visits. Here is how it comes together:",
+      "At our Milton clinic, orthodontic treatment starts digitally and stays comfortable throughout. Insignia Damon brackets are custom-fabricated for your teeth, reduce friction and do not need elastics to hold the wire in place, which means less discomfort and fewer adjustment visits. Here is how it comes together:",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1000&q=80&auto=format&fit=crop",
       alt: "Digital dental technology used to plan orthodontic treatment at Hawthorne Village Dental Care",
@@ -62,21 +62,24 @@ const config = {
     parts: [
       {
         icon: "Scan",
+        image: { src: "https://images.unsplash.com/photo-1720685193964-4529228a33c1?w=800&q=80&auto=format&fit=crop", alt: "Orthodontic teeth models with braces" },
         kicker: "Step 1",
         title: "The iTero scan",
-        desc: "A 3D intra-oral digital scanner builds a computer-generated model of your teeth — a gentle wand, no discomfort, and a preview of your anticipated result before treatment begins.",
+        desc: "A 3D intra-oral digital scanner builds a computer-generated model of your teeth, a gentle wand, no discomfort, and a preview of your anticipated result before treatment begins.",
       },
       {
         icon: "Puzzle",
+        image: { src: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?w=800&q=80&auto=format&fit=crop", alt: "A close-up of teeth during treatment" },
         kicker: "Step 2",
         title: "Custom Damon brackets",
         desc: "Insignia Damon brackets are custom-fabricated in metal or porcelain so teeth can shift more comfortably and efficiently to where they are supposed to be.",
       },
       {
         icon: "RefreshCw",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         kicker: "Step 3",
         title: "Gradual, guided movement",
-        desc: "Because Damon brackets hold the wire without elastics, teeth move with less friction and fewer adjustment appointments — with the same result as traditional braces.",
+        desc: "Because Damon brackets hold the wire without elastics, teeth move with less friction and fewer adjustment appointments, with the same result as traditional braces.",
       },
     ],
     closingNote:
@@ -99,23 +102,27 @@ const config = {
     cards: [
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=800&q=80&auto=format&fit=crop", alt: "A dentist making a young patient comfortable" },
         title: "Crowded teeth are harder to clean",
         desc: "Overlapping teeth leave tight spots that brushing and flossing struggle to reach, making thorough home care harder.",
       },
       {
         icon: "Gauge",
+        image: { src: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=800&q=80&auto=format&fit=crop", alt: "A digital smile preview on the clinic monitor" },
         title: "A misaligned bite works harder",
         desc: "When teeth do not meet properly, chewing forces land unevenly and jaw muscles compensate for the imbalance.",
       },
       {
         icon: "Layers",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Uneven wear adds up",
         desc: "Teeth that hit each other at the wrong angles wear unevenly over time, which straightening helps prevent.",
       },
       {
         icon: "Smile",
+        image: { src: "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient smiling with his dentist in a bright clinic" },
         title: "Confidence follows alignment",
-        desc: "A broad, even smile changes how readily people share it — at any age, not just in the teenage years.",
+        desc: "A broad, even smile changes how readily people share it, at any age, not just in the teenage years.",
       },
     ],
   },
@@ -144,7 +151,7 @@ const config = {
       {
         icon: "Eye",
         title: "See your result first",
-        desc: "The iTero scanner lets you visualize your anticipated outcome before treatment ever begins — no guesswork.",
+        desc: "The iTero scanner lets you visualize your anticipated outcome before treatment ever begins, no guesswork.",
       },
       {
         icon: "Gem",
@@ -182,7 +189,7 @@ const config = {
       },
       {
         title: "Invisalign clear aligners",
-        desc: "Prefer no brackets at all? Clear, removable aligners straighten teeth almost invisibly — ask if you are a candidate.",
+        desc: "Prefer no brackets at all? Clear, removable aligners straighten teeth almost invisibly, ask if you are a candidate.",
       },
     ],
   },
@@ -199,7 +206,7 @@ const config = {
         icon: "ScanLine",
         name: "iTero 3D digital scanner",
         benefit:
-          "A gentle wand captures a complete 3D image of your teeth — no discomfort — and shows a simulated preview of your smile before treatment starts.",
+          "A gentle wand captures a complete 3D image of your teeth, no discomfort, and shows a simulated preview of your smile before treatment starts.",
       },
       {
         icon: "Puzzle",
@@ -231,7 +238,7 @@ const config = {
   faqs: [
     {
       q: "What exactly is orthodontics?",
-      a: "Orthodontics — commonly known as braces — is the area of dentistry concerned with straightening teeth. Custom brackets and wires apply gentle, continuous pressure that gradually guides teeth into their correct positions.",
+      a: "Orthodontics, commonly known as braces, is the area of dentistry concerned with straightening teeth. Custom brackets and wires apply gentle, continuous pressure that gradually guides teeth into their correct positions.",
     },
     {
       q: "What are Insignia Damon brackets?",
@@ -247,11 +254,11 @@ const config = {
     },
     {
       q: "Will I be able to see my result before treatment starts?",
-      a: "Yes. Our iTero 3D intra-oral scanner builds a computer-generated model of your teeth and shows a simulated preview of your anticipated result before treatment begins. Based on more than 400,000 documented cases, iTero also makes the setup process more comfortable — a gentle wand instead of impression putty.",
+      a: "Yes. Our iTero 3D intra-oral scanner builds a computer-generated model of your teeth and shows a simulated preview of your anticipated result before treatment begins. Based on more than 400,000 documented cases, iTero also makes the setup process more comfortable, a gentle wand instead of impression putty.",
     },
     {
       q: "Can my child still get coloured elastics?",
-      a: "Absolutely. For younger patients who prefer traditional braces with colour-changing elastic options, we continue to offer that approach — many kids look forward to choosing a new colour at each visit.",
+      a: "Absolutely. For younger patients who prefer traditional braces with colour-changing elastic options, we continue to offer that approach, many kids look forward to choosing a new colour at each visit.",
     },
     {
       q: "Does insurance cover orthodontics?",

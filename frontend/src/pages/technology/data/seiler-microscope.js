@@ -14,7 +14,7 @@ const config = {
     procedure: {
       alternateName: "Seiler Dental Surgical Microscope",
       description:
-        "A surgical microscope that lets the dentist see in microscopic detail — diagnosing problems invisible to the naked eye and delivering enhanced precision in treatment.",
+        "A surgical microscope that lets the dentist see in microscopic detail, diagnosing problems invisible to the naked eye and delivering enhanced precision in treatment.",
       howPerformed:
         "The dentist works under the microscope at up to 40 times magnification, allowing early detection of decay and tooth fractures and greater precision during procedures such as root canal therapy.",
     },
@@ -25,7 +25,7 @@ const config = {
     titleA: "Dentistry, seen at",
     titleB: "40× magnification.",
     intro:
-      "Seeing in microscopic detail lets Dr. Sarna diagnose problems he simply could not see before — a more accurate diagnosis and enhanced precision in treatment. Imagine the difference between the naked eye and vision at five, ten or even twenty times magnification.",
+      "Seeing in microscopic detail lets Dr. Sarna diagnose problems he simply could not see before, a more accurate diagnosis and enhanced precision in treatment. Imagine the difference between the naked eye and vision at five, ten or even twenty times magnification.",
     bookLabel: "Book Appointment",
     image: {
       src: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?w=1200&q=80&auto=format&fit=crop",
@@ -45,7 +45,7 @@ const config = {
     titleA: "Precision dentistry from an",
     titleB: "award-winning team.",
     subtitle:
-      "The Milton clinic recognized with 12 consecutive community awards performs its most delicate work under a surgical microscope — because precision is a habit, not a slogan.",
+      "The Milton clinic recognized with 12 consecutive community awards performs its most delicate work under a surgical microscope, because precision is a habit, not a slogan.",
   },
 
   intro: {
@@ -53,7 +53,7 @@ const config = {
     titleA: "The details your dentist",
     titleB: "couldn't see before.",
     paragraph:
-      "The Seiler Dental Microscope brings surgical-grade optics to everyday dentistry. Where dental loupes top out around four times magnification, the microscope reveals the tooth in true microscopic detail — and that changes both diagnosis and treatment:",
+      "The Seiler Dental Microscope brings surgical-grade optics to everyday dentistry. Where dental loupes top out around four times magnification, the microscope reveals the tooth in true microscopic detail, and that changes both diagnosis and treatment:",
     image: {
       src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80&auto=format&fit=crop",
       alt: "Precision optics in a modern dental operatory",
@@ -65,21 +65,24 @@ const config = {
     parts: [
       {
         icon: "Eye",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         kicker: "Step 1",
         title: "See the invisible",
-        desc: "Early decay and hairline tooth fractures that can't be seen by the naked eye — but are felt by the patient — become visible.",
+        desc: "Early decay and hairline tooth fractures that can't be seen by the naked eye, but are felt by the patient, become visible.",
       },
       {
         icon: "Target",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "Step 2",
         title: "Diagnose precisely",
         desc: "Seeing in microscopic detail means a more accurate diagnosis, not an educated guess about what's causing the pain.",
       },
       {
         icon: "Gem",
+        image: { src: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=800&q=80&auto=format&fit=crop", alt: "A dentist finishing a custom restoration" },
         kicker: "Step 3",
         title: "Treat with precision",
-        desc: "The same optics guide treatment — from root canals to restorations — with enhanced precision at every step.",
+        desc: "The same optics guide treatment, from root canals to restorations, with enhanced precision at every step.",
       },
     ],
     closingNote:
@@ -97,28 +100,32 @@ const config = {
       },
       headline: "Undiagnosed today, extracted tomorrow.",
       caption:
-        "A cracked tooth invisible to the naked eye — or even 4× loupes — can go undiagnosed until it fractures completely and has to be removed.",
+        "A cracked tooth invisible to the naked eye, or even 4× loupes, can go undiagnosed until it fractures completely and has to be removed.",
     },
     cards: [
       {
         icon: "Zap",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "Hidden fractures",
         desc: "Hairline cracks you can feel but no one can see are exactly what the microscope was built to find.",
       },
       {
         icon: "Activity",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "Early decay",
         desc: "Decay caught at microscopic size means smaller fillings and more of your natural tooth preserved.",
       },
       {
         icon: "CircleDot",
+        image: { src: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop", alt: "A dentist walking a patient through their treatment on screen" },
         title: "Unexplained pain",
         desc: "When a tooth hurts but X-rays look clean, microscopic examination often finds the answer.",
       },
       {
         icon: "Puzzle",
+        image: { src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop", alt: "Reviewing dental X-rays on a light board" },
         title: "Complex root canals",
-        desc: "Tiny extra canals that hide from the naked eye are a major reason root canals fail — and magnification finds them.",
+        desc: "Tiny extra canals that hide from the naked eye are a major reason root canals fail, and magnification finds them.",
       },
     ],
   },
@@ -131,7 +138,7 @@ const config = {
       icon: "Microscope",
       value: "40×",
       label: "magnification at the chair",
-      note: "Ten times the detail of standard dental loupes — for root canals and precision restorations.",
+      note: "Ten times the detail of standard dental loupes, for root canals and precision restorations.",
     },
     cards: [
       {
@@ -142,7 +149,7 @@ const config = {
       {
         icon: "Smile",
         title: "Teeth saved, not pulled",
-        desc: "A crack diagnosed early can be protected — instead of fracturing completely and needing removal.",
+        desc: "A crack diagnosed early can be protected, instead of fracturing completely and needing removal.",
       },
       {
         icon: "Target",
@@ -162,7 +169,7 @@ const config = {
     ],
     cta: {
       title: "A tooth that hurts but 'looks fine'?",
-      sub: "Book a visit — the microscope has answered that mystery many times.",
+      sub: "Book a visit, the microscope has answered that mystery many times.",
     },
   },
 
@@ -196,7 +203,7 @@ const config = {
     titleA: "Precision is a choice",
     titleB: "we made years ago.",
     paragraph:
-      "Most dental work is done with the naked eye or 4× loupes. Dr. Sarna chose to work under a Seiler surgical microscope because patients deserve the diagnosis that's right — and the treatment that lasts. It's one piece of a clinic-wide investment in doing things properly.",
+      "Most dental work is done with the naked eye or 4× loupes. Dr. Sarna chose to work under a Seiler surgical microscope because patients deserve the diagnosis that's right, and the treatment that lasts. It's one piece of a clinic-wide investment in doing things properly.",
     items: [
       {
         icon: "Microscope",
@@ -220,7 +227,7 @@ const config = {
         icon: "Heart",
         name: "Fewer teeth lost",
         benefit:
-          "Early detection means more teeth saved — the outcome that matters most.",
+          "Early detection means more teeth saved, the outcome that matters most.",
       },
     ],
   },
@@ -229,23 +236,23 @@ const config = {
   faqs: [
     {
       q: "What is the Seiler Dental Microscope?",
-      a: "It's a surgical microscope used at the chair, letting Dr. Sarna see teeth in microscopic detail. That means diagnosing problems he could not see before — a more accurate diagnosis and enhanced precision in treatment.",
+      a: "It's a surgical microscope used at the chair, letting Dr. Sarna see teeth in microscopic detail. That means diagnosing problems he could not see before, a more accurate diagnosis and enhanced precision in treatment.",
     },
     {
       q: "How much more can it see than the naked eye?",
-      a: "Dental loupes (magnifying glasses) manage about four times magnification. The microscope works at up to forty times — imagine the difference between your naked eye and vision at five, ten or even twenty times magnification.",
+      a: "Dental loupes (magnifying glasses) manage about four times magnification. The microscope works at up to forty times, imagine the difference between your naked eye and vision at five, ten or even twenty times magnification.",
     },
     {
       q: "Why does that matter for a cracked tooth?",
-      a: "A hairline fracture often can't be seen with the naked eye or even 4× loupes — only felt by the patient. Undiagnosed, the tooth can fracture completely a short time later and need removal. Under the microscope, it's caught and protected early.",
+      a: "A hairline fracture often can't be seen with the naked eye or even 4× loupes, only felt by the patient. Undiagnosed, the tooth can fracture completely a short time later and need removal. Under the microscope, it's caught and protected early.",
     },
     {
       q: "When is the microscope used?",
-      a: "For early detection of decay and tooth fractures, root canal therapy, and precision restorations — anywhere microscopic detail changes the outcome.",
+      a: "For early detection of decay and tooth fractures, root canal therapy, and precision restorations, anywhere microscopic detail changes the outcome.",
     },
     {
       q: "Does microscope-guided treatment cost more?",
-      a: "No — it's simply how Dr. Sarna works. You'll always receive a written estimate before treatment, and we bill your insurance directly.",
+      a: "No, it's simply how Dr. Sarna works. You'll always receive a written estimate before treatment, and we bill your insurance directly.",
     },
     {
       q: "Will I notice anything different at my visit?",

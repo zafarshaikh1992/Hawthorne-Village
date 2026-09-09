@@ -1,4 +1,4 @@
-// Content config for /services/periodontal-gum-care.
+// Content config for /services/periodontal-gum-care-in-milton.
 const config = {
   slug: "periodontal-gum-care",
   name: "Periodontal (Gum) Care",
@@ -11,7 +11,7 @@ const config = {
     procedure: {
       alternateName: "Periodontal Therapy and Gum Disease Treatment",
       description:
-        "Detection and treatment of periodontal (gum) disease — the silent infection that destroys the gum and bone supporting your teeth — through professional cleanings, deep gum therapy and personalized home care.",
+        "Detection and treatment of periodontal (gum) disease, the silent infection that destroys the gum and bone supporting your teeth, through professional cleanings, deep gum therapy and personalized home care.",
       howPerformed:
         "The gums are assessed for signs of periodontal disease. Treatment ranges from professional hygiene cleanings that minimize plaque and calculus, to deep cleaning and gum therapy, supported by personalized home-care instruction.",
     },
@@ -22,7 +22,7 @@ const config = {
     titleA: "Your gums are the foundation",
     titleB: "of everything.",
     intro:
-      "Periodontal disease is silent and painless until its advanced stages — an infection that destroys the gum and bone holding your teeth in place. Caught early, it's treatable with far less radical methods. That's exactly what our hygiene team is built for.",
+      "Periodontal disease is silent and painless until its advanced stages, an infection that destroys the gum and bone holding your teeth in place. Caught early, it's treatable with far less radical methods. That's exactly what our hygiene team is built for.",
     bookLabel: "Book a Cleaning",
     image: {
       src: "https://images.unsplash.com/photo-1667133295315-820bb6481730?w=1200&q=80&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const config = {
     titleA: "Gum health from an",
     titleB: "award-winning team.",
     subtitle:
-      "Milton has voted for our hygienists and dentists in 12 consecutive community awards — the same team protecting the foundation your smile stands on.",
+      "Milton has voted for our hygienists and dentists in 12 consecutive community awards, the same team protecting the foundation your smile stands on.",
   },
 
   intro: {
@@ -50,7 +50,7 @@ const config = {
     titleA: "A silent infection,",
     titleB: "caught in time.",
     paragraph:
-      "Slow but progressive, periodontal disease swells the gingiva and destroys the bone supporting your teeth — and once that bone is lost, it does not regenerate. It affects men and women of every background, from the teen years through adulthood, and in its early stages you won't know it's there. Here's how we stay ahead of it:",
+      "Slow but progressive, periodontal disease swells the gingiva and destroys the bone supporting your teeth, and once that bone is lost, it does not regenerate. It affects men and women of every background, from the teen years through adulthood, and in its early stages you won't know it's there. Here's how we stay ahead of it:",
     image: {
       src: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1200&q=80&auto=format&fit=crop",
       alt: "Dental model showing the gum and bone structures that support teeth",
@@ -62,18 +62,21 @@ const config = {
     parts: [
       {
         icon: "Scan",
+        image: { src: "https://images.unsplash.com/photo-1660732205495-f65510d8180e?w=800&q=80&auto=format&fit=crop", alt: "A close-up of healthy gums and teeth" },
         kicker: "Step 1",
         title: "Detect it early",
-        desc: "Regular exams catch the disease while it's still silent — enabling treatment with less radical methods and reduced general health risks.",
+        desc: "Regular exams catch the disease while it's still silent, enabling treatment with less radical methods and reduced general health risks.",
       },
       {
         icon: "Sparkles",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A close-up dental examination with a mirror" },
         kicker: "Step 2",
         title: "Clean below the gumline",
         desc: "Professional cleanings by our hygienists minimize the plaque and calculus accumulation that drives the infection.",
       },
       {
         icon: "Hand",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         kicker: "Step 3",
         title: "Partner on home care",
         desc: "Your hygienist builds personalized home-care instruction, because gum health is won between appointments too.",
@@ -94,26 +97,30 @@ const config = {
       },
       headline: "People with periodontal disease are twice as likely to develop heart disease.",
       caption:
-        "Inflamed gums create a path for plaque bacteria to enter the bloodstream — with consequences that can reach the heart.",
+        "Inflamed gums create a path for plaque bacteria to enter the bloodstream, with consequences that can reach the heart.",
     },
     cards: [
       {
         icon: "Droplets",
+        image: { src: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=80&auto=format&fit=crop", alt: "Daily home care with dental floss" },
         title: "Gums that bleed",
         desc: "Swollen gums that bleed when you brush are among the first symptoms most people notice.",
       },
       {
         icon: "Wind",
+        image: { src: "https://images.pexels.com/photos/6529111/pexels-photo-6529111.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A curing light finishing a restoration" },
         title: "Persistent breath odor",
         desc: "An odor to your breath that brushing doesn't fix often signals infection below the gumline.",
       },
       {
         icon: "MoveDiagonal",
+        image: { src: "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "Precise treatment with modern instruments" },
         title: "Loosening, shifting teeth",
-        desc: "As bone support erodes, teeth loosen and shift — and eventually can be lost entirely.",
+        desc: "As bone support erodes, teeth loosen and shift, and eventually can be lost entirely.",
       },
       {
         icon: "HeartPulse",
+        image: { src: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80&auto=format&fit=crop", alt: "A bright, modern dental operatory" },
         title: "A worn-down immune system",
         desc: "Your body fights the infection constantly, wearing down your immune defences over time.",
       },
@@ -128,7 +135,7 @@ const config = {
       icon: "HeartPulse",
       value: "2×",
       label: "the heart disease risk, untreated",
-      note: "Research links periodontal disease to double the risk of heart disease — treating your gums protects more than your smile.",
+      note: "Research links periodontal disease to double the risk of heart disease, treating your gums protects more than your smile.",
     },
     cards: [
       {
@@ -170,7 +177,7 @@ const config = {
     cards: [
       {
         title: "Professional cleanings",
-        desc: "Regular hygiene visits that minimize plaque and calculus — the easiest way to prevent decline.",
+        desc: "Regular hygiene visits that minimize plaque and calculus, the easiest way to prevent decline.",
       },
       {
         title: "Deep cleaning and gum therapy",
@@ -231,7 +238,7 @@ const config = {
   faqs: [
     {
       q: "What is periodontal disease?",
-      a: "It's an infection that destroys the attachment of the gum and the bone that supports and holds your teeth in place. It progresses slowly and painlessly — you'll likely be unaware of it in its early stages — which is why regular screening matters.",
+      a: "It's an infection that destroys the attachment of the gum and the bone that supports and holds your teeth in place. It progresses slowly and painlessly, you'll likely be unaware of it in its early stages, which is why regular screening matters.",
     },
     {
       q: "What are the warning signs of gum disease?",
@@ -243,7 +250,7 @@ const config = {
     },
     {
       q: "Can lost bone grow back?",
-      a: "No — once the bone supporting your teeth is lost to periodontal disease, it does not regenerate. That's why early detection and treatment are so important.",
+      a: "No, once the bone supporting your teeth is lost to periodontal disease, it does not regenerate. That's why early detection and treatment are so important.",
     },
     {
       q: "Who gets periodontal disease?",
@@ -251,7 +258,7 @@ const config = {
     },
     {
       q: "How often should I have my teeth cleaned?",
-      a: "Most healthy adults benefit from a cleaning and exam every 6 months. Patients with gum disease or higher risk factors may need visits every 3 to 4 months — Dr. Sarna and your hygienist will tailor the schedule to you.",
+      a: "Most healthy adults benefit from a cleaning and exam every 6 months. Patients with gum disease or higher risk factors may need visits every 3 to 4 months, Dr. Sarna and your hygienist will tailor the schedule to you.",
     },
     {
       q: "How do I prevent gum disease?",

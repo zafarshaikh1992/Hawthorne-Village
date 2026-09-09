@@ -1,4 +1,4 @@
-// Content config for /services/dental-implants — the approved master template page.
+// Content config for /services/dental-implants-in-milton, the approved master template page.
 const config = {
   slug: "dental-implants",
   name: "Dental Implants",
@@ -64,17 +64,19 @@ const config = {
         icon: "Anchor",
         kicker: "Part 1",
         title: "The implant",
+        image: { src: "https://images.pexels.com/photos/4269365/pexels-photo-4269365.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A dental model and instruments used to plan implant placement" },
         desc: "A small titanium post that replaces the root portion of your missing tooth, anchored securely in the jawbone.",
       },
       {
         icon: "Crown",
         kicker: "Part 2",
         title: "The crown",
-        desc: "The visible tooth above the gums — custom-crafted porcelain matched to your natural teeth in shape and shade.",
+        image: { src: "https://images.unsplash.com/photo-1662837775146-871f817c7887?w=800&q=80&auto=format&fit=crop", alt: "A dentist finishing a custom porcelain crown" },
+        desc: "The visible tooth above the gums: custom-crafted porcelain matched to your natural teeth in shape and shade.",
       },
     ],
     closingNote:
-      "Like your own teeth, implants stimulate the jaw and prevent bone loss — firm, safe support for your teeth with benefits that can last a lifetime.",
+      "Like your own teeth, implants stimulate the jaw and prevent bone loss, giving firm, safe support for your teeth with benefits that can last a lifetime.",
   },
 
   context: {
@@ -93,21 +95,25 @@ const config = {
     cards: [
       {
         icon: "MoveDiagonal",
+        image: { src: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80&auto=format&fit=crop", alt: "A dentist examining teeth alignment with a mirror" },
         title: "Neighbouring teeth drift",
         desc: "Even one missing tooth lets neighbouring and opposing teeth tip, drift and over-erupt into the gap.",
       },
       {
         icon: "Utensils",
+        image: { src: "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=800", alt: "A patient having her bite examined" },
         title: "Chewing and speech suffer",
         desc: "Losing several teeth can make it genuinely hard to chew comfortably and speak clearly.",
       },
       {
         icon: "Layers",
+        image: { src: "https://images.unsplash.com/photo-1522849696084-818b29dfe210?w=800&q=80&auto=format&fit=crop", alt: "A man holding his jaw in discomfort" },
         title: "Your bite can collapse",
         desc: "A collapsing bite puts stress on jaw joints and facial muscles, often showing up as tension and headaches.",
       },
       {
         icon: "Frown",
+        image: { src: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?w=800&q=80&auto=format&fit=crop", alt: "A confident natural smile after restorative treatment" },
         title: "Facial structure changes",
         desc: "Reduced facial height from bone loss can create an older appearance and more noticeable facial lines.",
       },
@@ -199,7 +205,7 @@ const config = {
         icon: "ScanLine",
         name: "3D CBCT-guided planning",
         benefit:
-          "Every implant is planned on a 3D scan of your jaw, so placement is precise and predictable — no surprises mid-treatment.",
+          "Every implant is planned on a 3D scan of your jaw, so placement is precise and predictable, with no surprises mid-treatment.",
       },
       {
         icon: "HeartPulse",
