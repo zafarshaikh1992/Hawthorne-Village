@@ -17,7 +17,7 @@ import SocialProof from "@/components/site/SocialProof";
 import VisitUs from "@/components/site/VisitUs";
 import Footer from "@/components/site/Footer";
 import StickyActions from "@/components/site/StickyActions";
-import { clinic, insurers } from "@/lib/site-data";
+import { clinic, insurers, formspreeEndpoint } from "@/lib/site-data";
 import { useReveal } from "@/hooks/useReveal";
 
 const PAGE_URL = "https://hawthornevillagedental.ca/contact/";
@@ -104,21 +104,32 @@ function Hero() {
 function ContactMain() {
   const ref = useReveal();
   const [form, setForm] = useState({ name: "", email: "", phone: "", reason: "Checkup & cleaning", time: "Morning", message: "" });
+  const [status, setStatus] = useState("idle"); // idle | submitting | success | error
   const set = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
-    const subject = `Appointment request from ${form.name}: ${form.reason}`;
-    const body = [
-      `Name: ${form.name}`,
-      `Email: ${form.email}`,
-      `Phone: ${form.phone}`,
-      `Reason for visit: ${form.reason}`,
-      `Best time to be contacted: ${form.time}`,
-      "",
-      form.message,
-    ].join("\n");
-    window.location.href = `mailto:${clinic.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    setStatus("submitting");
+
+    const data = new FormData(e.target);
+    data.append("_subject", `Appointment request from ${form.name}: ${form.reason}`);
+
+    try {
+      const res = await fetch(formspreeEndpoint, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: data,
+      });
+
+      if (res.ok) {
+        setStatus("success");
+        setForm({ name: "", email: "", phone: "", reason: "Checkup & cleaning", time: "Morning", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   };
 
   const cards = [
@@ -152,25 +163,25 @@ function ContactMain() {
             Send us a message
           </h2>
           <p className="mt-2 text-[14.5px] text-white/80">
-            Submitting opens your email app with everything filled in. Just press send.
+            We'll get back to you as soon as possible, usually the same day.
           </p>
 
           <div className="mt-7 grid sm:grid-cols-2 gap-4">
             <div className="sm:col-span-2">
               <label htmlFor="c-name" className="block text-[13px] font-medium text-white/90 mb-1.5">Name *</label>
-              <input id="c-name" required value={form.name} onChange={set("name")} className={inputClass} placeholder="Your full name" />
+              <input id="c-name" name="name" required value={form.name} onChange={set("name")} className={inputClass} placeholder="Your full name" />
             </div>
             <div>
               <label htmlFor="c-email" className="block text-[13px] font-medium text-white/90 mb-1.5">Email *</label>
-              <input id="c-email" type="email" required value={form.email} onChange={set("email")} className={inputClass} placeholder="you@example.com" />
+              <input id="c-email" name="email" type="email" required value={form.email} onChange={set("email")} className={inputClass} placeholder="you@example.com" />
             </div>
             <div>
               <label htmlFor="c-phone" className="block text-[13px] font-medium text-white/90 mb-1.5">Phone *</label>
-              <input id="c-phone" type="tel" required value={form.phone} onChange={set("phone")} className={inputClass} placeholder="(905) 000-0000" />
+              <input id="c-phone" name="phone" type="tel" required value={form.phone} onChange={set("phone")} className={inputClass} placeholder="(905) 000-0000" />
             </div>
             <div>
               <label htmlFor="c-reason" className="block text-[13px] font-medium text-white/90 mb-1.5">Reason for your visit *</label>
-              <select id="c-reason" value={form.reason} onChange={set("reason")} className={inputClass}>
+              <select id="c-reason" name="reason" value={form.reason} onChange={set("reason")} className={inputClass}>
                 {["Checkup & cleaning", "Dental emergency", "Dental implants", "Invisalign / braces", "Cosmetic consultation", "New patient visit", "Other"].map((o) => (
                   <option key={o}>{o}</option>
                 ))}
@@ -178,7 +189,7 @@ function ContactMain() {
             </div>
             <div>
               <label htmlFor="c-time" className="block text-[13px] font-medium text-white/90 mb-1.5">Best time to contact you *</label>
-              <select id="c-time" value={form.time} onChange={set("time")} className={inputClass}>
+              <select id="c-time" name="time" value={form.time} onChange={set("time")} className={inputClass}>
                 {["Morning", "Afternoon", "Evening"].map((o) => (
                   <option key={o}>{o}</option>
                 ))}
@@ -186,22 +197,34 @@ function ContactMain() {
             </div>
             <div className="sm:col-span-2">
               <label htmlFor="c-msg" className="block text-[13px] font-medium text-white/90 mb-1.5">Message</label>
-              <textarea id="c-msg" rows={4} value={form.message} onChange={set("message")} className={inputClass} placeholder="Tell us a little about what you need…" />
+              <textarea id="c-msg" name="message" rows={4} value={form.message} onChange={set("message")} className={inputClass} placeholder="Tell us a little about what you need…" />
             </div>
           </div>
 
           <div className="mt-7 flex flex-wrap items-center justify-center sm:justify-start gap-4">
             <button
               type="submit"
+              disabled={status === "submitting"}
               data-testid="contact-submit-btn"
-              className="inline-flex items-center gap-2 h-12 md:h-13 rounded-full bg-white text-[#1967D2] px-8 text-[15px] font-semibold shadow-[0_14px_30px_-10px_rgba(0,0,0,0.35)] hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-2 h-12 md:h-13 rounded-full bg-white text-[#1967D2] px-8 text-[15px] font-semibold shadow-[0_14px_30px_-10px_rgba(0,0,0,0.35)] hover:-translate-y-0.5 transition-all disabled:opacity-60 disabled:pointer-events-none"
             >
-              <Send className="w-4 h-4" /> Send Message
+              <Send className="w-4 h-4" /> {status === "submitting" ? "Sending…" : "Send Message"}
             </button>
             <span className="text-[13px] text-white/75">
               Or book directly online. It takes 60 seconds.
             </span>
           </div>
+
+          {status === "success" && (
+            <p role="status" className="mt-4 text-[14px] font-medium text-white bg-white/15 rounded-xl px-4 py-3">
+              Thanks — your message was sent. We'll be in touch shortly.
+            </p>
+          )}
+          {status === "error" && (
+            <p role="alert" className="mt-4 text-[14px] font-medium text-white bg-[#B31412]/40 rounded-xl px-4 py-3">
+              Something went wrong sending your message. Please call us at {clinic.phone} instead.
+            </p>
+          )}
           </div>
         </form>
 

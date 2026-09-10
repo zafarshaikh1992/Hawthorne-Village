@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CheckCircle2 } from "lucide-react";
 import { toast } from "sonner";
-import { clinic } from "@/lib/site-data";
+import { clinic, formspreeEndpoint } from "@/lib/site-data";
 
 /**
  * Reusable lead-capture dialog, following the BookingDialog pattern.
@@ -45,11 +45,31 @@ export default function LeadDialog({
       return;
     }
     setSubmitting(true);
-    // Brief pause for feedback. No backend storage per spec.
-    await new Promise((r) => setTimeout(r, 700));
-    setSubmitting(false);
-    setDone(true);
-    toast.success("Thanks! We'll call you within one business hour.");
+    try {
+      const res = await fetch(formspreeEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: form.name,
+          phone: form.phone,
+          email: form.email,
+          topic: form.topic,
+          notes: form.notes,
+          source: testId,
+          _subject: `Callback request (${testId}) from ${form.name}`,
+        }),
+      });
+      setSubmitting(false);
+      if (res.ok) {
+        setDone(true);
+        toast.success("Thanks! We'll call you within one business hour.");
+      } else {
+        toast.error("Something went wrong. Please call us instead.");
+      }
+    } catch {
+      setSubmitting(false);
+      toast.error("Something went wrong. Please call us instead.");
+    }
   };
 
   const close = () => {

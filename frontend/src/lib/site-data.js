@@ -1,6 +1,8 @@
 // Central data for the Hawthorne Village Dental Care homepage.
 // Content is written for real Milton, Ontario patients and never keyword-stuffed.
 
+export const formspreeEndpoint = "https://formspree.io/f/xdeobeyw";
+
 export const clinic = {
   name: "Hawthorne Village Dental Care",
   phone: "(905) 864-3368",

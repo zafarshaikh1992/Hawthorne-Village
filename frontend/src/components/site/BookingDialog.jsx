@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Calendar as CalendarIcon, CheckCircle2 } from "lucide-react";
 import { toast } from "sonner";
+import { formspreeEndpoint } from "@/lib/site-data";
 
 const reasons = [
   "New patient — general check-up",
@@ -33,11 +34,32 @@ export default function BookingDialog({ open, onOpenChange }) {
       return;
     }
     setSubmitting(true);
-    // Simulate a brief pause. No backend storage per spec.
-    await new Promise((r) => setTimeout(r, 700));
-    setSubmitting(false);
-    setDone(true);
-    toast.success("Thanks! We'll call you within one business hour to confirm.");
+    try {
+      const res = await fetch(formspreeEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: form.name,
+          phone: form.phone,
+          email: form.email,
+          reason: form.reason,
+          preferred_date: form.date,
+          notes: form.notes,
+          source: "booking-dialog",
+          _subject: `Booking request from ${form.name}`,
+        }),
+      });
+      setSubmitting(false);
+      if (res.ok) {
+        setDone(true);
+        toast.success("Thanks! We'll call you within one business hour to confirm.");
+      } else {
+        toast.error("Something went wrong. Please call us instead.");
+      }
+    } catch {
+      setSubmitting(false);
+      toast.error("Something went wrong. Please call us instead.");
+    }
   };
 
   const close = () => {
