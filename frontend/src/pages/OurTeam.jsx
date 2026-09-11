@@ -24,13 +24,49 @@ const PAGE_URL = "https://hawthornevillagedental.ca/our-team/";
 const IMG = (f) => `${process.env.PUBLIC_URL}/images/team/${f}`;
 
 const team = {
-  dentists: [],
+  dentists: [
+    {
+      name: "Dr. Noha",
+      role: "Associate Dentist",
+      photo: IMG("noha.svg"),
+      bio: "Dr. Noha is a valued member of our dental team, dedicated to providing gentle, personalized care for every patient. Full bio coming soon.",
+      chips: ["General Dentistry", "Preventative", "Patient education"],
+    },
+    {
+      name: "Dr. Jain",
+      role: "Associate Dentist",
+      photo: IMG("jain.svg"),
+      bio: "Dr. Jain is a valued member of our dental team, dedicated to providing gentle, personalized care for every patient. Full bio coming soon.",
+      chips: ["General Dentistry", "Restorative", "Patient education"],
+    },
+  ],
   hygienists: [
     {
       name: "Haidy",
       role: "Dental Hygienist",
       photo: IMG("haidy.png"),
       bio: "Haidy is one of the hygienists patients mention by name in their reviews, known for unhurried cleanings and for taking the time to explain everything, so you leave knowing exactly how to keep your smile healthy between visits.",
+      chips: ["Hygiene", "Patient education"],
+    },
+    {
+      name: "Anthony",
+      role: "Dental Hygienist",
+      photo: IMG("anthony.svg"),
+      bio: "Anthony is a valued member of our hygiene team, dedicated to unhurried, thorough cleanings and helping patients feel comfortable every visit. Full bio coming soon.",
+      chips: ["Hygiene", "Patient education"],
+    },
+    {
+      name: "Stephanie",
+      role: "Dental Hygienist",
+      photo: IMG("stephanie.svg"),
+      bio: "Stephanie is a valued member of our hygiene team, dedicated to unhurried, thorough cleanings and helping patients feel comfortable every visit. Full bio coming soon.",
+      chips: ["Hygiene", "Patient education"],
+    },
+    {
+      name: "Krista",
+      role: "Dental Hygienist",
+      photo: IMG("krista.svg"),
+      bio: "Krista is a valued member of our hygiene team, dedicated to unhurried, thorough cleanings and helping patients feel comfortable every visit. Full bio coming soon.",
       chips: ["Hygiene", "Patient education"],
     },
   ],
@@ -61,7 +97,7 @@ const whyLoved = [
   {
     icon: MessageCircle,
     title: "Everything explained",
-    desc: "From clear treatment walk-throughs to Haidy's home-care coaching, you always know what's happening and why.",
+    desc: "From our dentists' treatment walk-throughs to Haidy's home-care coaching, you always know what's happening and why.",
   },
   {
     icon: Languages,
