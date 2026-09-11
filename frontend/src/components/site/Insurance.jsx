@@ -23,7 +23,7 @@ export default function Insurance() {
 
             <ul className="mt-7 space-y-3">
               {[
-                { icon: CheckCircle2, text: "Direct billing to nearly every Canadian insurer" },
+                { icon: CheckCircle2, text: "Direct billing available for most procedures" },
                 { icon: Landmark, text: "CDCP-participating dentist" },
                 { icon: CreditCard, text: "0% financing for 6, 12 or 24 months" },
               ].map((f, i) => (
