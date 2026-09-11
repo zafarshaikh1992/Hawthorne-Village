@@ -24,15 +24,7 @@ const PAGE_URL = "https://hawthornevillagedental.ca/our-team/";
 const IMG = (f) => `${process.env.PUBLIC_URL}/images/team/${f}`;
 
 const team = {
-  dentists: [
-    {
-      name: "Dr. Andres Cordova",
-      role: "Associate Dentist",
-      photo: IMG("cordova.jpg"),
-      bio: "Born and raised in the GTA, Dr. Cordova completed his undergraduate studies at York University and earned his Doctor of Dental Surgery at the University of Western Ontario. Passionate about restorative, surgical, cosmetic and preventative dentistry, he's trained in nitrous and oral sedation and takes a great deal of time explaining treatment so patients can make the best individualized choices. His caring, humorous manner puts patients at ease, and he has volunteered abroad providing dental outreach to communities in Guatemala.",
-      chips: ["Restorative", "Surgery", "Cosmetics", "Preventative", "Sedation-trained", "English & Spanish"],
-    },
-  ],
+  dentists: [],
   hygienists: [
     {
       name: "Haidy",
@@ -69,7 +61,7 @@ const whyLoved = [
   {
     icon: MessageCircle,
     title: "Everything explained",
-    desc: "From Dr. Cordova's treatment walk-throughs to Haidy's home-care coaching, you always know what's happening and why.",
+    desc: "From clear treatment walk-throughs to Haidy's home-care coaching, you always know what's happening and why.",
   },
   {
     icon: Languages,
