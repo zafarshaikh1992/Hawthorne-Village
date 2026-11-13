@@ -35,7 +35,7 @@ const team = {
     {
       name: "Dr. Jain",
       role: "Associate Dentist",
-      photo: IMG("jain.svg"),
+      photo: IMG("jain.jpg"),
       bio: "Dr. Jain is a valued member of our dental team, dedicated to providing gentle, personalized care for every patient. Full bio coming soon.",
       chips: ["General Dentistry", "Restorative", "Patient education"],
     },
@@ -51,7 +51,7 @@ const team = {
     {
       name: "Anthony",
       role: "Dental Hygienist",
-      photo: IMG("anthony.svg"),
+      photo: IMG("anthony.jpg"),
       bio: "Anthony is a valued member of our hygiene team, dedicated to unhurried, thorough cleanings and helping patients feel comfortable every visit. Full bio coming soon.",
       chips: ["Hygiene", "Patient education"],
     },
